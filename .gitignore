@@ -2,3 +2,9 @@
 **/__pycache__
 **/result
 /tmp
+
+# vm tests
+.nixos-test-history
+
+# nix-fast-build
+/result-*
