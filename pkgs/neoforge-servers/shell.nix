@@ -8,6 +8,5 @@ pkgs.mkShellNoCC {
       ps.requests-cache
       ps.lxml
     ]))
-    pyright
   ];
 }
