@@ -2,6 +2,9 @@
 #!nix-shell -i python3 shell.nix
 
 import json
+from collections import defaultdict
+import re
+from typing import DefaultDict
 import requests
 import requests_cache
 from lxml import etree
@@ -43,15 +46,25 @@ def make_client():
 def get_launcher_versions(client:requests.Session):
     print("Fetching launcher versions")
     response = client.get(f"{ENDPOINT}/maven-metadata.xml")
-    return etree.fromstring(response.content)
+    root = etree.fromstring(response.content)
+    versions = defaultdict(list)
+    for elem in root.xpath('//versions/version'):
+        version = elem.text
+        match = re.match(r"(\d+\.\d+)\..", version)
+        if not match:
+            print (f"Skipping version: {version}")
+            continue
+        game_version = f"1.{match.group(1)}"
+        versions[game_version] .append(version)
+    return versions
 
 def get_game_versions(client):
-    print("Fetching launcher versions")
+    print("Fetching game versions")
     data = client.get(MC_ENDPOINT).json()
     return data["versions"]
 
 def get_launcher_build(client,version):
-    #print("Fetching launcher build")
+    print("Fetching launcher build")
     data = client.get(f"{ENDPOINT}/{version}/meta.json").json()
     return data
 
@@ -78,52 +91,53 @@ def main(launcher_versions, game_versions, library_versions, client):
     output = {}
     print("Starting fetch")
 
-    game_manifest = get_game_versions(client)
-
-    #We need all the libraries for a given game version for forge to be happy.  This might
-    #be useful to port up to build-support.
-    for version in game_manifest:
-        if version['type'] == "release":
-            if version['id'] in game_versions and game_versions[version['id']]['sha1'] == version['sha1']:
-                pass
-            else:
-                data = client.get(version['url']).json()
-                libraries = [];
-                for library in data['libraries']:
-                    if not library['name'] in library_versions:
-                        #I should verify nix is happy with the hashes left in these paths.
-                        #If not, I need to do something like quilt's prefetch
-                        if 'artifact' in library['downloads']:
-                            library_versions[library['name']] = library['downloads']['artifact']
-                        #Some libraries are system dependent. I'm assuming there isn't gonna be
-                        #support for darwin on this, so I ignore those and only grab the linux
-                        #natives.  If this is a wrong assumption, this is the place to fix it.
-                        elif 'classifiers' in library['downloads']:
-                            if 'natives-linux' in library['downloads']['classifiers']:
-                                library_versions[library['name']] = library['downloads']['classifiers']['natives-linux']
-                        #I've got some escape hatches for when libraries somehow don't match the above
-                        #I don't think any *should*, but just incase, lets get some info
-                        else:
-                            print(version['id'])
-                            print(json.dumps(library,indent=4))
-                    libraries.append(library['name'])
-                mappings = ""
-                server = ""
-                #if we don't have a server, we might just mark the version as unavailable?
-                #this is server only after all.
-                if 'server' in data['downloads']:
-                    server=data['downloads']['server']
-                #mappings are only used on the modern forge builds
-                if 'server_mappings' in data['downloads']:
-                    mappings=data['downloads']['server_mappings']
-                game_versions[version['id']] = {
-                    "sha1": version['sha1'],
-                    "server": server,
-                    "mappings": mappings,
-                    "libraries": libraries
-                }
+    # game_manifest = get_game_versions(client)
+    #
+    # #We need all the libraries for a given game version for forge to be happy.  This might
+    # #be useful to port up to build-support.
+    # for version in game_manifest:
+    #     if version['type'] == "release":
+    #         if version['id'] in game_versions and game_versions[version['id']]['sha1'] == version['sha1']:
+    #             pass
+    #         else:
+    #             data = client.get(version['url']).json()
+    #             libraries = [];
+    #             for library in data['libraries']:
+    #                 if not library['name'] in library_versions:
+    #                     #I should verify nix is happy with the hashes left in these paths.
+    #                     #If not, I need to do something like quilt's prefetch
+    #                     if 'artifact' in library['downloads']:
+    #                         library_versions[library['name']] = library['downloads']['artifact']
+    #                     #Some libraries are system dependent. I'm assuming there isn't gonna be
+    #                     #support for darwin on this, so I ignore those and only grab the linux
+    #                     #natives.  If this is a wrong assumption, this is the place to fix it.
+    #                     elif 'classifiers' in library['downloads']:
+    #                         if 'natives-linux' in library['downloads']['classifiers']:
+    #                             library_versions[library['name']] = library['downloads']['classifiers']['natives-linux']
+    #                     #I've got some escape hatches for when libraries somehow don't match the above
+    #                     #I don't think any *should*, but just incase, lets get some info
+    #                     else:
+    #                         print(version['id'])
+    #                         print(json.dumps(library,indent=4))
+    #                 libraries.append(library['name'])
+    #             mappings = ""
+    #             server = ""
+    #             #if we don't have a server, we might just mark the version as unavailable?
+    #             #this is server only after all.
+    #             if 'server' in data['downloads']:
+    #                 server=data['downloads']['server']
+    #             #mappings are only used on the modern forge builds
+    #             if 'server_mappings' in data['downloads']:
+    #                 mappings=data['downloads']['server_mappings']
+    #             game_versions[version['id']] = {
+    #                 "sha1": version['sha1'],
+    #                 "server": server,
+    #                 "mappings": mappings,
+    #                 "libraries": libraries
+    #             }
 
     launcher_manifest = get_launcher_versions(client)
+    print(launcher_manifest,sep="\n" )
 
     # for version,builds in launcher_manifest.items():
     #     if not version in launcher_versions:
@@ -167,7 +181,7 @@ def main(launcher_versions, game_versions, library_versions, client):
     #             else:
     #                 print(f'no installer or client in {build}')
     #                 print(launcher_build)
-    print(launcher_versions)
+
     return (launcher_versions,game_versions,library_versions)
 
 
