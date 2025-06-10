@@ -1,6 +1,7 @@
 #!/usr/bin/env nix-shell
 #!nix-shell -i python3 shell.nix
 
+import io
 import json
 import re
 from collections import defaultdict
@@ -14,9 +15,7 @@ from requests.adapters import HTTPAdapter, Retry
 # https://maven.neoforged.net/releases/net/neoforged/neoforge/21.5.75/neoforge-21.5.75-installer.jar
 MC_ENDPOINT = "https://launchermeta.mojang.com/mc/game/version_manifest_v2.json"
 API = "https://maven.neoforged.net/api/maven/versions/releases/net/neoforged/neoforge"
-ENDPOINT = "https://maven.neoforged.net/releases/net/neoforged/neoforge"
-MAVEN = ENDPOINT
-MC_MAVEN = ENDPOINT
+MAVEN = "https://maven.neoforged.net/releases/net/neoforged/neoforge"
 
 TIMEOUT = 5
 RETRIES = 5
@@ -47,7 +46,7 @@ def make_client():
     return http
 
 
-def get_game_versions(client):
+def get_game_versions(client: requests.Session):
     print("Fetching game versions")
     data = client.get(MC_ENDPOINT).json()
     return data["versions"]
@@ -55,13 +54,10 @@ def get_game_versions(client):
 
 def get_launcher_versions(client: requests.Session):
     print("Fetching launcher versions")
-    response = client.get(
-        "https://maven.neoforged.net/api/maven/versions/releases/net/neoforged/neoforge"
-    ).json()
+    response = client.get(API).json()
 
     versions = defaultdict(list)
-    for elem in response["versions"]:
-        version = elem.text
+    for version in response["versions"]:
         # first two digits == 1.x game version
         match = re.match(r"^(\d+\.\d+)\.\d+$", version)
         if not match:
@@ -72,30 +68,35 @@ def get_launcher_versions(client: requests.Session):
     return dict(versions)
 
 
-def get_launcher_build(client: requests.Session, version):
-    print(f"Fetching launcher build: {version}")
-
+def get_launcher_build(client: requests.Session, version: str):
     def fetchurl(url):
-        hash = client.get(f"{url}.sha256")
-        return {"url": url, "hash": f"sha256-{hash.text}"}
+        url = f"{url}.sha256"
+        print(f"Fetching hash: {url}")
+        response = client.get(url)
+        response.raise_for_status()
+        return {"url": url, "hash": f"sha256-{response.text}"}
 
     return {
-        "universal": fetchurl(f"{ENDPOINT}/{version}/neoforge-{version}-universal.jar"),
-        "installer": fetchurl(f"{ENDPOINT}/{version}/neoforge-{version}-installer.jar"),
+        "universal": fetchurl(f"{MAVEN}/{version}/neoforge-{version}-universal.jar"),
+        "installer": fetchurl(f"{MAVEN}/{version}/neoforge-{version}-installer.jar"),
+        "libraries": get_launcher_libraries(client, version),
     }
 
 
-def get_launcher_libraries(client, version):
-    print("Fetching installer")
-    installer = client.get(f"{MAVEN}/{version}/neoforge-${version}-installer.jar")
+def get_launcher_libraries(client: requests.Session, version: str):
+    url = f"{MAVEN}/{version}/neoforge-{version}-installer.jar"
+    print(f"Fetching libraries for {url}")
+    response = client.get(url)
+    response.raise_for_status()
     libraries = []
-    with ZipFile(installer) as zip:
-        with zip.open("install_profile.json") as profile:
-            profile_data = json.load(profile)
-            libraries.extend(profile_data.libraries)
-        with zip.open("version.json") as version:
-            version_data = json.load(version)
-            libraries.extend(version_data.libraries)
+    with ZipFile(io.BytesIO(response.content)) as zip:
+        with zip.open("install_profile.json") as fprofile:
+            profile_data = json.load(fprofile)
+            print(json.dumps(profile_data["libraries"], indent=2))
+            libraries.extend(profile_data["libraries"])
+        with zip.open("version.json") as fversion:
+            version_data = json.load(fversion)
+            libraries.extend(version_data["libraries"])
     return libraries
 
 
