@@ -48,16 +48,20 @@ def make_client():
 
 def get_game_versions(client: requests.Session):
     print("Fetching game versions")
-    data = client.get(MC_ENDPOINT).json()
+    response = client.get(MC_ENDPOINT)
+    response.raise_for_status()
+    data = response.json()
     return data["versions"]
 
 
 def get_launcher_versions(client: requests.Session):
     print("Fetching launcher versions")
-    response = client.get(API).json()
+    response = client.get(API)
+    response.raise_for_status()
 
     versions = defaultdict(list)
-    for version in response["versions"]:
+    data = response.json()
+    for version in data["versions"]:
         # first two digits == 1.x game version
         match = re.match(r"^(\d+\.\d+)\.\d+$", version)
         if not match:
@@ -65,7 +69,7 @@ def get_launcher_versions(client: requests.Session):
             continue
         game_version = f"1.{match.group(1)}"
         versions[game_version].append(version)
-    return dict(versions)
+    return versions
 
 
 def get_launcher_build(client: requests.Session, version: str):
@@ -86,8 +90,9 @@ def get_launcher_build(client: requests.Session, version: str):
 def get_launcher_libraries(client: requests.Session, version: str):
     url = f"{MAVEN}/{version}/neoforge-{version}-installer.jar"
     print(f"Fetching libraries for {url}")
-    response = client.get(url)
+    response = client.get(url, stream=True)
     response.raise_for_status()
+    response.raw.decode_content = True
     libraries = []
     with ZipFile(io.BytesIO(response.content)) as zip:
         with zip.open("install_profile.json") as fprofile:
@@ -167,53 +172,18 @@ def main(launcher_versions, game_versions, library_versions, client):
     launcher_manifest = get_launcher_versions(client)
     print(launcher_manifest, sep="\n")
 
+    count = 0
     for version, builds in launcher_manifest.items():
+        if count > 3:
+            break
         for build in builds:
+            count += 1
+            if count > 3:
+                break
             if build not in launcher_versions[version]:
                 launcher_build = get_launcher_build(client, build)
                 print(launcher_build)
-
-                #     launcher_versions[version][build_number] = {
-                #         "type": "universal",
-                #         "universalUrl": build_universal_url,
-                #         "universalHash": build_universal_hash,
-                #         "installUrl": build_installer_url,
-                #         "installHash": build_installer_hash,
-                #     }
-                # if 'universal' in launcher_build['classifiers']:
-                #     build_number = build
-                #     build_universal_hash = launcher_build['classifiers']["universal"]["jar"]
-                #     build_universal_url = f"{MAVEN}/{build}/forge-{build}-universal.jar"
-                #     build_installer_hash = launcher_build['classifiers']["installer"]["jar"]
-                #     build_installer_url = f"{MAVEN}/{build}/forge-{build}-installer.jar"
-                #     launcher_versions[version][build_number] = {
-                #         "type": "universal",
-                #         "universalUrl": build_universal_url,
-                #         "universalHash": build_universal_hash,
-                #         "installUrl": build_installer_url,
-                #         "installHash": build_installer_hash,
-                #     }
-                # elif 'installer' in launcher_build['classifiers']:
-                #     build_sha256 = launcher_build['classifiers']["installer"]["jar"]
-                #     build_number = build
-                #     build_url = f"{MAVEN}/{build}/forge-{build}-installer.jar"
-                #     launcher_versions[version][build_number] = {
-                #         "type": "modern",
-                #         "url": build_url,
-                #         "hash": build_hash,
-                #     }
-                # elif 'client' in launcher_build['classifiers']:
-                #     build_sha256 = launcher_build['classifiers']["client"]["zip"]
-                #     build_number = build
-                #     build_url = f"{MAVEN}/{build}/forge-{build}-client.zip"
-                #     launcher_versions[version][build_number] = {
-                #         "type": "ancient",
-                #         "url": build_url,
-                #         "hash": build_hash,
-                #     }
-                # else:
-                #     print(f'no installer or client in {build}')
-                #     print(launcher_build)
+                launcher_versions[version][build] = launcher_build
 
     return (launcher_versions, game_versions, library_versions)
 
@@ -224,9 +194,9 @@ if __name__ == "__main__":
     game_path = folder / "lock_game.json"
     library_path = folder / "lock_libraries.json"
     with (
-        open(launcher_path, "r") as launcher_locks,
-        open(game_path, "r") as game_locks,
-        open(library_path, "r") as library_locks,
+        open(launcher_path, "a+") as launcher_locks,
+        open(game_path, "a+") as game_locks,
+        open(library_path, "a+") as library_locks,
     ):
         launcher_versions = (
             {} if launcher_path.stat().st_size == 0 else json.load(launcher_locks)
@@ -235,18 +205,15 @@ if __name__ == "__main__":
         library_versions = (
             {} if library_path.stat().st_size == 0 else json.load(library_locks)
         )
-    (launcher_versions, game_versions, library_versions) = main(
-        launcher_versions,
-        game_versions,
-        library_versions,
-        make_client(),
-    )
-
-    # with (
-    #     open(launcher_path, "w") as launcher_locks,
-    #     open(game_path, "w") as game_locks,
-    #     open(library_path, "w") as library_locks,
-    # ):
-    #     json.dump(launcher_versions,launcher_locks,indent=4)
-    #     json.dump(game_versions,game_locks,indent=4)
-    #     json.dump(library_versions,library_locks,indent=4)
+        (launcher_versions, game_versions, library_versions) = main(
+            launcher_versions,
+            game_versions,
+            library_versions,
+            make_client(),
+        )
+        launcher_locks.truncate()
+        json.dump(launcher_versions, launcher_locks, indent=4)
+        game_locks.truncate()
+        json.dump(game_versions, game_locks, indent=4)
+        library_locks.truncate()
+        json.dump(library_versions, library_locks, indent=4)
