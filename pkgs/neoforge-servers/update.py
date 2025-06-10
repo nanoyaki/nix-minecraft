@@ -6,6 +6,7 @@ import json
 import re
 from collections import defaultdict
 from pathlib import Path
+from typing import Any
 from zipfile import ZipFile
 
 import requests
@@ -81,9 +82,32 @@ def get_launcher_build(client: requests.Session, version: str):
         return {"url": url, "hash": f"sha256-{response.text}"}
 
     return {
-        "universal": fetchurl(f"{MAVEN}/{version}/neoforge-{version}-universal.jar"),
-        "installer": fetchurl(f"{MAVEN}/{version}/neoforge-{version}-installer.jar"),
-        "libraries": get_launcher_libraries(client, version),
+        "universal": {
+            "src": fetchurl(f"{MAVEN}/{version}/neoforge-{version}-universal.jar")
+        },
+        "installer": {
+            "src": fetchurl(f"{MAVEN}/{version}/neoforge-{version}-installer.jar"),
+            "libraries": get_launcher_libraries(client, version),
+        },
+    }
+
+
+def library_lock(library: dict[str, Any]):
+    name_match = re.match(r"([^@]+)(?:@jar)?", library["name"])
+    if name_match is None:
+        raise Exception(f"Unknown specifier {library['name']}")
+    name = name_match.group(1)
+    artifact = library["downloads"]["artifact"]
+    return (
+        name,
+        {"url": artifact["url"], "hash": artifact["sha1"]},
+    )
+
+
+def launcher_lock(build: dict[str, Any]):
+    return build | {
+        "installer": build["installer"]
+        | {"libraries": sorted(build["installer"]["libraries"].keys())}
     }
 
 
@@ -97,12 +121,11 @@ def get_launcher_libraries(client: requests.Session, version: str):
     with ZipFile(io.BytesIO(response.content)) as zip:
         with zip.open("install_profile.json") as fprofile:
             profile_data = json.load(fprofile)
-            print(json.dumps(profile_data["libraries"], indent=2))
             libraries.extend(profile_data["libraries"])
         with zip.open("version.json") as fversion:
             version_data = json.load(fversion)
             libraries.extend(version_data["libraries"])
-    return libraries
+    return dict([library_lock(lib) for lib in libraries])
 
 
 def get_game_libraries(client, version):
@@ -174,16 +197,16 @@ def main(launcher_versions, game_versions, library_versions, client):
 
     count = 0
     for version, builds in launcher_manifest.items():
-        if count > 3:
+        if count > 1:
             break
         for build in builds:
-            count += 1
-            if count > 3:
-                break
-            if build not in launcher_versions[version]:
+            if build not in launcher_versions:
+                count += 1
+                if count > 1:
+                    break
                 launcher_build = get_launcher_build(client, build)
-                print(launcher_build)
-                launcher_versions[version][build] = launcher_build
+                launcher_versions[build] = launcher_lock(launcher_build)
+                library_versions |= launcher_build["installer"]["libraries"]
 
     return (launcher_versions, game_versions, library_versions)
 
@@ -194,9 +217,9 @@ if __name__ == "__main__":
     game_path = folder / "lock_game.json"
     library_path = folder / "lock_libraries.json"
     with (
-        open(launcher_path, "a+") as launcher_locks,
-        open(game_path, "a+") as game_locks,
-        open(library_path, "a+") as library_locks,
+        open(launcher_path, "r+") as launcher_locks,
+        open(game_path, "r+") as game_locks,
+        open(library_path, "r+") as library_locks,
     ):
         launcher_versions = (
             {} if launcher_path.stat().st_size == 0 else json.load(launcher_locks)
@@ -205,15 +228,18 @@ if __name__ == "__main__":
         library_versions = (
             {} if library_path.stat().st_size == 0 else json.load(library_locks)
         )
-        (launcher_versions, game_versions, library_versions) = main(
-            launcher_versions,
-            game_versions,
-            library_versions,
-            make_client(),
-        )
-        launcher_locks.truncate()
-        json.dump(launcher_versions, launcher_locks, indent=4)
-        game_locks.truncate()
-        json.dump(game_versions, game_locks, indent=4)
-        library_locks.truncate()
-        json.dump(library_versions, library_locks, indent=4)
+    (launcher_versions, game_versions, library_versions) = main(
+        launcher_versions,
+        game_versions,
+        library_versions,
+        make_client(),
+    )
+
+    with (
+        open(launcher_path, "w") as launcher_locks,
+        open(game_path, "w") as game_locks,
+        open(library_path, "w") as library_locks,
+    ):
+        json.dump(launcher_versions, launcher_locks, indent=2, sort_keys=True)
+        json.dump(game_versions, game_locks, indent=2, sort_keys=True)
+        json.dump(library_versions, library_locks, indent=2, sort_keys=True)
