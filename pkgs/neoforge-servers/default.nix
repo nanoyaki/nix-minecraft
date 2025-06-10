@@ -29,7 +29,9 @@ let
           inherit (build) installer;
           inherit libraries;
           version = "${buildVersion}";
-          gameVersion = game_versions.${gameVersion};
+          gameVersion = game_versions.${gameVersion} // {
+            version = gameVersion;
+          };
           minecraft-server = vanillaServers."vanilla-${escapeVersion gameVersion}";
         }
       ) builds

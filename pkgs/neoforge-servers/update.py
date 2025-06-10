@@ -2,9 +2,10 @@
 #!nix-shell -i python3 shell.nix
 
 import argparse
-import io
 import json
+import os
 import re
+import subprocess
 from collections import defaultdict
 from pathlib import Path
 from typing import Any
@@ -79,15 +80,16 @@ def get_launcher_build(client: requests.Session, version: str):
         print(f"Fetching hash: {hash_url}")
         response = client.get(hash_url)
         response.raise_for_status()
-        return {"url": url, "sha256": response.text}
+        return {"name": os.path.basename(url), "url": url, "sha256": response.text}
 
+    src = fetchurl(f"{MAVEN}/{version}/neoforge-{version}-installer.jar")
     return {
         "universal": {
             "src": fetchurl(f"{MAVEN}/{version}/neoforge-{version}-universal.jar")
         },
         "installer": {
-            "src": fetchurl(f"{MAVEN}/{version}/neoforge-{version}-installer.jar"),
-            "libraries": get_launcher_libraries(client, version),
+            "src": src,
+            "libraries": get_launcher_libraries(client, src, version),
         },
     }
 
@@ -111,14 +113,24 @@ def launcher_lock(build: dict[str, Any]):
     }
 
 
-def get_launcher_libraries(client: requests.Session, version: str):
-    url = f"{MAVEN}/{version}/neoforge-{version}-installer.jar"
-    print(f"Fetching libraries for {url}")
-    response = client.get(url, stream=True)
-    response.raise_for_status()
-    response.raw.decode_content = True
+def get_launcher_libraries(client: requests.Session, src, version: str):
+    out_link = f"result-{src['name']}"
+    cmd = [
+        "nix",
+        "build",
+        "--out-link",
+        out_link,
+        "--file",
+        "fetchInstaller.nix",
+        "--argstr",
+        "srcJson",
+        json.dumps(src),
+    ]
+    res = subprocess.run(cmd, stderr=subprocess.STDOUT)
+    res.check_returncode()
+
     libraries = []
-    with ZipFile(io.BytesIO(response.content)) as zip:
+    with ZipFile(out_link) as zip:
         with zip.open("install_profile.json") as fprofile:
             profile_data = json.load(fprofile)
             libraries.extend(profile_data["libraries"])
@@ -213,7 +225,9 @@ def main(launcher_versions, game_versions, library_versions, version_regex, clie
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="A simple script to greet someone.")
 
-    parser.add_argument("--version", type=str, default=".*", required=False)
+    parser.add_argument(
+        "--version", type=str, default=r"^\d+\.\d+.\d+$", required=False
+    )
     args = parser.parse_args()
 
     folder = Path(__file__).parent
@@ -232,19 +246,19 @@ if __name__ == "__main__":
         library_versions = (
             {} if library_path.stat().st_size == 0 else json.load(library_locks)
         )
-    (launcher_versions, game_versions, library_versions) = main(
-        launcher_versions,
-        game_versions,
-        library_versions,
-        args.version,
-        make_client(),
-    )
 
     with (
         open(launcher_path, "w") as launcher_locks,
         open(game_path, "w") as game_locks,
         open(library_path, "w") as library_locks,
     ):
+        (launcher_versions, game_versions, library_versions) = main(
+            launcher_versions,
+            game_versions,
+            library_versions,
+            args.version,
+            make_client(),
+        )
         json.dump(launcher_versions, launcher_locks, indent=2, sort_keys=True)
         json.dump(game_versions, game_locks, indent=2, sort_keys=True)
         json.dump(library_versions, library_locks, indent=2, sort_keys=True)

@@ -1,5 +1,6 @@
 {
   lib,
+  makeWrapper,
   zip,
   stdenvNoCC,
   tree,
@@ -9,6 +10,7 @@
   jre_headless,
   version,
   minecraft-server,
+  runCommandLocal,
 
   installer,
   gameVersion,
@@ -58,6 +60,36 @@ let
       }
     ]
   );
+  installerDrv =
+    let
+      name = "neoforge-${version}-installer";
+      src = fetchurl installer.src;
+      mappings = fetchurl gameVersion.mappings;
+    in
+    # TODO: try use mirror?
+    runCommandLocal name
+      {
+        nativeBuildInputs = [
+          makeWrapper
+          zip
+        ];
+        meta.mainProgram = name;
+      }
+      ''
+        # add server mappings to the classpath so we can perform an offline install
+        # see the result of --generate-fat
+        server_mappings="maven/minecraft/1.21.5/server_mappings.txt"
+        mkdir -p "$(dirname "$server_mappings")"
+        cp ${mappings} "$server_mappings"
+        installer_jar="$out/lib/${src.name}"
+        cp --no-preserve=all "${src}" "$installer_jar"
+        zip "$installer_jar" "$server_mappings"
+
+        mkdir -p $out/bin
+        makeWrapper "${jre_headless}/bin/java" "$out/bin/${name}" \
+          --add-flags "-cp $server_mappings" \
+          --add-flags "-jar $installer_jar"
+      '';
 in
 # TODO: symlinkJoin
 stdenvNoCC.mkDerivation {
@@ -78,18 +110,16 @@ stdenvNoCC.mkDerivation {
 
   installPhase = ''
     cp -r --no-preserve=all ${librariesDrv} $out
-    cd $out
-    cp --no-preserve=all $src installer.jar
-    mkdir -p maven/minecraft/1.21.5
-    cp ${fetchurl gameVersion.mappings} maven/minecraft/1.21.5/server_mappings.txt
-    zip installer.jar maven/minecraft/1.21.5/server_mappings.txt
-    java  -jar installer.jar  --install-server --offline
+    ${lib.getExe installerDrv} --offline --install-server $out
+    exit 1
   '';
 
   dontUnpack = true;
 
   passthru = {
     inherit librariesDrv;
+    libraries = librariesDrv;
+    installer = installerDrv;
     updateScript = ./update.py;
   };
 
