@@ -47,7 +47,7 @@
           legacyFabricServers = callPackage ./pkgs/legacy-fabric-servers { inherit vanillaServers; };
           paperServers = callPackage ./pkgs/paper-servers { inherit vanillaServers; };
           velocityServers = callPackage ./pkgs/velocity-servers { };
-          neoforgeServers = callPackage ./pkgs/neoforge-servers { };
+          neoforgeServers = callPackage ./pkgs/neoforge-servers { inherit vanillaServers; };
           minecraftServers =
             vanillaServers
             // fabricServers

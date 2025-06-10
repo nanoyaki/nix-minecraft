@@ -1,6 +1,7 @@
 #!/usr/bin/env nix-shell
 #!nix-shell -i python3 shell.nix
 
+import argparse
 import io
 import json
 import re
@@ -92,6 +93,7 @@ def get_launcher_build(client: requests.Session, version: str):
 
 
 def library_lock(library: dict[str, Any]):
+    # FIXME
     name_match = re.match(r"([^@]+)(?:@jar)?", library["name"])
     if name_match is None:
         raise Exception(f"Unknown specifier {library['name']}")
@@ -134,7 +136,23 @@ def get_game_libraries(client, version):
     return libraries
 
 
-def main(launcher_versions, game_versions, library_versions, client):
+def library_rules_match(library):
+    def rule_matches(rule):
+        action = rule["action"]
+        os = rule.get("os")
+        # assuming only Linux for now
+        if action == "allow" and os is not None:
+            return os == "linux"
+        print(f"Ignoring rule {rule}")
+        return True
+
+    for rule in library.get("rules", []):
+        if not rule_matches(rule):
+            return False
+    return True
+
+
+def main(launcher_versions, game_versions, library_versions, version_regex, client):
     launcher_versions = defaultdict(dict, launcher_versions)
     output = {}
     print("Starting fetch")
@@ -143,66 +161,48 @@ def main(launcher_versions, game_versions, library_versions, client):
 
     # We need all the libraries for a given game version for forge to be happy.  This might
     # be useful to port up to build-support.
+    # TODO: move to game support
     for version in game_manifest:
-        if version["type"] == "release":
-            if (
-                version["id"] in game_versions
-                and game_versions[version["id"]]["sha1"] == version["sha1"]
-            ):
-                pass
-            else:
-                data = client.get(version["url"]).json()
-                libraries = []
-                for library in data["libraries"]:
-                    if library["name"] not in library_versions:
-                        # I should verify nix is happy with the hashes left in these paths.
-                        # If not, I need to do something like quilt's prefetch
-                        if "artifact" in library["downloads"]:
-                            library_versions[library["name"]] = library["downloads"][
-                                "artifact"
-                            ]
-                        # Some libraries are system dependent. I'm assuming there isn't gonna be
-                        # support for darwin on this, so I ignore those and only grab the linux
-                        # natives.  If this is a wrong assumption, this is the place to fix it.
-                        elif "classifiers" in library["downloads"]:
-                            if "natives-linux" in library["downloads"]["classifiers"]:
-                                library_versions[library["name"]] = library[
-                                    "downloads"
-                                ]["classifiers"]["natives-linux"]
-                        # I've got some escape hatches for when libraries somehow don't match the above
-                        # I don't think any *should*, but just incase, lets get some info
-                        else:
-                            print(version["id"])
-                            print(json.dumps(library, indent=4))
-                    libraries.append(library["name"])
-                mappings = ""
-                server = ""
-                # if we don't have a server, we might just mark the version as unavailable?
-                # this is server only after all.
-                if "server" in data["downloads"]:
-                    server = data["downloads"]["server"]
-                # mappings are only used on the modern forge builds
-                if "server_mappings" in data["downloads"]:
-                    mappings = data["downloads"]["server_mappings"]
-                game_versions[version["id"]] = {
-                    "sha1": version["sha1"],
-                    "server": server,
-                    "mappings": mappings,
-                    "libraries": libraries,
-                }
+        if version["type"] != "release":
+            continue
+
+        # if (
+        #     version["id"] in game_versions
+        #     and game_versions[version["id"]]["sha1"] == version["sha1"]
+        # ):
+        #     continue
+
+        data = client.get(version["url"]).json()
+        libraries = []
+        for library in data["libraries"]:
+            if "artifact" not in library["downloads"]:
+                continue
+            library_versions[library["name"]] = library_lock(library)[1]
+            if library_rules_match(library):
+                libraries.append(library["name"])
+        if "server" not in data["downloads"]:
+            continue
+        server = data["downloads"]["server"]
+        mappings = ""
+        if "server_mappings" in data["downloads"]:
+            mappings = data["downloads"]["server_mappings"]
+        game_versions[version["id"]] = {
+            "sha1": version["sha1"],
+            "server": server,
+            "mappings": mappings,
+            "libraries": sorted(libraries),
+        }
 
     launcher_manifest = get_launcher_versions(client)
     print(launcher_manifest, sep="\n")
 
-    count = 0
     for version, builds in launcher_manifest.items():
-        if count > 1:
-            break
         for build in builds:
+            if re.match(version_regex, build) is None:
+                print("Skip fetching build", build)
+                continue
+
             if build not in launcher_versions[version]:
-                count += 1
-                if count > 1:
-                    break
                 launcher_build = get_launcher_build(client, build)
                 launcher_versions[version][build] = launcher_lock(launcher_build)
                 library_versions |= launcher_build["installer"]["libraries"]
@@ -211,6 +211,11 @@ def main(launcher_versions, game_versions, library_versions, client):
 
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="A simple script to greet someone.")
+
+    parser.add_argument("--version", type=str, default=".*", required=False)
+    args = parser.parse_args()
+
     folder = Path(__file__).parent
     launcher_path = folder / "launcher_locks.json"
     game_path = folder / "game_locks.json"
@@ -231,6 +236,7 @@ if __name__ == "__main__":
         launcher_versions,
         game_versions,
         library_versions,
+        args.version,
         make_client(),
     )
 

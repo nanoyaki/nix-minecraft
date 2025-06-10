@@ -6,7 +6,10 @@
   nixosTests,
   jre_headless,
   version,
+  minecraft-server,
+
   installer,
+  gameVersion,
   libraries,
 }:
 let
@@ -19,8 +22,8 @@ let
     specifier:
     let
       components = splitString ":" specifier;
-      groupId = head components 0;
-      artifactId = tail components 1;
+      groupId = elemAt components 0;
+      artifactId = elemAt components 1;
       version = elemAt components 2;
     in
     concatStringsSep "/" (
@@ -34,40 +37,48 @@ let
     name = "${specifierPath specifier}/${path.name}";
     path = fetchurl libraries.${specifier};
   };
-  librariesDrv = linkFarm "neoforge${version}-libraries" (map mkLibrary installer.libraries);
+  librariesDrv = linkFarm "neoforge${version}-libraries" (
+    map mkLibrary (installer.libraries ++ gameVersion.libraries)
+  );
 in
-# stdenvNoCC.mkDerivation {
-#   pname = "minecraft-server-neoforge";
-#   inherit version;
-#
-#   src = fetchurl {
-#     inherit url sha256;
-#   };
-#
-#   preferLocalBuild = true;
-#
-#   patchPhase = '''';
-#
-#   installPhase = ''
-#     mkdir -p $out/bin $out/lib/minecraft
-#     cp -v $src $out/lib/minecraft/server.jar
-#
-#     chmod +x $out/bin/minecraft-server
-#   '';
-#
-#   dontUnpack = true;
-#
-#   passthru = {
-#     updateScript = ./update.py;
-#   };
-#
-#   meta = with lib; {
-#     description = "Minecraft Server";
-#     homepage = "https://minecraft.net";
-#     license = licenses.unfreeRedistributable;
-#     platforms = platforms.unix;
-#     maintainers = with maintainers; [ infinidoge ];
-#     mainProgram = "minecraft-server";
-#   };
-# }
-librariesDrv
+# TODO: symlinkJoin
+stdenvNoCC.mkDerivation {
+  pname = "neoforge";
+  inherit version;
+
+  # TODO: this doesn't make sense
+  src = fetchurl installer.src;
+
+  nativeBuildInputs = [ jre_headless ];
+
+  preferLocalBuild = true;
+
+  patchPhase = '''';
+
+  installPhase = ''
+    mkdir -p $out/libraries
+    LIBRARY_DIR="$out/libraries"
+    MINECRAFT_VERSION="${minecraft-server.version}"
+    mkdir -p "$LIBRARY_DIR/net/minecraft/server/$MINECRAFT_VERSION"
+    install ${minecraft-server.src} "$LIBRARY_DIR/net/minecraft/server/$MINECRAFT_VERSION/server-$MINECRAFT_VERSION.jar"
+    cp -r ${librariesDrv}/* $out/libraries
+    cd $out
+    java -jar $src --install-server --offline
+  '';
+
+  dontUnpack = true;
+
+  passthru = {
+    inherit librariesDrv;
+    updateScript = ./update.py;
+  };
+
+  meta = with lib; {
+    description = "Minecraft Server";
+    homepage = "https://minecraft.net";
+    license = licenses.unfreeRedistributable;
+    platforms = platforms.unix;
+    maintainers = with maintainers; [ infinidoge ];
+    mainProgram = "minecraft-server";
+  };
+}

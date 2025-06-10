@@ -1,5 +1,6 @@
 {
   callPackage,
+  vanillaServers,
   lib,
   jre8_headless,
   jre_headless,
@@ -20,7 +21,7 @@ let
   game_versions = lib.importJSON ./game_locks.json;
 
   packages = mapAttrsToList (
-    version: builds:
+    gameVersion: builds:
     sortBy "version" versionOlder (
       mapAttrsToList (
         buildVersion: build:
@@ -28,6 +29,8 @@ let
           inherit (build) installer;
           inherit libraries;
           version = "${buildVersion}";
+          gameVersion = game_versions.${gameVersion};
+          minecraft-server = vanillaServers."vanilla-${escapeVersion gameVersion}";
         }
       ) builds
     )

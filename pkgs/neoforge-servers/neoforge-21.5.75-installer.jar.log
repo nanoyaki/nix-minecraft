@@ -1,0 +1,9 @@
+JVM info: N/A - 21.0.7 - 21.0.7+6-nixos
+java.net.preferIPv4Stack=true
+Current Time: 09/06/2025 23:16:56
+ENABLING OFFLINE MODE
+Target Directory: .
+Offline Mode: Not downloading: https://mirrors.neoforged.net
+Considering Minecraft server jar
+	Library not cached, expecting download from https://piston-meta.mojang.com/mc/game/version_manifest_v2.json, but running in offline mode.
+A problem installing was detected, install cannot continue
