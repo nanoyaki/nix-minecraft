@@ -2,7 +2,7 @@
   lib,
   stdenvNoCC,
   fetchurl,
-  linkFarmFromDrvs,
+  linkFarm,
   nixosTests,
   jre_headless,
   version,
@@ -10,8 +10,31 @@
   libraries,
 }:
 let
-  mkLibrary = name: fetchurl libraries.${name};
-  librariesDrv = linkFarmFromDrvs "neoforge${version}-libraries" (map mkLibrary installer.libraries);
+  inherit (lib)
+    splitString
+    elemAt
+    concatStringsSep
+    ;
+  specifierPath =
+    specifier:
+    let
+      components = splitString ":" specifier;
+      groupId = head components 0;
+      artifactId = tail components 1;
+      version = elemAt components 2;
+    in
+    concatStringsSep "/" (
+      (splitString "." groupId)
+      ++ [
+        artifactId
+        version
+      ]
+    );
+  mkLibrary = specifier: rec {
+    name = "${specifierPath specifier}/${path.name}";
+    path = fetchurl libraries.${specifier};
+  };
+  librariesDrv = linkFarm "neoforge${version}-libraries" (map mkLibrary installer.libraries);
 in
 # stdenvNoCC.mkDerivation {
 #   pname = "minecraft-server-neoforge";
