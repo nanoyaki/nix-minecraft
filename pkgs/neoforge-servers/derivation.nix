@@ -1,17 +1,24 @@
-{ lib, stdenvNoCC, fetchurl, nixosTests, jre_headless, version, manifestUrl, manifestSha1, installerUrl, installerSha1 }:
+{
+  lib,
+  stdenvNoCC,
+  fetchurl,
+  nixosTests,
+  jre_headless,
+  version,
+  url,
+  hash,
+}:
 stdenvNoCC.mkDerivation {
-  pname = "minecraft-server-forge";
+  pname = "minecraft-server-neoforge";
   inherit version;
 
-  src = fetchurl { 
-    url = installerUrl;
-    sha1 = installerSha1;
+  src = fetchurl {
+    inherit url hash;
   };
 
   preferLocalBuild = true;
 
-  patchPhase = ''
-  '';
+  patchPhase = '''';
 
   installPhase = ''
     mkdir -p $out/bin $out/lib/minecraft

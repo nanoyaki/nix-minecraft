@@ -64,12 +64,11 @@ def get_launcher_versions(client: requests.Session):
     data = response.json()
     for version in data["versions"]:
         # first two digits == 1.x game version
-        match = re.match(r"^(\d+\.\d+)\.\d+$", version)
+        match = re.match(r"^(\d+\.\d+)\.(\d+)$", version)
         if not match:
             print(f"Skipping version: {version}")
             continue
-        game_version = f"1.{match.group(1)}"
-        versions[game_version].append(version)
+        versions[f"1.{match.group(1)}"].append(version)
     return versions
 
 
@@ -200,12 +199,12 @@ def main(launcher_versions, game_versions, library_versions, client):
         if count > 1:
             break
         for build in builds:
-            if build not in launcher_versions:
+            if build not in launcher_versions[version]:
                 count += 1
                 if count > 1:
                     break
                 launcher_build = get_launcher_build(client, build)
-                launcher_versions[build] = launcher_lock(launcher_build)
+                launcher_versions[version][build] = launcher_lock(launcher_build)
                 library_versions |= launcher_build["installer"]["libraries"]
 
     return (launcher_versions, game_versions, library_versions)
@@ -213,9 +212,9 @@ def main(launcher_versions, game_versions, library_versions, client):
 
 if __name__ == "__main__":
     folder = Path(__file__).parent
-    launcher_path = folder / "lock_launcher.json"
-    game_path = folder / "lock_game.json"
-    library_path = folder / "lock_libraries.json"
+    launcher_path = folder / "launcher_locks.json"
+    game_path = folder / "game_locks.json"
+    library_path = folder / "library_locks.json"
     with (
         open(launcher_path, "r+") as launcher_locks,
         open(game_path, "r+") as game_locks,
