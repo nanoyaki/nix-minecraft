@@ -92,8 +92,7 @@ def get_launcher_build(client: requests.Session, version: str):
     }
 
 
-def library_lock(library: dict[str, Any]):
-    # FIXME
+def library_lock(library):
     name_match = re.match(r"([^@]+)(?:@jar)?", library["name"])
     if name_match is None:
         raise Exception(f"Unknown specifier {library['name']}")
@@ -183,13 +182,14 @@ def main(launcher_versions, game_versions, library_versions, version_regex, clie
         if "server" not in data["downloads"]:
             continue
         server = data["downloads"]["server"]
-        mappings = ""
-        if "server_mappings" in data["downloads"]:
-            mappings = data["downloads"]["server_mappings"]
+        del server["size"]
+        server_mappings = data["downloads"].get("server_mappings")
+        if server_mappings is not None:
+            del server_mappings["size"]
         game_versions[version["id"]] = {
             "sha1": version["sha1"],
             "server": server,
-            "mappings": mappings,
+            "mappings": server_mappings,
             "libraries": sorted(libraries),
         }
 
