@@ -15,24 +15,31 @@ let
     ;
   sortBy = attr: f: builtins.sort (a: b: f a.${attr} b.${attr});
 
-  library_versions = lib.importJSON ./lock_libraries.json;
-  loader_versions = lib.importJSON ./launcher_locks.json;
-  game_versions = lib.importJSON ./lock_game.json;
+  versions = lib.importJSON ./launcher_locks.json;
+  libraries = lib.importJSON ./library_locks.json;
+  game_versions = lib.importJSON ./game_locks.json;
 
   packages = mapAttrsToList (
     version: builds:
     sortBy "version" versionOlder (
       mapAttrsToList (
-        buildNumber: value:
+        buildVersion: build:
         callPackage ./derivation.nix {
-          inherit (value.installer.src)
-            url
-            hash
-            ;
-          version = "${version}-${buildNumber}";
+          inherit (build) installer;
+          inherit libraries;
+          version = "${buildVersion}";
         }
       ) builds
     )
   ) versions;
+
+  # Latest build for each MC version
+  latestBuilds = sortBy "version" versionOlder (map last packages);
 in
-lib.recurseIntoAttrs (packages)
+lib.recurseIntoAttrs (
+  builtins.listToAttrs (
+    (map (x: nameValuePair (escapeVersion x.name) x) (flatten packages))
+    ++ (map (x: nameValuePair (escapeVersion x.name) x) latestBuilds)
+    ++ [ (nameValuePair "paper" (last latestBuilds)) ]
+  )
+)

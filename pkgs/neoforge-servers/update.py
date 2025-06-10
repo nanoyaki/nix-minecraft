@@ -74,11 +74,11 @@ def get_launcher_versions(client: requests.Session):
 
 def get_launcher_build(client: requests.Session, version: str):
     def fetchurl(url):
-        url = f"{url}.sha256"
-        print(f"Fetching hash: {url}")
-        response = client.get(url)
+        hash_url = f"{url}.sha256"
+        print(f"Fetching hash: {hash_url}")
+        response = client.get(hash_url)
         response.raise_for_status()
-        return {"url": url, "hash": f"sha256-{response.text}"}
+        return {"url": url, "sha256": response.text}
 
     return {
         "universal": {
@@ -99,7 +99,7 @@ def library_lock(library: dict[str, Any]):
     artifact = library["downloads"]["artifact"]
     return (
         name,
-        {"url": artifact["url"], "hash": artifact["sha1"]},
+        {"url": artifact["url"], "sha1": artifact["sha1"]},
     )
 
 
