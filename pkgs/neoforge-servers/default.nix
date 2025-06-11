@@ -45,6 +45,6 @@ lib.recurseIntoAttrs (
   builtins.listToAttrs (
     (map (x: nameValuePair (escapeVersion x.name) x) (flatten packages))
     ++ (map (x: nameValuePair (escapeVersion x.name) x) latestBuilds)
-    ++ [ (nameValuePair "paper" (last latestBuilds)) ]
+    ++ [ (nameValuePair "neoforge" (last latestBuilds)) ]
   )
 )

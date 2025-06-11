@@ -79,7 +79,7 @@ let
       '';
 in
 stdenvNoCC.mkDerivation rec {
-  pname = "neoforge-server";
+  pname = "neoforge";
   inherit version;
   dontUnpack = true;
 
@@ -114,6 +114,6 @@ stdenvNoCC.mkDerivation rec {
     license = licenses.unfreeRedistributable;
     platforms = platforms.unix;
     maintainers = with maintainers; [ infinidoge ];
-    mainProgram = "neoforge-server";
+    mainProgram = "minecraft-server";
   };
 }

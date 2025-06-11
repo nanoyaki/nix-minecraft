@@ -61,6 +61,7 @@
           quilt-server = quiltServers.quilt;
           paper-server = paperServers.paper;
           velocity-server = velocityServers.velocity;
+          neoforge-server = neoforgeServers.neoforge;
           minecraft-server = vanilla-server;
           # TODO: neoforge-server
         }
