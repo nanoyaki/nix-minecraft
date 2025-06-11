@@ -1,20 +1,17 @@
 {
-  symlinkJoin,
   lib,
-  makeWrapper,
-  zip,
-  stdenvNoCC,
-  tree,
   fetchurl,
-  linkFarm,
-  nixosTests,
   jre_headless,
+  linkFarm,
+  makeWrapper,
   minecraft-server,
   runCommandLocal,
+  stdenvNoCC,
+  zip,
 
   version,
-  installer,
   gameVersion,
+  installer,
   libraries,
 }:
 let
@@ -39,14 +36,14 @@ let
       ]
     );
   mkLibrary = specifier: rec {
-    name = "libraries/${specifierPath specifier}/${path.name}";
+    name = "${specifierPath specifier}/${path.name}";
     path = fetchurl libraries.${specifier};
   };
-  librariesDrv = linkFarm "neoforge${version}-libraries" (
+  repository = linkFarm "neoforge${version}-libraries" (
     (map mkLibrary (installer.libraries ++ gameVersion.libraries))
     ++ [
       {
-        name = "libraries/net/minecraft/server/${minecraft-server.version}/server-${minecraft-server.version}.jar";
+        name = "net/minecraft/server/${minecraft-server.version}/server-${minecraft-server.version}.jar";
         path = minecraft-server.src;
       }
     ]
@@ -54,7 +51,7 @@ let
   installerDrv =
     let
       name = "neoforge-${version}-installer";
-      installerJar = fetchurl installer.src;
+      installerSrc = fetchurl installer.src;
     in
     # TODO: try use mirror?
     runCommandLocal name
@@ -66,8 +63,8 @@ let
         meta.mainProgram = name;
       }
       ''
-        installer_jar="$out/lib/${installerJar.name}"
-        install -m 644 -D "${installerJar}" "$installer_jar"
+        installer_jar="$out/lib/${installerSrc.name}"
+        install -m 644 -D "${installerSrc}" "$installer_jar"
 
         # add server mappings to the classpath so we can perform an offline install
         # see the result of --generate-fat
@@ -91,16 +88,22 @@ stdenvNoCC.mkDerivation rec {
   buildInputs = [ makeWrapper ];
 
   buildPhase = ''
-    cp -r --no-preserve=all ${librariesDrv} $out
+    mkdir -p $out/libraries
+    cp -r --no-preserve=all ${repository}/* $out/libraries
     ${lib.getExe installerDrv} --offline --install-server $out
+    # rm !($out/{bin,libraries})
 
+    args="$out/libraries/net/neoforged/neoforge/${version}/unix_args.txt"
+    substituteInPlace "$args" \
+      --replace-fail "-DlibraryDirectory=libraries" "-DlibraryDirectory=$out/libraries" \
+      --replace-fail "libraries/" "$out/libraries/"
     makeWrapper "${jre_headless}/bin/java" "$out/bin/${meta.mainProgram}" \
-      --add-flags "@$out/libraries/net/neoforged/neoforge/${version}/unix_args.txt"
+      --add-flags "@$args"
   '';
 
   passthru = {
-    inherit librariesDrv;
-    libraries = librariesDrv;
+    inherit repository;
+    libraries = repository;
     installer = installerDrv;
     updateScript = ./update.py;
   };
