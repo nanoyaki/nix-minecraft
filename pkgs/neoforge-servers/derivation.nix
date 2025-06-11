@@ -1,4 +1,5 @@
 {
+  symlinkJoin,
   lib,
   makeWrapper,
   zip,
@@ -8,10 +9,10 @@
   linkFarm,
   nixosTests,
   jre_headless,
-  version,
   minecraft-server,
   runCommandLocal,
 
+  version,
   installer,
   gameVersion,
   libraries,
@@ -48,23 +49,12 @@ let
         name = "libraries/net/minecraft/server/${minecraft-server.version}/server-${minecraft-server.version}.jar";
         path = minecraft-server.src;
       }
-      {
-        name =
-          let
-            version = "1.21.5-20250325.162830";
-          in
-          # "net/minecraft/server/${version}/server-${version}-mappings.txt";
-          # "minecraft/1.21.5/server_mappings.txt";
-          "libraries/net/minecraft/server/1.21.5-20250325.162830/server-1.21.5-20250325.162830-mappings.txt";
-        path = fetchurl gameVersion.mappings;
-      }
     ]
   );
   installerDrv =
     let
       name = "neoforge-${version}-installer";
-      src = fetchurl installer.src;
-      mappings = fetchurl gameVersion.mappings;
+      installerJar = fetchurl installer.src;
     in
     # TODO: try use mirror?
     runCommandLocal name
@@ -76,45 +66,37 @@ let
         meta.mainProgram = name;
       }
       ''
+        installer_jar="$out/lib/${installerJar.name}"
+        install -m 644 -D "${installerJar}" "$installer_jar"
+
         # add server mappings to the classpath so we can perform an offline install
         # see the result of --generate-fat
         server_mappings="maven/minecraft/1.21.5/server_mappings.txt"
-        mkdir -p "$(dirname "$server_mappings")"
-        cp ${mappings} "$server_mappings"
-        installer_jar="$out/lib/${src.name}"
-        cp --no-preserve=all "${src}" "$installer_jar"
+        install -m 644 -D ${fetchurl gameVersion.mappings} "$server_mappings"
+
         zip "$installer_jar" "$server_mappings"
 
         mkdir -p $out/bin
         makeWrapper "${jre_headless}/bin/java" "$out/bin/${name}" \
-          --add-flags "-cp $server_mappings" \
           --add-flags "-jar $installer_jar"
       '';
 in
-# TODO: symlinkJoin
-stdenvNoCC.mkDerivation {
-  pname = "neoforge";
+stdenvNoCC.mkDerivation rec {
+  pname = "neoforge-server";
   inherit version;
+  dontUnpack = true;
 
-  # TODO: this doesn't make sense
-  src = fetchurl installer.src;
+  preferLocalBuild = false; # unlike other servers, the install/patching process is rather CPU intensive
 
-  nativeBuildInputs = [
-    jre_headless
-    zip
-  ];
+  buildInputs = [ makeWrapper ];
 
-  preferLocalBuild = true;
-
-  patchPhase = '''';
-
-  installPhase = ''
+  buildPhase = ''
     cp -r --no-preserve=all ${librariesDrv} $out
     ${lib.getExe installerDrv} --offline --install-server $out
-    exit 1
-  '';
 
-  dontUnpack = true;
+    makeWrapper "${jre_headless}/bin/java" "$out/bin/${meta.mainProgram}" \
+      --add-flags "@$out/libraries/net/neoforged/neoforge/${version}/unix_args.txt"
+  '';
 
   passthru = {
     inherit librariesDrv;
@@ -129,6 +111,6 @@ stdenvNoCC.mkDerivation {
     license = licenses.unfreeRedistributable;
     platforms = platforms.unix;
     maintainers = with maintainers; [ infinidoge ];
-    mainProgram = "minecraft-server";
+    mainProgram = "neoforge-server";
   };
 }
