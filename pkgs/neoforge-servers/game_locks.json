@@ -1777,7 +1777,7 @@
       "sha1": "c9df48efed58511cdd0213c56b9013a7b5c9ac1f",
       "url": "https://piston-data.mojang.com/v1/objects/c9df48efed58511cdd0213c56b9013a7b5c9ac1f/server.jar"
     },
-    "sha1": "2b23bde64149f1b4c7c89a26b7e5e423f12c88a0"
+    "sha1": "397d1e8ad091f3d786d661c28e03241135f4c9c3"
   },
   "1.19.4": {
     "libraries": [
@@ -1833,7 +1833,7 @@
       "sha1": "8f3112a1049751cc472ec13e397eade5336ca7ae",
       "url": "https://piston-data.mojang.com/v1/objects/8f3112a1049751cc472ec13e397eade5336ca7ae/server.jar"
     },
-    "sha1": "17b34103b2408ba683c5113ff88a63ca6055c7d5"
+    "sha1": "0d5cfcf3f93b46be2b27e88929a400cc0d1986da"
   },
   "1.2.5": {
     "libraries": [
@@ -1906,7 +1906,7 @@
       "sha1": "15c777e2cfe0556eef19aab534b186c0c6f277e1",
       "url": "https://piston-data.mojang.com/v1/objects/15c777e2cfe0556eef19aab534b186c0c6f277e1/server.jar"
     },
-    "sha1": "4965c36f316ecf51bf2f583e9bdb2c0d329635ef"
+    "sha1": "167e25fe9978873acbb646c9641fb62b78058bea"
   },
   "1.20.1": {
     "libraries": [
@@ -1962,7 +1962,7 @@
       "sha1": "84194a2f286ef7c14ed7ce0090dba59902951553",
       "url": "https://piston-data.mojang.com/v1/objects/84194a2f286ef7c14ed7ce0090dba59902951553/server.jar"
     },
-    "sha1": "d50a53388f0314db20d0489c9b41cd61137e9d05"
+    "sha1": "a5a8a3c1784abdf7c6e26b0797c8793c050b3b6a"
   },
   "1.20.2": {
     "libraries": [
@@ -2018,7 +2018,7 @@
       "sha1": "5b868151bd02b41319f54c8d4061b8cae84e665c",
       "url": "https://piston-data.mojang.com/v1/objects/5b868151bd02b41319f54c8d4061b8cae84e665c/server.jar"
     },
-    "sha1": "490070aa7f8c4a15a0131234b0f0214df59f7b63"
+    "sha1": "e0ede625569bfe520cc32a5aa2a09530378ca1d9"
   },
   "1.20.3": {
     "libraries": [
@@ -2074,7 +2074,7 @@
       "sha1": "4fb536bfd4a83d61cdbaf684b8d311e66e7d4c49",
       "url": "https://piston-data.mojang.com/v1/objects/4fb536bfd4a83d61cdbaf684b8d311e66e7d4c49/server.jar"
     },
-    "sha1": "704dd30a5884b15643dfe4ed81009d432e465945"
+    "sha1": "dac26056d93098dd9daccc1790ae584fef76415a"
   },
   "1.20.4": {
     "libraries": [
@@ -2130,7 +2130,7 @@
       "sha1": "8dd1a28015f51b1803213892b50b7b4fc76e594d",
       "url": "https://piston-data.mojang.com/v1/objects/8dd1a28015f51b1803213892b50b7b4fc76e594d/server.jar"
     },
-    "sha1": "f18c7a16fb0da1a2a06cd275bb9d4ff308332244"
+    "sha1": "56774f9dd15e64ee529a36e4467ba706faaa73b2"
   },
   "1.20.5": {
     "libraries": [
@@ -2189,7 +2189,7 @@
       "sha1": "79493072f65e17243fd36a699c9a96b4381feb91",
       "url": "https://piston-data.mojang.com/v1/objects/79493072f65e17243fd36a699c9a96b4381feb91/server.jar"
     },
-    "sha1": "b0d63e317e3a5f960894b282f041911cba44e6f6"
+    "sha1": "e3d09819506bc8b64c1457d6fe3b30bbfdc81c28"
   },
   "1.20.6": {
     "libraries": [
@@ -2248,7 +2248,7 @@
       "sha1": "145ff0858209bcfc164859ba735d4199aafa1eea",
       "url": "https://piston-data.mojang.com/v1/objects/145ff0858209bcfc164859ba735d4199aafa1eea/server.jar"
     },
-    "sha1": "50ab6dfd1a821e91ac83974a854e94525110c1cc"
+    "sha1": "4fefc47be6c03ca9cbc9166b0faf61bf5518de25"
   },
   "1.21": {
     "libraries": [
@@ -2307,7 +2307,7 @@
       "sha1": "450698d1863ab5180c25d7c804ef0fe6369dd1ba",
       "url": "https://piston-data.mojang.com/v1/objects/450698d1863ab5180c25d7c804ef0fe6369dd1ba/server.jar"
     },
-    "sha1": "d4d3b064a57b6a551bf49cf96d4e549942e94bd4"
+    "sha1": "e565dca11d0a12a15db52ef8267b11d2c83fb42e"
   },
   "1.21.1": {
     "libraries": [
@@ -2366,7 +2366,7 @@
       "sha1": "59353fb40c36d304f2035d51e7d6e6baa98dc05c",
       "url": "https://piston-data.mojang.com/v1/objects/59353fb40c36d304f2035d51e7d6e6baa98dc05c/server.jar"
     },
-    "sha1": "66f97eaa688b20b17dafe4b95fe1ea4be404d7f5"
+    "sha1": "e93109294add23895ad9620bf2a4b602075d5e0a"
   },
   "1.21.2": {
     "libraries": [
@@ -2438,7 +2438,7 @@
       "sha1": "7bf95409b0d9b5388bfea3704ec92012d273c14c",
       "url": "https://piston-data.mojang.com/v1/objects/7bf95409b0d9b5388bfea3704ec92012d273c14c/server.jar"
     },
-    "sha1": "cad8171e5e2a80bd5def7382e0c35f5b7b6082f2"
+    "sha1": "ae503501af9e240db0e15e1abce82bc5f786032a"
   },
   "1.21.3": {
     "libraries": [
@@ -2510,7 +2510,7 @@
       "sha1": "45810d238246d90e811d896f87b14695b7fb6839",
       "url": "https://piston-data.mojang.com/v1/objects/45810d238246d90e811d896f87b14695b7fb6839/server.jar"
     },
-    "sha1": "1fd092dc700c09bca33702bea7bca97c778d498c"
+    "sha1": "85a14dbcc76a36ce73bd7348d4ce46613ea50928"
   },
   "1.21.4": {
     "libraries": [
@@ -2582,7 +2582,7 @@
       "sha1": "4707d00eb834b446575d89a61a11b5d548d8c001",
       "url": "https://piston-data.mojang.com/v1/objects/4707d00eb834b446575d89a61a11b5d548d8c001/server.jar"
     },
-    "sha1": "733839bdbdb18e206f4e0866377321265013a452"
+    "sha1": "4400b5988df20a19ecdab3cecaa6ee06db6c0a61"
   },
   "1.21.5": {
     "libraries": [
@@ -2654,7 +2654,7 @@
       "sha1": "e6ec2f64e6080b9b5d9b471b291c33cc7f509733",
       "url": "https://piston-data.mojang.com/v1/objects/e6ec2f64e6080b9b5d9b471b291c33cc7f509733/server.jar"
     },
-    "sha1": "095b1df74a3ffee4b53fec100abb50d40a42d950"
+    "sha1": "5c9348cf3ecfdd7b811dee363a75bb0c712ef5f9"
   },
   "1.3.1": {
     "libraries": [

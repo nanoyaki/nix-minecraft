@@ -115,6 +115,7 @@ def launcher_lock(build: dict[str, Any]):
 
 def get_launcher_libraries(client: requests.Session, src, version: str):
     out_link = f"result-{src['name']}"
+    # TODO: print out-link
     cmd = [
         "nix",
         "build",
@@ -235,9 +236,9 @@ if __name__ == "__main__":
     game_path = folder / "game_locks.json"
     library_path = folder / "library_locks.json"
     with (
-        open(launcher_path, "r+") as launcher_locks,
-        open(game_path, "r+") as game_locks,
-        open(library_path, "r+") as library_locks,
+        open(launcher_path, "r") as launcher_locks,
+        open(game_path, "r") as game_locks,
+        open(library_path, "r") as library_locks,
     ):
         launcher_versions = (
             {} if launcher_path.stat().st_size == 0 else json.load(launcher_locks)

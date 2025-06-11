@@ -127,6 +127,10 @@
     "sha1": "c5a0ace696d3f8b1c1d8cc036d8c03cc0cbe6b69",
     "url": "https://libraries.minecraft.net/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar"
   },
+  "com.google.errorprone:error_prone_annotations:2.18.0": {
+    "sha1": "89b684257096f548fa39a7df9fdaa409d4d4df91",
+    "url": "https://libraries.minecraft.net/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar"
+  },
   "com.google.errorprone:error_prone_annotations:2.28.0": {
     "sha1": "59fc00087ce372de42e394d2c789295dff2d19f0",
     "url": "https://maven.neoforged.net/releases/com/google/errorprone/error_prone_annotations/2.28.0/error_prone_annotations-2.28.0.jar"
@@ -190,6 +194,10 @@
   "com.google.j2objc:j2objc-annotations:1.3": {
     "sha1": "ba035118bc8bac37d7eff77700720999acd9986d",
     "url": "https://libraries.minecraft.net/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar"
+  },
+  "com.google.j2objc:j2objc-annotations:2.8": {
+    "sha1": "c85270e307e7b822f1086b93689124b89768e273",
+    "url": "https://libraries.minecraft.net/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar"
   },
   "com.google.j2objc:j2objc-annotations:3.0.0": {
     "sha1": "7399e65dd7e9ff3404f4535b2f017093bdb134c7",
@@ -1219,6 +1227,10 @@
     "sha1": "8d0077997d17a487cf655aff977ca2d3d3f04739",
     "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/1.0.16/earlydisplay-1.0.16.jar"
   },
+  "net.neoforged.fancymodloader:earlydisplay:4.0.39": {
+    "sha1": "4388fd457faa6f04f8858d92ead5f33a354693a0",
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/4.0.39/earlydisplay-4.0.39.jar"
+  },
   "net.neoforged.fancymodloader:earlydisplay:7.0.10": {
     "sha1": "b492de98200980d046ad1bdcf0020971e92b45e5",
     "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/7.0.10/earlydisplay-7.0.10.jar"
@@ -1242,6 +1254,10 @@
   "net.neoforged.fancymodloader:loader:1.0.16": {
     "sha1": "47bd8344813542922e606b034623172a8c271da6",
     "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/loader/1.0.16/loader-1.0.16.jar"
+  },
+  "net.neoforged.fancymodloader:loader:4.0.39": {
+    "sha1": "3721e43a7254e2861a63ab4a4ce716e4150d2640",
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/loader/4.0.39/loader-4.0.39.jar"
   },
   "net.neoforged.fancymodloader:loader:7.0.10": {
     "sha1": "7362b65e592213d0fce821f7d656c87c4ffe7f3d",
@@ -1347,6 +1363,10 @@
     "sha1": "2178eb0db26807ae60b0fefa97c281f992601152",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.2.93/neoforge-20.2.93-universal.jar"
   },
+  "net.neoforged:neoforge:21.1.172:universal": {
+    "sha1": "736d9d34606de7ddcbb24ee6a23c7a6bf1662388",
+    "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.172/neoforge-21.1.172-universal.jar"
+  },
   "net.neoforged:neoforge:21.5.74:universal": {
     "sha1": "1e1d95f10c8b5fd63ab7961ccd71c675b875aeaa",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.5.74/neoforge-21.5.74-universal.jar"
@@ -1362,6 +1382,10 @@
   "net.neoforged:neoform:1.20.2-20231019.002635": {
     "sha1": "ccc76c9cd813988c70b3098c6cfb3bed22395206",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoform/1.20.2-20231019.002635/neoform-1.20.2-20231019.002635.zip"
+  },
+  "net.neoforged:neoform:1.21.1-20240808.144430": {
+    "sha1": "811e2bd86fa2cda2812e5e8e51d718ea8bd6d3f4",
+    "url": "https://maven.neoforged.net/releases/net/neoforged/neoform/1.21.1-20240808.144430/neoform-1.21.1-20240808.144430.zip"
   },
   "net.neoforged:neoform:1.21.5-20250325.162830": {
     "sha1": "8885673ada0afa3a7ffed18d33b7b46e2b04aa4d",
@@ -1582,6 +1606,10 @@
   "org.checkerframework:checker-qual:3.12.0": {
     "sha1": "d5692f0526415fcc6de94bb5bfbd3afd9dd3b3e5",
     "url": "https://libraries.minecraft.net/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar"
+  },
+  "org.checkerframework:checker-qual:3.33.0": {
+    "sha1": "de2b60b62da487644fc11f734e73c8b0b431238f",
+    "url": "https://libraries.minecraft.net/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar"
   },
   "org.checkerframework:checker-qual:3.43.0": {
     "sha1": "9425eee39e56b116d2b998b7c2cebcbd11a3c98b",
