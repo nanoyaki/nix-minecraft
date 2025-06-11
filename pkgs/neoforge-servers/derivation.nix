@@ -7,6 +7,7 @@
   minecraft-server,
   runCommandLocal,
   stdenvNoCC,
+  udev,
   zip,
 
   version,
@@ -98,7 +99,8 @@ stdenvNoCC.mkDerivation rec {
       --replace-fail "-DlibraryDirectory=libraries" "-DlibraryDirectory=$out/libraries" \
       --replace-fail "libraries/" "$out/libraries/"
     makeWrapper "${jre_headless}/bin/java" "$out/bin/${meta.mainProgram}" \
-      --append-flags "@$args"
+      --append-flags "@$args" \
+      ${lib.optionalString stdenvNoCC.hostPlatform.isLinux "--prefix LD_LIBRARY_PATH : ${lib.makeLibraryPath [ udev ]}"}
   '';
 
   passthru = {
