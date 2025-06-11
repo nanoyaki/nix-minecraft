@@ -98,7 +98,7 @@ stdenvNoCC.mkDerivation rec {
       --replace-fail "-DlibraryDirectory=libraries" "-DlibraryDirectory=$out/libraries" \
       --replace-fail "libraries/" "$out/libraries/"
     makeWrapper "${jre_headless}/bin/java" "$out/bin/${meta.mainProgram}" \
-      --add-flags "@$args"
+      --append-flags "@$args"
   '';
 
   passthru = {
