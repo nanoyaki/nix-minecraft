@@ -69,7 +69,7 @@ let
 
         # add server mappings to the classpath so we can perform an offline install
         # see the result of --generate-fat
-        server_mappings="maven/minecraft/1.21.5/server_mappings.txt"
+        server_mappings="maven/minecraft/${minecraft-server.version}/server_mappings.txt"
         install -m 644 -D ${fetchurl gameVersion.mappings} "$server_mappings"
 
         zip "$installer_jar" "$server_mappings"
