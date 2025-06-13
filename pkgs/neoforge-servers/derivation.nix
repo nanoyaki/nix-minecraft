@@ -10,10 +10,9 @@
   udev,
   zip,
 
-  version,
   gameVersion,
-  installer,
-  libraries,
+  build,
+  libraryLocks,
 }:
 let
   inherit (lib)
@@ -38,10 +37,10 @@ let
     );
   mkLibrary = specifier: rec {
     name = "${specifierPath specifier}/${path.name}";
-    path = fetchurl libraries.${specifier};
+    path = fetchurl libraryLocks.${specifier};
   };
-  repository = linkFarm "neoforge${version}-libraries" (
-    (map mkLibrary (installer.libraries ++ gameVersion.libraries))
+  repository = linkFarm "neoforge${build.version}-libraries" (
+    (map mkLibrary (build.libraries ++ gameVersion.libraries))
     ++ [
       {
         name = "net/minecraft/server/${minecraft-server.version}/server-${minecraft-server.version}.jar";
@@ -49,10 +48,10 @@ let
       }
     ]
   );
-  installerDrv =
+  installer =
     let
-      name = "neoforge-${version}-installer";
-      installerSrc = fetchurl installer.src;
+      name = "neoforge-${build.version}-installer";
+      buildSrc = fetchurl build.src;
     in
     # TODO: try use mirror?
     runCommandLocal name
@@ -64,8 +63,8 @@ let
         meta.mainProgram = name;
       }
       ''
-        installer_jar="$out/lib/${installerSrc.name}"
-        install -m 644 -D "${installerSrc}" "$installer_jar"
+        installer_jar="$out/lib/${buildSrc.name}"
+        install -m 644 -D "${buildSrc}" "$installer_jar"
 
         # add server mappings to the classpath so we can perform an offline install
         # see the result of --generate-fat
@@ -81,7 +80,7 @@ let
 in
 stdenvNoCC.mkDerivation rec {
   pname = "neoforge";
-  inherit version;
+  inherit (build) version;
   dontUnpack = true;
 
   preferLocalBuild = false; # unlike other servers, the install/patching process is rather CPU intensive
@@ -91,7 +90,7 @@ stdenvNoCC.mkDerivation rec {
   buildPhase = ''
     mkdir -p $out/libraries
     cp -r --no-preserve=all ${repository}/* $out/libraries
-    ${lib.getExe installerDrv} --offline --install-server $out
+    ${lib.getExe installer} --offline --install-server $out
     # rm !($out/{bin,libraries})
 
     args="$out/libraries/net/neoforged/neoforge/${version}/unix_args.txt"
@@ -106,7 +105,7 @@ stdenvNoCC.mkDerivation rec {
   passthru = {
     inherit repository;
     libraries = repository;
-    installer = installerDrv;
+    installer = installer;
     updateScript = ./update.py;
   };
 

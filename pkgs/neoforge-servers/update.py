@@ -2,6 +2,7 @@
 #!nix-shell -i python3 shell.nix
 
 import argparse
+import concurrent.futures
 import json
 import os
 import re
@@ -22,6 +23,7 @@ MAVEN = "https://maven.neoforged.net/releases/net/neoforged/neoforge"
 
 TIMEOUT = 5
 RETRIES = 5
+THREADS = 8
 
 
 class TimeoutHTTPAdapter(HTTPAdapter):
@@ -57,8 +59,8 @@ def get_game_versions(client: requests.Session):
     return data["versions"]
 
 
-def get_launcher_versions(client: requests.Session):
-    print("Fetching launcher versions")
+def get_loader_versions(client: requests.Session):
+    print("Fetching installer versions")
     response = client.get(API)
     response.raise_for_status()
 
@@ -74,7 +76,7 @@ def get_launcher_versions(client: requests.Session):
     return versions
 
 
-def get_launcher_build(client: requests.Session, version: str):
+def get_loader_build(client: requests.Session, version: str):
     def fetchurl(url):
         hash_url = f"{url}.sha256"
         print(f"Fetching hash: {hash_url}")
@@ -84,13 +86,9 @@ def get_launcher_build(client: requests.Session, version: str):
 
     src = fetchurl(f"{MAVEN}/{version}/neoforge-{version}-installer.jar")
     return {
-        "universal": {
-            "src": fetchurl(f"{MAVEN}/{version}/neoforge-{version}-universal.jar")
-        },
-        "installer": {
-            "src": src,
-            "libraries": get_launcher_libraries(client, src, version),
-        },
+        "version": version,
+        "src": src,
+        "libraries": get_loader_libraries(client, src, version),
     }
 
 
@@ -106,14 +104,11 @@ def library_lock(library):
     )
 
 
-def launcher_lock(build: dict[str, Any]):
-    return build | {
-        "installer": build["installer"]
-        | {"libraries": sorted(build["installer"]["libraries"].keys())}
-    }
+def loader_lock(build: dict[str, Any]):
+    return build | {"libraries": sorted(build["libraries"].keys())}
 
 
-def get_launcher_libraries(client: requests.Session, src, version: str):
+def get_loader_libraries(client: requests.Session, src, version: str):
     out_link = f"result-{src['name']}"
     # TODO: print out-link
     cmd = [
@@ -164,8 +159,8 @@ def library_rules_match(library):
     return True
 
 
-def main(launcher_versions, game_versions, library_versions, version_regex, client):
-    launcher_versions = defaultdict(dict, launcher_versions)
+def main(loader_versions, game_versions, library_versions, version_regex, client):
+    loader_versions = defaultdict(dict, loader_versions)
     output = {}
     print("Starting fetch")
 
@@ -174,17 +169,11 @@ def main(launcher_versions, game_versions, library_versions, version_regex, clie
     # We need all the libraries for a given game version for forge to be happy.  This might
     # be useful to port up to build-support.
     # TODO: move to game support
-    for version in game_manifest:
-        if version["type"] != "release":
+    for game_version in game_manifest:
+        if game_version["type"] != "release":
             continue
 
-        # if (
-        #     version["id"] in game_versions
-        #     and game_versions[version["id"]]["sha1"] == version["sha1"]
-        # ):
-        #     continue
-
-        data = client.get(version["url"]).json()
+        data = client.get(game_version["url"]).json()
         libraries = []
         for library in data["libraries"]:
             if "artifact" not in library["downloads"]:
@@ -199,28 +188,40 @@ def main(launcher_versions, game_versions, library_versions, version_regex, clie
         server_mappings = data["downloads"].get("server_mappings")
         if server_mappings is not None:
             del server_mappings["size"]
-        game_versions[version["id"]] = {
-            "sha1": version["sha1"],
+        game_versions[game_version["id"]] = {
+            "sha1": game_version["sha1"],
             "server": server,
             "mappings": server_mappings,
             "libraries": sorted(libraries),
         }
 
-    launcher_manifest = get_launcher_versions(client)
-    print(launcher_manifest, sep="\n")
+    loader_manifest = get_loader_versions(client)
 
-    for version, builds in launcher_manifest.items():
+    to_fetch = []
+
+    for game_version, builds in loader_manifest.items():
         for build in builds:
             if re.match(version_regex, build) is None:
                 print("Skip fetching build", build)
                 continue
 
-            if build not in launcher_versions[version]:
-                launcher_build = get_launcher_build(client, build)
-                launcher_versions[version][build] = launcher_lock(launcher_build)
-                library_versions |= launcher_build["installer"]["libraries"]
+            if build not in loader_versions[game_version]:
+                to_fetch.append((game_version, build))
 
-    return (launcher_versions, game_versions, library_versions)
+    print(f"Fetching {len(to_fetch)} loader versions...")
+
+    def fetch_build(v):
+        game_version, build = v
+        return game_version, get_loader_build(client, build)
+
+    with concurrent.futures.ThreadPoolExecutor(max_workers=THREADS) as p:
+        for game_version, loader_build in p.map(fetch_build, to_fetch):
+            loader_versions[game_version][loader_build["version"]] = loader_lock(
+                loader_build
+            )
+            library_versions |= loader_build["libraries"]
+
+    return (loader_versions, game_versions, library_versions)
 
 
 if __name__ == "__main__":
@@ -232,16 +233,16 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     folder = Path(__file__).parent
-    launcher_path = folder / "launcher_locks.json"
+    loader_path = folder / "loader_locks.json"
     game_path = folder / "game_locks.json"
     library_path = folder / "library_locks.json"
     with (
-        open(launcher_path, "r") as launcher_locks,
+        open(loader_path, "r") as loader_locks,
         open(game_path, "r") as game_locks,
         open(library_path, "r") as library_locks,
     ):
-        launcher_versions = (
-            {} if launcher_path.stat().st_size == 0 else json.load(launcher_locks)
+        loader_versions = (
+            {} if loader_path.stat().st_size == 0 else json.load(loader_locks)
         )
         game_versions = {} if game_path.stat().st_size == 0 else json.load(game_locks)
         library_versions = (
@@ -249,17 +250,17 @@ if __name__ == "__main__":
         )
 
     with (
-        open(launcher_path, "w") as launcher_locks,
+        open(loader_path, "w") as loader_locks,
         open(game_path, "w") as game_locks,
         open(library_path, "w") as library_locks,
     ):
-        (launcher_versions, game_versions, library_versions) = main(
-            launcher_versions,
+        (loader_versions, game_versions, library_versions) = main(
+            loader_versions,
             game_versions,
             library_versions,
             args.version,
             make_client(),
         )
-        json.dump(launcher_versions, launcher_locks, indent=2, sort_keys=True)
+        json.dump(loader_versions, loader_locks, indent=2, sort_keys=True)
         json.dump(game_versions, game_locks, indent=2, sort_keys=True)
         json.dump(library_versions, library_locks, indent=2, sort_keys=True)
