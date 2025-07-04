@@ -23,7 +23,7 @@ let
   specifierPath =
     specifier:
     let
-      components = splitString ":" specifier;
+      components = builtins.match "^([^:]+):([^:]+):([^@:]+).*" specifier;
       groupId = elemAt components 0;
       artifactId = elemAt components 1;
       version = elemAt components 2;

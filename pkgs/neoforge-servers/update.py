@@ -85,7 +85,7 @@ class Libraries(TypedDict):
     runtime: Dict[str, FetchUrl]
 
 
-#  game version -> forge version
+# game version -> forge version
 LoaderLocks = Dict[str, Dict[str, VersionLock]]
 
 
@@ -222,19 +222,24 @@ def main(
         installer = fetch_installer_hash(client, version)
         return game_version, version, installer, fetch_library_hashes(installer)
 
-    with concurrent.futures.ThreadPoolExecutor(max_workers=THREADS) as p:
-        for game_version, version, src, library_srcs in p.map(fetch_build, to_fetch):
-            if game_version not in loader_versions:
-                loader_versions[game_version] = {}
-            loader_versions[game_version][version] = VersionLock(
-                libraries=VersionLockLibraries(
-                    install=sorted(library_srcs["install"].keys()),
-                    runtime=sorted(library_srcs["runtime"].keys()),
-                ),
-                src=src,
-            )
-            library_versions |= library_srcs["install"]
-            library_versions |= library_srcs["runtime"]
+    try:
+        with concurrent.futures.ThreadPoolExecutor(max_workers=THREADS) as p:
+            for game_version, version, src, library_srcs in p.map(
+                fetch_build, to_fetch
+            ):
+                if game_version not in loader_versions:
+                    loader_versions[game_version] = {}
+                loader_versions[game_version][version] = VersionLock(
+                    libraries=VersionLockLibraries(
+                        install=sorted(library_srcs["install"].keys()),
+                        runtime=sorted(library_srcs["runtime"].keys()),
+                    ),
+                    src=src,
+                )
+                library_versions |= library_srcs["install"]
+                library_versions |= library_srcs["runtime"]
+    except KeyboardInterrupt:
+        print("Cancelled fetching. Writing and exiting")
 
     return (loader_versions, mapping_versions, library_versions)
 
@@ -265,16 +270,13 @@ if __name__ == "__main__":
             {} if library_path.stat().st_size == 0 else json.load(library_locks)
         )
 
-    try:
-        (loader_versions, mapping_versions, library_versions) = main(
-            loader_versions,
-            mapping_versions,
-            library_versions,
-            args.version,
-            make_client(),
-        )
-    except KeyboardInterrupt:
-        print("Cancelled fetching. Writing and exiting")
+    (loader_versions, mapping_versions, library_versions) = main(
+        loader_versions,
+        mapping_versions,
+        library_versions,
+        args.version,
+        make_client(),
+    )
 
     with (
         open(loader_path, "w") as loader_locks,
