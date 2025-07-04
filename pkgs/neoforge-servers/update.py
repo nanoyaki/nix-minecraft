@@ -125,7 +125,7 @@ def fetch_library_hashes(src: FetchUrl) -> Libraries:
         "--out-link",
         out_link,
         "--file",
-        "fetchInstaller.nix",
+        Path(__file__).parent / "fetchInstaller.nix",
         "--argstr",
         "srcJson",
         json.dumps(src),
@@ -212,7 +212,10 @@ def main(
             if re.match(version_regex, build_version) is None:
                 print(f"Skip fetching build {build_version}: does not match pattern")
                 continue
-            if build_version not in loader_versions:
+            if (
+                game_version not in loader_versions
+                or build_version not in loader_versions[game_version]
+            ):
                 to_fetch.append((game_version, build_version))
 
     print(f"Fetching {len(to_fetch)} loader versions...")
