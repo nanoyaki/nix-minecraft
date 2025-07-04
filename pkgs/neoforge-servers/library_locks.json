@@ -1,2638 +1,2638 @@
 {
   "com.electronwill.night-config:core:3.6.4@jar": {
-    "hash": "sha1-510f174abbf1c947494db50ef2445683bd52c230",
+    "hash": "sha1-UQ8XSrvxyUdJTbUO8kRWg71SwjA=",
     "url": "https://maven.neoforged.net/releases/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
   },
   "com.electronwill.night-config:core:3.8.0": {
-    "hash": "sha1-2498dd2b3120dd49e963e2feab8fa5d0c5f80e0a",
+    "hash": "sha1-JJjdKzEg3UnpY+L+q4+l0MX4Dgo=",
     "url": "https://maven.neoforged.net/releases/com/electronwill/night-config/core/3.8.0/core-3.8.0.jar"
   },
   "com.electronwill.night-config:core:3.8.0@jar": {
-    "hash": "sha1-2498dd2b3120dd49e963e2feab8fa5d0c5f80e0a",
+    "hash": "sha1-JJjdKzEg3UnpY+L+q4+l0MX4Dgo=",
     "url": "https://maven.neoforged.net/releases/com/electronwill/night-config/core/3.8.0/core-3.8.0.jar"
   },
   "com.electronwill.night-config:core:3.8.1": {
-    "hash": "sha1-530d608fc238350f00c815d562f21a5d79939972",
+    "hash": "sha1-Uw1gj8I4NQ8AyBXVYvIaXXmTmXI=",
     "url": "https://maven.neoforged.net/releases/com/electronwill/night-config/core/3.8.1/core-3.8.1.jar"
   },
   "com.electronwill.night-config:core:3.8.2": {
-    "hash": "sha1-94eee571e1524129804d08c75f6416a3be380ad4",
+    "hash": "sha1-lO7lceFSQSmATQjHX2QWo744CtQ=",
     "url": "https://maven.neoforged.net/releases/com/electronwill/night-config/core/3.8.2/core-3.8.2.jar"
   },
   "com.electronwill.night-config:core:3.8.2@jar": {
-    "hash": "sha1-94eee571e1524129804d08c75f6416a3be380ad4",
+    "hash": "sha1-lO7lceFSQSmATQjHX2QWo744CtQ=",
     "url": "https://maven.neoforged.net/releases/com/electronwill/night-config/core/3.8.2/core-3.8.2.jar"
   },
   "com.electronwill.night-config:toml:3.6.4@jar": {
-    "hash": "sha1-51d6cefb2b55ee55ee26b16391212fb2c7dfb4f4",
+    "hash": "sha1-UdbO+ytV7lXuJrFjkSEvssfftPQ=",
     "url": "https://maven.neoforged.net/releases/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
   },
   "com.electronwill.night-config:toml:3.8.0": {
-    "hash": "sha1-861dbcf2757dd6701c98b3949198549ccb5f62ff",
+    "hash": "sha1-hh288nV91nAcmLOUkZhUnMtfYv8=",
     "url": "https://maven.neoforged.net/releases/com/electronwill/night-config/toml/3.8.0/toml-3.8.0.jar"
   },
   "com.electronwill.night-config:toml:3.8.0@jar": {
-    "hash": "sha1-861dbcf2757dd6701c98b3949198549ccb5f62ff",
+    "hash": "sha1-hh288nV91nAcmLOUkZhUnMtfYv8=",
     "url": "https://maven.neoforged.net/releases/com/electronwill/night-config/toml/3.8.0/toml-3.8.0.jar"
   },
   "com.electronwill.night-config:toml:3.8.1": {
-    "hash": "sha1-fb0731789fc50ddeb3ad43e48ef65008b777b2ec",
+    "hash": "sha1-+wcxeJ/FDd6zrUPkjvZQCLd3suw=",
     "url": "https://maven.neoforged.net/releases/com/electronwill/night-config/toml/3.8.1/toml-3.8.1.jar"
   },
   "com.electronwill.night-config:toml:3.8.2": {
-    "hash": "sha1-c128842f759692f613ea6c3ef0ef052273bbb38c",
+    "hash": "sha1-wSiEL3WWkvYT6mw+8O8FInO7s4w=",
     "url": "https://maven.neoforged.net/releases/com/electronwill/night-config/toml/3.8.2/toml-3.8.2.jar"
   },
   "com.electronwill.night-config:toml:3.8.2@jar": {
-    "hash": "sha1-c128842f759692f613ea6c3ef0ef052273bbb38c",
+    "hash": "sha1-wSiEL3WWkvYT6mw+8O8FInO7s4w=",
     "url": "https://maven.neoforged.net/releases/com/electronwill/night-config/toml/3.8.2/toml-3.8.2.jar"
   },
   "com.github.jponge:lzma-java:1.3@jar": {
-    "hash": "sha1-a25db9d4d385ccda4825ae1b47a7a61d86e595af",
+    "hash": "sha1-ol251NOFzNpIJa4bR6emHYblla8=",
     "url": "https://maven.neoforged.net/releases/com/github/jponge/lzma-java/1.3/lzma-java-1.3.jar"
   },
   "com.google.code.findbugs:jsr305:3.0.2": {
-    "hash": "sha1-25ea2e8b0c338a877313bd4672d3fe056ea78f0d",
+    "hash": "sha1-JeouiwwziodzE71GctP+BW6njw0=",
     "url": "https://libraries.minecraft.net/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar"
   },
   "com.google.code.findbugs:jsr305:3.0.2@jar": {
-    "hash": "sha1-25ea2e8b0c338a877313bd4672d3fe056ea78f0d",
+    "hash": "sha1-JeouiwwziodzE71GctP+BW6njw0=",
     "url": "https://libraries.minecraft.net/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar"
   },
   "com.google.code.gson:gson:2.10.1": {
-    "hash": "sha1-b3add478d4382b78ea20b1671390a858002feb6c",
+    "hash": "sha1-s63UeNQ4K3jqILFnE5CoWAAv62w=",
     "url": "https://libraries.minecraft.net/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar"
   },
   "com.google.code.gson:gson:2.10.1@jar": {
-    "hash": "sha1-b3add478d4382b78ea20b1671390a858002feb6c",
+    "hash": "sha1-s63UeNQ4K3jqILFnE5CoWAAv62w=",
     "url": "https://libraries.minecraft.net/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar"
   },
   "com.google.code.gson:gson:2.10@jar": {
-    "hash": "sha1-dd9b193aef96e973d5a11ab13cd17430c2e4306b",
+    "hash": "sha1-3ZsZOu+W6XPVoRqxPNF0MMLkMGs=",
     "url": "https://libraries.minecraft.net/com/google/code/gson/gson/2.10/gson-2.10.jar"
   },
   "com.google.code.gson:gson:2.11.0": {
-    "hash": "sha1-527175ca6d81050b53bdd4c457a6d6e017626b0e",
+    "hash": "sha1-UnF1ym2BBQtTvdTEV6bW4Bdiaw4=",
     "url": "https://libraries.minecraft.net/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar"
   },
   "com.google.code.gson:gson:2.8.7@jar": {
-    "hash": "sha1-69d9503ea0a40ee16f0bcdac7e3eaf83d0fa914a",
+    "hash": "sha1-adlQPqCkDuFvC82sfj6vg9D6kUo=",
     "url": "https://maven.neoforged.net/releases/com/google/code/gson/gson/2.8.7/gson-2.8.7.jar"
   },
   "com.google.code.gson:gson:2.8.9": {
-    "hash": "sha1-8a432c1d6825781e21a02db2e2c33c5fde2833b9",
+    "hash": "sha1-ikMsHWgleB4hoC2y4sM8X94oM7k=",
     "url": "https://libraries.minecraft.net/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar"
   },
   "com.google.code.gson:gson:2.8.9@jar": {
-    "hash": "sha1-8a432c1d6825781e21a02db2e2c33c5fde2833b9",
+    "hash": "sha1-ikMsHWgleB4hoC2y4sM8X94oM7k=",
     "url": "https://libraries.minecraft.net/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar"
   },
   "com.google.errorprone:error_prone_annotations:2.1.3@jar": {
-    "hash": "sha1-39b109f2cd352b2d71b52a3b5a1a9850e1dc304b",
+    "hash": "sha1-ObEJ8s01Ky1xtSo7WhqYUOHcMEs=",
     "url": "https://maven.neoforged.net/releases/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar"
   },
   "com.google.errorprone:error_prone_annotations:2.11.0@jar": {
-    "hash": "sha1-c5a0ace696d3f8b1c1d8cc036d8c03cc0cbe6b69",
+    "hash": "sha1-xaCs5pbT+LHB2MwDbYwDzAy+a2k=",
     "url": "https://libraries.minecraft.net/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar"
   },
   "com.google.errorprone:error_prone_annotations:2.18.0": {
-    "hash": "sha1-89b684257096f548fa39a7df9fdaa409d4d4df91",
+    "hash": "sha1-ibaEJXCW9Uj6Oaffn9qkCdTU35E=",
     "url": "https://libraries.minecraft.net/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar"
   },
   "com.google.errorprone:error_prone_annotations:2.18.0@jar": {
-    "hash": "sha1-89b684257096f548fa39a7df9fdaa409d4d4df91",
+    "hash": "sha1-ibaEJXCW9Uj6Oaffn9qkCdTU35E=",
     "url": "https://libraries.minecraft.net/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar"
   },
   "com.google.errorprone:error_prone_annotations:2.28.0": {
-    "hash": "sha1-59fc00087ce372de42e394d2c789295dff2d19f0",
+    "hash": "sha1-WfwACHzjct5C45TSx4kpXf8tGfA=",
     "url": "https://maven.neoforged.net/releases/com/google/errorprone/error_prone_annotations/2.28.0/error_prone_annotations-2.28.0.jar"
   },
   "com.google.guava:failureaccess:1.0.1": {
-    "hash": "sha1-1dcf1de382a0bf95a3d8b0849546c88bac1292c9",
+    "hash": "sha1-Hc8d44Kgv5Wj2LCElUbIi6wSksk=",
     "url": "https://libraries.minecraft.net/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar"
   },
   "com.google.guava:failureaccess:1.0.1@jar": {
-    "hash": "sha1-1dcf1de382a0bf95a3d8b0849546c88bac1292c9",
+    "hash": "sha1-Hc8d44Kgv5Wj2LCElUbIi6wSksk=",
     "url": "https://libraries.minecraft.net/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar"
   },
   "com.google.guava:failureaccess:1.0.2": {
-    "hash": "sha1-c4a06a64e650562f30b7bf9aaec1bfed43aca12b",
+    "hash": "sha1-xKBqZOZQVi8wt7+arsG/7UOsoSs=",
     "url": "https://libraries.minecraft.net/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar"
   },
   "com.google.guava:guava:20.0": {
-    "hash": "sha1-89507701249388e1ed5ddcf8c41f4ce1be7831ef",
+    "hash": "sha1-iVB3ASSTiOHtXdz4xB9M4b54Me8=",
     "url": "https://maven.neoforged.net/releases/com/google/guava/guava/20.0/guava-20.0.jar"
   },
   "com.google.guava:guava:20.0@jar": {
-    "hash": "sha1-89507701249388e1ed5ddcf8c41f4ce1be7831ef",
+    "hash": "sha1-iVB3ASSTiOHtXdz4xB9M4b54Me8=",
     "url": "https://maven.neoforged.net/releases/com/google/guava/guava/20.0/guava-20.0.jar"
   },
   "com.google.guava:guava:25.1-jre@jar": {
-    "hash": "sha1-6c57e4b22b44e89e548b5c9f70f0c45fe10fb0b4",
+    "hash": "sha1-bFfksitE6J5Ui1yfcPDEX+EPsLQ=",
     "url": "https://maven.neoforged.net/releases/com/google/guava/guava/25.1-jre/guava-25.1-jre.jar"
   },
   "com.google.guava:guava:31.1-jre@jar": {
-    "hash": "sha1-60458f877d055d0c9114d9e1a2efb737b4bc282c",
+    "hash": "sha1-YEWPh30FXQyRFNnhou+3N7S8KCw=",
     "url": "https://libraries.minecraft.net/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar"
   },
   "com.google.guava:guava:32.1.2-jre": {
-    "hash": "sha1-5e64ec7e056456bef3a4bc4c6fdaef71e8ab6318",
+    "hash": "sha1-XmTsfgVkVr7zpLxMb9rvceirYxg=",
     "url": "https://libraries.minecraft.net/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar"
   },
   "com.google.guava:guava:32.1.2-jre@jar": {
-    "hash": "sha1-5e64ec7e056456bef3a4bc4c6fdaef71e8ab6318",
+    "hash": "sha1-XmTsfgVkVr7zpLxMb9rvceirYxg=",
     "url": "https://libraries.minecraft.net/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar"
   },
   "com.google.guava:guava:33.3.1-jre": {
-    "hash": "sha1-852f8b363da0111e819460021ca693cacca3e8db",
+    "hash": "sha1-hS+LNj2gER6BlGACHKaTysyj6Ns=",
     "url": "https://libraries.minecraft.net/com/google/guava/guava/33.3.1-jre/guava-33.3.1-jre.jar"
   },
   "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava": {
-    "hash": "sha1-b421526c5f297295adef1c886e5246c39d4ac629",
+    "hash": "sha1-tCFSbF8pcpWt7xyIblJGw51Kxik=",
     "url": "https://libraries.minecraft.net/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"
   },
   "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava@jar": {
-    "hash": "sha1-b421526c5f297295adef1c886e5246c39d4ac629",
+    "hash": "sha1-tCFSbF8pcpWt7xyIblJGw51Kxik=",
     "url": "https://libraries.minecraft.net/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"
   },
   "com.google.j2objc:j2objc-annotations:1.1@jar": {
-    "hash": "sha1-ed28ded51a8b1c6b112568def5f4b455e6809019",
+    "hash": "sha1-7Sje1RqLHGsRJWje9fS0VeaAkBk=",
     "url": "https://maven.neoforged.net/releases/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar"
   },
   "com.google.j2objc:j2objc-annotations:1.3@jar": {
-    "hash": "sha1-ba035118bc8bac37d7eff77700720999acd9986d",
+    "hash": "sha1-ugNRGLyLrDfX7/d3AHIJmazZmG0=",
     "url": "https://libraries.minecraft.net/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar"
   },
   "com.google.j2objc:j2objc-annotations:2.8": {
-    "hash": "sha1-c85270e307e7b822f1086b93689124b89768e273",
+    "hash": "sha1-yFJw4wfnuCLxCGuTaJEkuJdo4nM=",
     "url": "https://libraries.minecraft.net/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar"
   },
   "com.google.j2objc:j2objc-annotations:2.8@jar": {
-    "hash": "sha1-c85270e307e7b822f1086b93689124b89768e273",
+    "hash": "sha1-yFJw4wfnuCLxCGuTaJEkuJdo4nM=",
     "url": "https://libraries.minecraft.net/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar"
   },
   "com.google.j2objc:j2objc-annotations:3.0.0": {
-    "hash": "sha1-7399e65dd7e9ff3404f4535b2f017093bdb134c7",
+    "hash": "sha1-c5nmXdfp/zQE9FNbLwFwk72xNMc=",
     "url": "https://libraries.minecraft.net/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar"
   },
   "com.machinezoo.noexception:noexception:1.7.1": {
-    "hash": "sha1-b65330c98e38a1f915fa54a6e5eca496505e3f0a",
+    "hash": "sha1-tlMwyY44ofkV+lSm5eykllBePwo=",
     "url": "https://maven.neoforged.net/releases/com/machinezoo/noexception/noexception/1.7.1/noexception-1.7.1.jar"
   },
   "com.machinezoo.noexception:noexception:1.7.1@jar": {
-    "hash": "sha1-b65330c98e38a1f915fa54a6e5eca496505e3f0a",
+    "hash": "sha1-tlMwyY44ofkV+lSm5eykllBePwo=",
     "url": "https://maven.neoforged.net/releases/com/machinezoo/noexception/noexception/1.7.1/noexception-1.7.1.jar"
   },
   "com.mojang:logging:1.1.1@jar": {
-    "hash": "sha1-832b8e6674a9b325a5175a3a6267dfaf34c85139",
+    "hash": "sha1-gyuOZnSpsyWlF1o6YmffrzTIUTk=",
     "url": "https://libraries.minecraft.net/com/mojang/logging/1.1.1/logging-1.1.1.jar"
   },
   "com.mojang:logging:1.2.7": {
-    "hash": "sha1-24cb95ffb0e3433fd6e844c04e68009e504ca1c0",
+    "hash": "sha1-JMuV/7DjQz/W6ETATmgAnlBMocA=",
     "url": "https://libraries.minecraft.net/com/mojang/logging/1.2.7/logging-1.2.7.jar"
   },
   "com.mojang:logging:1.2.7@jar": {
-    "hash": "sha1-24cb95ffb0e3433fd6e844c04e68009e504ca1c0",
+    "hash": "sha1-JMuV/7DjQz/W6ETATmgAnlBMocA=",
     "url": "https://libraries.minecraft.net/com/mojang/logging/1.2.7/logging-1.2.7.jar"
   },
   "com.mojang:logging:1.4.9": {
-    "hash": "sha1-275b4b0469bb089e2633b569768be913a444e5d9",
+    "hash": "sha1-J1tLBGm7CJ4mM7VpdovpE6RE5dk=",
     "url": "https://libraries.minecraft.net/com/mojang/logging/1.4.9/logging-1.4.9.jar"
   },
   "com.mojang:logging:1.5.10": {
-    "hash": "sha1-9ab1202793717af9df9c1704d0a02892067001eb",
+    "hash": "sha1-mrEgJ5NxevnfnBcE0KAokgZwAes=",
     "url": "https://libraries.minecraft.net/com/mojang/logging/1.5.10/logging-1.5.10.jar"
   },
   "com.nothome:javaxdelta:2.0.1@jar": {
-    "hash": "sha1-d4f5d077f1b15c6f67595015d69572303ad3f66d",
+    "hash": "sha1-1PXQd/GxXG9nWVAV1pVyMDrT9m0=",
     "url": "https://maven.neoforged.net/releases/com/nothome/javaxdelta/2.0.1/javaxdelta-2.0.1.jar"
   },
   "com.opencsv:opencsv:4.4": {
-    "hash": "sha1-525932a1edf46c9ca75aa9c83d31dc180c186865",
+    "hash": "sha1-Ulkyoe30bJynWqnIPTHcGAwYaGU=",
     "url": "https://maven.neoforged.net/releases/com/opencsv/opencsv/4.4/opencsv-4.4.jar"
   },
   "com.opencsv:opencsv:4.4@jar": {
-    "hash": "sha1-525932a1edf46c9ca75aa9c83d31dc180c186865",
+    "hash": "sha1-Ulkyoe30bJynWqnIPTHcGAwYaGU=",
     "url": "https://maven.neoforged.net/releases/com/opencsv/opencsv/4.4/opencsv-4.4.jar"
   },
   "commons-beanutils:commons-beanutils:1.9.3": {
-    "hash": "sha1-c845703de334ddc6b4b3cd26835458cb1cba1f3d",
+    "hash": "sha1-yEVwPeM03ca0s80mg1RYyxy6Hz0=",
     "url": "https://maven.neoforged.net/releases/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3.jar"
   },
   "commons-beanutils:commons-beanutils:1.9.3@jar": {
-    "hash": "sha1-c845703de334ddc6b4b3cd26835458cb1cba1f3d",
+    "hash": "sha1-yEVwPeM03ca0s80mg1RYyxy6Hz0=",
     "url": "https://maven.neoforged.net/releases/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3.jar"
   },
   "commons-collections:commons-collections:3.2.2": {
-    "hash": "sha1-8ad72fe39fa8c91eaaf12aadb21e0c3661fe26d5",
+    "hash": "sha1-itcv45+oyR6q8Sqtsh4MNmH+JtU=",
     "url": "https://maven.neoforged.net/releases/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar"
   },
   "commons-collections:commons-collections:3.2.2@jar": {
-    "hash": "sha1-8ad72fe39fa8c91eaaf12aadb21e0c3661fe26d5",
+    "hash": "sha1-itcv45+oyR6q8Sqtsh4MNmH+JtU=",
     "url": "https://maven.neoforged.net/releases/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar"
   },
   "commons-io:commons-io:2.11.0@jar": {
-    "hash": "sha1-a2503f302b11ebde7ebc3df41daebe0e4eea3689",
+    "hash": "sha1-olA/MCsR695+vD30Ha6+Dk7qNok=",
     "url": "https://libraries.minecraft.net/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar"
   },
   "commons-io:commons-io:2.15.1": {
-    "hash": "sha1-f11560da189ab563a5c8e351941415430e9304ea",
+    "hash": "sha1-8RVg2hiatWOlyONRlBQVQw6TBOo=",
     "url": "https://libraries.minecraft.net/commons-io/commons-io/2.15.1/commons-io-2.15.1.jar"
   },
   "commons-io:commons-io:2.15.1@jar": {
-    "hash": "sha1-f11560da189ab563a5c8e351941415430e9304ea",
+    "hash": "sha1-8RVg2hiatWOlyONRlBQVQw6TBOo=",
     "url": "https://libraries.minecraft.net/commons-io/commons-io/2.15.1/commons-io-2.15.1.jar"
   },
   "commons-io:commons-io:2.17.0": {
-    "hash": "sha1-ddcc8433eb019fb48fe25207c0278143f3e1d7e2",
+    "hash": "sha1-3cyEM+sBn7SP4lIHwCeBQ/Ph1+I=",
     "url": "https://libraries.minecraft.net/commons-io/commons-io/2.17.0/commons-io-2.17.0.jar"
   },
   "commons-io:commons-io:2.4@jar": {
-    "hash": "sha1-b1b6ea3b7e4aa4f492509a4952029cd8e48019ad",
+    "hash": "sha1-sbbqO35KpPSSUJpJUgKc2OSAGa0=",
     "url": "https://libraries.minecraft.net/commons-io/commons-io/2.4/commons-io-2.4.jar"
   },
   "commons-logging:commons-logging:1.2": {
-    "hash": "sha1-4bfc12adfe4842bf07b657f0369c4cb522955686",
+    "hash": "sha1-S/wSrf5IQr8HtlfwNpxMtSKVVoY=",
     "url": "https://libraries.minecraft.net/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"
   },
   "commons-logging:commons-logging:1.2@jar": {
-    "hash": "sha1-4bfc12adfe4842bf07b657f0369c4cb522955686",
+    "hash": "sha1-S/wSrf5IQr8HtlfwNpxMtSKVVoY=",
     "url": "https://libraries.minecraft.net/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"
   },
   "cpw.mods:bootstraplauncher:1.1.2@jar": {
-    "hash": "sha1-0c546e00443d8432cda6baa1c860346980742628",
+    "hash": "sha1-DFRuAEQ9hDLNprqhyGA0aYB0Jig=",
     "url": "https://maven.neoforged.net/releases/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
   },
   "cpw.mods:bootstraplauncher:2.0.2": {
-    "hash": "sha1-1a2d076cbc33b0520cbacd591224427b2a20047d",
+    "hash": "sha1-Gi0HbLwzsFIMus1ZEiRCeyogBH0=",
     "url": "https://maven.neoforged.net/releases/cpw/mods/bootstraplauncher/2.0.2/bootstraplauncher-2.0.2.jar"
   },
   "cpw.mods:bootstraplauncher:2.0.2@jar": {
-    "hash": "sha1-1a2d076cbc33b0520cbacd591224427b2a20047d",
+    "hash": "sha1-Gi0HbLwzsFIMus1ZEiRCeyogBH0=",
     "url": "https://maven.neoforged.net/releases/cpw/mods/bootstraplauncher/2.0.2/bootstraplauncher-2.0.2.jar"
   },
   "cpw.mods:modlauncher:10.0.9@jar": {
-    "hash": "sha1-06d9443f56f50bb85cea383686ff9c867391458b",
+    "hash": "sha1-BtlEP1b1C7hc6jg2hv+chnORRYs=",
     "url": "https://maven.neoforged.net/releases/cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar"
   },
   "cpw.mods:modlauncher:11.0.2@jar": {
-    "hash": "sha1-87260bdd037c8cca573b21850214c7def5b78bcc",
+    "hash": "sha1-hyYL3QN8jMpXOyGFAhTH3vW3i8w=",
     "url": "https://maven.neoforged.net/releases/cpw/mods/modlauncher/11.0.2/modlauncher-11.0.2.jar"
   },
   "cpw.mods:modlauncher:11.0.4": {
-    "hash": "sha1-6619d4812a3c092310d521ebc4c9503727563df7",
+    "hash": "sha1-ZhnUgSo8CSMQ1SHrxMlQNydWPfc=",
     "url": "https://maven.neoforged.net/releases/cpw/mods/modlauncher/11.0.4/modlauncher-11.0.4.jar"
   },
   "cpw.mods:modlauncher:11.0.4@jar": {
-    "hash": "sha1-6619d4812a3c092310d521ebc4c9503727563df7",
+    "hash": "sha1-ZhnUgSo8CSMQ1SHrxMlQNydWPfc=",
     "url": "https://maven.neoforged.net/releases/cpw/mods/modlauncher/11.0.4/modlauncher-11.0.4.jar"
   },
   "cpw.mods:modlauncher:11.0.5": {
-    "hash": "sha1-b8f0d49294f733fdb6173931b263553e943dc950",
+    "hash": "sha1-uPDUkpT3M/22FzkxsmNVPpQ9yVA=",
     "url": "https://maven.neoforged.net/releases/cpw/mods/modlauncher/11.0.5/modlauncher-11.0.5.jar"
   },
   "cpw.mods:securejarhandler:2.1.24@jar": {
-    "hash": "sha1-21e16217c30688d99200796f5d828ad5b671141c",
+    "hash": "sha1-IeFiF8MGiNmSAHlvXYKK1bZxFBw=",
     "url": "https://maven.neoforged.net/releases/cpw/mods/securejarhandler/2.1.24/securejarhandler-2.1.24.jar"
   },
   "cpw.mods:securejarhandler:3.0.8": {
-    "hash": "sha1-c0ef95cecd8699a0449053ac7d9c160748d902cd",
+    "hash": "sha1-wO+Vzs2GmaBEkFOsfZwWB0jZAs0=",
     "url": "https://maven.neoforged.net/releases/cpw/mods/securejarhandler/3.0.8/securejarhandler-3.0.8.jar"
   },
   "cpw.mods:securejarhandler:3.0.8@jar": {
-    "hash": "sha1-c0ef95cecd8699a0449053ac7d9c160748d902cd",
+    "hash": "sha1-wO+Vzs2GmaBEkFOsfZwWB0jZAs0=",
     "url": "https://maven.neoforged.net/releases/cpw/mods/securejarhandler/3.0.8/securejarhandler-3.0.8.jar"
   },
   "de.siegmar:fastcsv:2.0.0": {
-    "hash": "sha1-b615f26c03edeac966618b93b9ee4f4eed50aae1",
+    "hash": "sha1-thXybAPt6slmYYuTue5PTu1QquE=",
     "url": "https://maven.neoforged.net/releases/de/siegmar/fastcsv/2.0.0/fastcsv-2.0.0.jar"
   },
   "de.siegmar:fastcsv:2.0.0@jar": {
-    "hash": "sha1-b615f26c03edeac966618b93b9ee4f4eed50aae1",
+    "hash": "sha1-thXybAPt6slmYYuTue5PTu1QquE=",
     "url": "https://maven.neoforged.net/releases/de/siegmar/fastcsv/2.0.0/fastcsv-2.0.0.jar"
   },
   "net.fabricmc:sponge-mixin:0.13.0+mixin.0.8.5@jar": {
-    "hash": "sha1-3002d4fe6ba27679a51fc979e14eb051b754655a",
+    "hash": "sha1-MALU/muidnmlH8l54U6wUbdUZVo=",
     "url": "https://maven.neoforged.net/releases/net/fabricmc/sponge-mixin/0.13.0+mixin.0.8.5/sponge-mixin-0.13.0+mixin.0.8.5.jar"
   },
   "net.fabricmc:sponge-mixin:0.13.1+mixin.0.8.5@jar": {
-    "hash": "sha1-618f4dff860cf2d6b5196073b1a5f5e0a8591acb",
+    "hash": "sha1-YY9N/4YM8ta1GWBzsaX14KhZGss=",
     "url": "https://maven.neoforged.net/releases/net/fabricmc/sponge-mixin/0.13.1+mixin.0.8.5/sponge-mixin-0.13.1+mixin.0.8.5.jar"
   },
   "net.fabricmc:sponge-mixin:0.13.4+mixin.0.8.5@jar": {
-    "hash": "sha1-8adf0cff1795a169141b9e16ad7b9f6e2527a990",
+    "hash": "sha1-it8M/xeVoWkUG54WrXufbiUnqZA=",
     "url": "https://maven.neoforged.net/releases/net/fabricmc/sponge-mixin/0.13.4+mixin.0.8.5/sponge-mixin-0.13.4+mixin.0.8.5.jar"
   },
   "net.fabricmc:sponge-mixin:0.14.0+mixin.0.8.6@jar": {
-    "hash": "sha1-c265173c84346e9e5d42a2384b2b02bd39a4a899",
+    "hash": "sha1-wmUXPIQ0bp5dQqI4SysCvTmkqJk=",
     "url": "https://maven.neoforged.net/releases/net/fabricmc/sponge-mixin/0.14.0+mixin.0.8.6/sponge-mixin-0.14.0+mixin.0.8.6.jar"
   },
   "net.fabricmc:sponge-mixin:0.15.2+mixin.0.8.7": {
-    "hash": "sha1-2af2f021d8e02a0220dc27a7a72b4666d66d44ca",
+    "hash": "sha1-KvLwIdjgKgIg3CenpytGZtZtRMo=",
     "url": "https://maven.neoforged.net/releases/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar"
   },
   "net.fabricmc:sponge-mixin:0.15.2+mixin.0.8.7@jar": {
-    "hash": "sha1-2af2f021d8e02a0220dc27a7a72b4666d66d44ca",
+    "hash": "sha1-KvLwIdjgKgIg3CenpytGZtZtRMo=",
     "url": "https://maven.neoforged.net/releases/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar"
   },
   "net.jodah:typetools:0.6.3": {
-    "hash": "sha1-a01aaa6ddaea9ec07ec4f209487b7a46a526283a",
+    "hash": "sha1-oBqqbdrqnsB+xPIJSHt6RqUmKDo=",
     "url": "https://maven.neoforged.net/releases/net/jodah/typetools/0.6.3/typetools-0.6.3.jar"
   },
   "net.jodah:typetools:0.6.3@jar": {
-    "hash": "sha1-a01aaa6ddaea9ec07ec4f209487b7a46a526283a",
+    "hash": "sha1-oBqqbdrqnsB+xPIJSHt6RqUmKDo=",
     "url": "https://maven.neoforged.net/releases/net/jodah/typetools/0.6.3/typetools-0.6.3.jar"
   },
   "net.md-5:SpecialSource:1.11.0": {
-    "hash": "sha1-43b84c4bb8d01cf90a29dfeec1c958a4b64baf46",
+    "hash": "sha1-Q7hMS7jQHPkKKd/uwclYpLZLr0Y=",
     "url": "https://maven.neoforged.net/releases/net/md-5/SpecialSource/1.11.0/SpecialSource-1.11.0.jar"
   },
   "net.md-5:SpecialSource:1.11.0@jar": {
-    "hash": "sha1-43b84c4bb8d01cf90a29dfeec1c958a4b64baf46",
+    "hash": "sha1-Q7hMS7jQHPkKKd/uwclYpLZLr0Y=",
     "url": "https://maven.neoforged.net/releases/net/md-5/SpecialSource/1.11.0/SpecialSource-1.11.0.jar"
   },
   "net.minecraftforge:ForgeAutoRenamingTool:1.0.2:all@jar": {
-    "hash": "sha1-e0f193605cbb099e8cfec90cdc931bb8998254ed",
+    "hash": "sha1-4PGTYFy7CZ6M/skM3JMbuJmCVO0=",
     "url": "https://maven.neoforged.net/releases/net/minecraftforge/ForgeAutoRenamingTool/1.0.2/ForgeAutoRenamingTool-1.0.2-all.jar"
   },
   "net.minecraftforge:binarypatcher:1.1.1@jar": {
-    "hash": "sha1-23176c4f9fd7a8db961dc0b2ec32ad97ab08513c",
+    "hash": "sha1-IxdsT5/XqNuWHcCy7DKtl6sIUTw=",
     "url": "https://maven.neoforged.net/releases/net/minecraftforge/binarypatcher/1.1.1/binarypatcher-1.1.1.jar"
   },
   "net.minecraftforge:installertools:1.3.0@jar": {
-    "hash": "sha1-248be3a2b70ecf8aca430d52cbbecd4d63b077cc",
+    "hash": "sha1-JIvjorcOz4rKQw1Sy77NTWOwd8w=",
     "url": "https://maven.neoforged.net/releases/net/minecraftforge/installertools/1.3.0/installertools-1.3.0.jar"
   },
   "net.minecraftforge:jarsplitter:1.1.4@jar": {
-    "hash": "sha1-57ce2d6564c1176b23a911ef57127ff3c45bffb3",
+    "hash": "sha1-V84tZWTBF2sjqRHvVxJ/88Rb/7M=",
     "url": "https://maven.neoforged.net/releases/net/minecraftforge/jarsplitter/1.1.4/jarsplitter-1.1.4.jar"
   },
   "net.minecraftforge:srgutils:0.4.11@jar": {
-    "hash": "sha1-fbad1341ffdb47d276bbdc40ecb06da49e053e74",
+    "hash": "sha1-+60TQf/bR9J2u9xA7LBtpJ4FPnQ=",
     "url": "https://maven.neoforged.net/releases/net/minecraftforge/srgutils/0.4.11/srgutils-0.4.11.jar"
   },
   "net.minecraftforge:srgutils:0.4.15": {
-    "hash": "sha1-ca408b131759478f164e010fae0d73997e125fb5",
+    "hash": "sha1-ykCLExdZR48WTgEPrg1zmX4SX7U=",
     "url": "https://maven.neoforged.net/releases/net/minecraftforge/srgutils/0.4.15/srgutils-0.4.15.jar"
   },
   "net.minecraftforge:srgutils:0.4.15@jar": {
-    "hash": "sha1-ca408b131759478f164e010fae0d73997e125fb5",
+    "hash": "sha1-ykCLExdZR48WTgEPrg1zmX4SX7U=",
     "url": "https://maven.neoforged.net/releases/net/minecraftforge/srgutils/0.4.15/srgutils-0.4.15.jar"
   },
   "net.minecraftforge:srgutils:0.4.3@jar": {
-    "hash": "sha1-84aecb8fc78bd0dd7299bd9963ac9eb83bd00aad",
+    "hash": "sha1-hK7Lj8eL0N1ymb2ZY6yeuDvQCq0=",
     "url": "https://maven.neoforged.net/releases/net/minecraftforge/srgutils/0.4.3/srgutils-0.4.3.jar"
   },
   "net.minecraftforge:srgutils:0.5.1@jar": {
-    "hash": "sha1-2268068226f4fc241be0b4592758dc0fc8371837",
+    "hash": "sha1-ImgGgib0/CQb4LRZJ1jcD8g3GDc=",
     "url": "https://maven.neoforged.net/releases/net/minecraftforge/srgutils/0.5.1/srgutils-0.5.1.jar"
   },
   "net.minecraftforge:unsafe:0.2.0@jar": {
-    "hash": "sha1-54d7a0a5e8fdb71b973025caa46f341ae5904f39",
+    "hash": "sha1-VNegpej9txuXMCXKpG80GuWQTzk=",
     "url": "https://maven.neoforged.net/releases/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
   },
   "net.minecrell:terminalconsoleappender:1.2.0@jar": {
-    "hash": "sha1-96d02cd3b384ff015a8fef4223bcb4ccf1717c95",
+    "hash": "sha1-ltAs07OE/wFaj+9CI7y0zPFxfJU=",
     "url": "https://maven.neoforged.net/releases/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
   },
   "net.minecrell:terminalconsoleappender:1.3.0": {
-    "hash": "sha1-b562e9bb61235c9520e26282cdee71f8f802d1fc",
+    "hash": "sha1-tWLpu2EjXJUg4mKCze5x+PgC0fw=",
     "url": "https://maven.neoforged.net/releases/net/minecrell/terminalconsoleappender/1.3.0/terminalconsoleappender-1.3.0.jar"
   },
   "net.minecrell:terminalconsoleappender:1.3.0@jar": {
-    "hash": "sha1-b562e9bb61235c9520e26282cdee71f8f802d1fc",
+    "hash": "sha1-tWLpu2EjXJUg4mKCze5x+PgC0fw=",
     "url": "https://maven.neoforged.net/releases/net/minecrell/terminalconsoleappender/1.3.0/terminalconsoleappender-1.3.0.jar"
   },
   "net.neoforged.accesstransformers:at-modlauncher:10.0.1": {
-    "hash": "sha1-5aba50202aceead086bc09fbc2751c9f05cb4890",
+    "hash": "sha1-WrpQICrO6tCGvAn7wnUcnwXLSJA=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/accesstransformers/at-modlauncher/10.0.1/at-modlauncher-10.0.1.jar"
   },
   "net.neoforged.accesstransformers:at-modlauncher:10.0.1@jar": {
-    "hash": "sha1-5aba50202aceead086bc09fbc2751c9f05cb4890",
+    "hash": "sha1-WrpQICrO6tCGvAn7wnUcnwXLSJA=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/accesstransformers/at-modlauncher/10.0.1/at-modlauncher-10.0.1.jar"
   },
   "net.neoforged.accesstransformers:at-modlauncher:11.0.1": {
-    "hash": "sha1-c3bab0ab738f57325df7be7d7cb71868b775cffc",
+    "hash": "sha1-w7qwq3OPVzJd9759fLcYaLd1z/w=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/accesstransformers/at-modlauncher/11.0.1/at-modlauncher-11.0.1.jar"
   },
   "net.neoforged.accesstransformers:at-modlauncher:11.0.2": {
-    "hash": "sha1-88dea58a6e1969cfce4029bf0cc5d231f9d95107",
+    "hash": "sha1-iN6lim4Zac/OQCm/DMXSMfnZUQc=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/accesstransformers/at-modlauncher/11.0.2/at-modlauncher-11.0.2.jar"
   },
   "net.neoforged.accesstransformers:at-parser:11.0.1": {
-    "hash": "sha1-124789359511c100a88ab0ba90adc80a8fd7db36",
+    "hash": "sha1-EkeJNZURwQCoirC6kK3ICo/X2zY=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/accesstransformers/at-parser/11.0.1/at-parser-11.0.1.jar"
   },
   "net.neoforged.accesstransformers:at-parser:11.0.2": {
-    "hash": "sha1-64aae57d6d26d69543c5275181fe6971707a4e16",
+    "hash": "sha1-ZKrlfW0m1pVDxSdRgf5pcXB6ThY=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/accesstransformers/at-parser/11.0.2/at-parser-11.0.2.jar"
   },
   "net.neoforged.fancymodloader:core:1.0.16@jar": {
-    "hash": "sha1-6bab0913ca1635a8e272ef89c17befb52115a3c2",
+    "hash": "sha1-a6sJE8oWNajicu+JwXvvtSEVo8I=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/core/1.0.16/core-1.0.16.jar"
   },
   "net.neoforged.fancymodloader:earlydisplay:1.0.16@jar": {
-    "hash": "sha1-8d0077997d17a487cf655aff977ca2d3d3f04739",
+    "hash": "sha1-jQB3mX0XpIfPZVr/l3yi09PwRzk=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/1.0.16/earlydisplay-1.0.16.jar"
   },
   "net.neoforged.fancymodloader:earlydisplay:2.0.11@jar": {
-    "hash": "sha1-8bf30b88401a1e16e148ac51982fad4e5b891aa0",
+    "hash": "sha1-i/MLiEAaHhbhSKxRmC+tTluJGqA=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/2.0.11/earlydisplay-2.0.11.jar"
   },
   "net.neoforged.fancymodloader:earlydisplay:2.0.17@jar": {
-    "hash": "sha1-d6af13e1290e79c7e4501a097cdd1bd50531f5f3",
+    "hash": "sha1-1q8T4SkOecfkUBoJfN0b1QUx9fM=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/2.0.17/earlydisplay-2.0.17.jar"
   },
   "net.neoforged.fancymodloader:earlydisplay:3.0.45@jar": {
-    "hash": "sha1-fba2bb2cd007009e4daab37caa7c9149e3ded962",
+    "hash": "sha1-+6K7LNAHAJ5NqrN8qnyRSePe2WI=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/3.0.45/earlydisplay-3.0.45.jar"
   },
   "net.neoforged.fancymodloader:earlydisplay:4.0.21@jar": {
-    "hash": "sha1-6db9791ba9e498db6521b84595b191f419481432",
+    "hash": "sha1-bbl5G6nkmNtlIbhFlbGR9BlIFDI=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/4.0.21/earlydisplay-4.0.21.jar"
   },
   "net.neoforged.fancymodloader:earlydisplay:4.0.23@jar": {
-    "hash": "sha1-c9491ed7df998cf229eae9c7364ee9ab6f26bcfe",
+    "hash": "sha1-yUke19+ZjPIp6unHNk7pq28mvP4=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/4.0.23/earlydisplay-4.0.23.jar"
   },
   "net.neoforged.fancymodloader:earlydisplay:4.0.24@jar": {
-    "hash": "sha1-0c1f79ceaefcb4c79dea89e969563718a2d5157f",
+    "hash": "sha1-DB95zq78tMed6onpaVY3GKLVFX8=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/4.0.24/earlydisplay-4.0.24.jar"
   },
   "net.neoforged.fancymodloader:earlydisplay:4.0.29@jar": {
-    "hash": "sha1-1edc5420c37dde59a5c8b12a842f3ea22cd6139e",
+    "hash": "sha1-HtxUIMN93lmlyLEqhC8+oizWE54=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/4.0.29/earlydisplay-4.0.29.jar"
   },
   "net.neoforged.fancymodloader:earlydisplay:4.0.31@jar": {
-    "hash": "sha1-01aa78304adfb2e2830f6aa99d9c6bdebf0b14e0",
+    "hash": "sha1-Aap4MErfsuKDD2qpnZxr3r8LFOA=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/4.0.31/earlydisplay-4.0.31.jar"
   },
   "net.neoforged.fancymodloader:earlydisplay:4.0.34@jar": {
-    "hash": "sha1-82cbf8b7ca6a85aa66dfb205cb9bdd9fc03b3fc4",
+    "hash": "sha1-gsv4t8pqhapm37IFy5vdn8A7P8Q=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/4.0.34/earlydisplay-4.0.34.jar"
   },
   "net.neoforged.fancymodloader:earlydisplay:4.0.35@jar": {
-    "hash": "sha1-0af4b3a292c2827692f532a192adb248357652e4",
+    "hash": "sha1-CvSzopLCgnaS9TKhkq2ySDV2UuQ=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/4.0.35/earlydisplay-4.0.35.jar"
   },
   "net.neoforged.fancymodloader:earlydisplay:4.0.37@jar": {
-    "hash": "sha1-6f8837509283846bcb1ca93e5592927e492ced8f",
+    "hash": "sha1-b4g3UJKDhGvLHKk+VZKSfkks7Y8=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/4.0.37/earlydisplay-4.0.37.jar"
   },
   "net.neoforged.fancymodloader:earlydisplay:4.0.38@jar": {
-    "hash": "sha1-4b040bd68cf05bc5f6025161e4187fcfd6168241",
+    "hash": "sha1-SwQL1ozwW8X2AlFh5Bh/z9YWgkE=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/4.0.38/earlydisplay-4.0.38.jar"
   },
   "net.neoforged.fancymodloader:earlydisplay:4.0.39": {
-    "hash": "sha1-4388fd457faa6f04f8858d92ead5f33a354693a0",
+    "hash": "sha1-Q4j9RX+qbwT4hY2S6tXzOjVGk6A=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/4.0.39/earlydisplay-4.0.39.jar"
   },
   "net.neoforged.fancymodloader:earlydisplay:4.0.40": {
-    "hash": "sha1-a91508c15e097b9557ac81954ae1593e3bcd2b93",
+    "hash": "sha1-qRUIwV4Je5VXrIGVSuFZPjvNK5M=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/4.0.40/earlydisplay-4.0.40.jar"
   },
   "net.neoforged.fancymodloader:earlydisplay:4.0.41": {
-    "hash": "sha1-53dfbd387ed1b88c7d144bdb6551b7f57d5da6d7",
+    "hash": "sha1-U9+9OH7RuIx9FEvbZVG39X1dptc=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/4.0.41/earlydisplay-4.0.41.jar"
   },
   "net.neoforged.fancymodloader:earlydisplay:5.0.6": {
-    "hash": "sha1-ea8bf2329a26b6dbd854668ebd4a2df3a9559279",
+    "hash": "sha1-6ovyMpomttvYVGaOvUot86lVknk=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/5.0.6/earlydisplay-5.0.6.jar"
   },
   "net.neoforged.fancymodloader:earlydisplay:5.0.8": {
-    "hash": "sha1-e1da033bef44e55ee316725287fadd0219f3763f",
+    "hash": "sha1-4doDO+9E5V7jFnJSh/rdAhnzdj8=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/5.0.8/earlydisplay-5.0.8.jar"
   },
   "net.neoforged.fancymodloader:earlydisplay:6.0.11": {
-    "hash": "sha1-caa7da96be4843d6399d44704dff98fe4e7c93ec",
+    "hash": "sha1-yqfalr5IQ9Y5nURwTf+Y/k58k+w=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/6.0.11/earlydisplay-6.0.11.jar"
   },
   "net.neoforged.fancymodloader:earlydisplay:6.0.18": {
-    "hash": "sha1-63203c5fc5a552fc9cdd3aac7c6ada46d73fb3b1",
+    "hash": "sha1-YyA8X8WlUvyc3TqsfGraRtc/s7E=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/6.0.18/earlydisplay-6.0.18.jar"
   },
   "net.neoforged.fancymodloader:earlydisplay:7.0.10": {
-    "hash": "sha1-b492de98200980d046ad1bdcf0020971e92b45e5",
+    "hash": "sha1-tJLemCAJgNBGrRvc8AIJcekrReU=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/7.0.10/earlydisplay-7.0.10.jar"
   },
   "net.neoforged.fancymodloader:earlydisplay:7.0.13": {
-    "hash": "sha1-49c748814bab7be3bdd6cd3b83992f19353bc2af",
+    "hash": "sha1-ScdIgUure+O91s07g5kvGTU7wq8=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/7.0.13/earlydisplay-7.0.13.jar"
   },
   "net.neoforged.fancymodloader:events:1.0.16@jar": {
-    "hash": "sha1-c88fa18a63098831e4e044ea6cfd3fea37774f6b",
+    "hash": "sha1-yI+himMJiDHk4ETqbP0/6jd3T2s=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/events/1.0.16/events-1.0.16.jar"
   },
   "net.neoforged.fancymodloader:language-java:1.0.16@jar": {
-    "hash": "sha1-2ddedcd8a488fd73e3e92a59949845e9c3a7d9f2",
+    "hash": "sha1-Ld7c2KSI/XPj6SpZlJhF6cOn2fI=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/language-java/1.0.16/language-java-1.0.16.jar"
   },
   "net.neoforged.fancymodloader:language-lowcode:1.0.16@jar": {
-    "hash": "sha1-0e627c78870d4286826c4b14c0137319ff03b4e0",
+    "hash": "sha1-DmJ8eIcNQoaCbEsUwBNzGf8DtOA=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/language-lowcode/1.0.16/language-lowcode-1.0.16.jar"
   },
   "net.neoforged.fancymodloader:language-minecraft:1.0.16@jar": {
-    "hash": "sha1-c1f7785ff7fc0b18aa6d2d4056dcff4fee1b32be",
+    "hash": "sha1-wfd4X/f8CxiqbS1AVtz/T+4bMr4=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/language-minecraft/1.0.16/language-minecraft-1.0.16.jar"
   },
   "net.neoforged.fancymodloader:loader:1.0.16@jar": {
-    "hash": "sha1-47bd8344813542922e606b034623172a8c271da6",
+    "hash": "sha1-R72DRIE1QpIuYGsDRiMXKownHaY=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/loader/1.0.16/loader-1.0.16.jar"
   },
   "net.neoforged.fancymodloader:loader:2.0.11@jar": {
-    "hash": "sha1-ff20a6f088648dde3610593ffdd3331522b26fb5",
+    "hash": "sha1-/yCm8Ihkjd42EFk//dMzFSKyb7U=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/loader/2.0.11/loader-2.0.11.jar"
   },
   "net.neoforged.fancymodloader:loader:2.0.17@jar": {
-    "hash": "sha1-e187e949dea14726924c284ef8bf6d51e4c87526",
+    "hash": "sha1-4YfpSd6hRyaSTChO+L9tUeTIdSY=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/loader/2.0.17/loader-2.0.17.jar"
   },
   "net.neoforged.fancymodloader:loader:3.0.45@jar": {
-    "hash": "sha1-8e3c78a138ca5b19abec5b9687ae7cbffbb418bf",
+    "hash": "sha1-jjx4oTjKWxmr7FuWh658v/u0GL8=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/loader/3.0.45/loader-3.0.45.jar"
   },
   "net.neoforged.fancymodloader:loader:4.0.21@jar": {
-    "hash": "sha1-542029b28fb78fa571efc89644be8bbdbcd1d850",
+    "hash": "sha1-VCApso+3j6Vx78iWRL6LvbzR2FA=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/loader/4.0.21/loader-4.0.21.jar"
   },
   "net.neoforged.fancymodloader:loader:4.0.23@jar": {
-    "hash": "sha1-1603ac9e724a9bf4e3d4ae2631da629e4755111d",
+    "hash": "sha1-FgOsnnJKm/Tj1K4mMdpinkdVER0=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/loader/4.0.23/loader-4.0.23.jar"
   },
   "net.neoforged.fancymodloader:loader:4.0.24@jar": {
-    "hash": "sha1-8211b356d57387a287aa3fb1d425fdd34db6d638",
+    "hash": "sha1-ghGzVtVzh6KHqj+x1CX900221jg=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/loader/4.0.24/loader-4.0.24.jar"
   },
   "net.neoforged.fancymodloader:loader:4.0.29@jar": {
-    "hash": "sha1-d18deaf54bafe631f281d4adb5b905308e0a271e",
+    "hash": "sha1-0Y3q9Uuv5jHygdSttbkFMI4KJx4=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/loader/4.0.29/loader-4.0.29.jar"
   },
   "net.neoforged.fancymodloader:loader:4.0.31@jar": {
-    "hash": "sha1-3218703063e576c5c1f3edcccc1f3c06cb95bf48",
+    "hash": "sha1-MhhwMGPldsXB8+3MzB88BsuVv0g=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/loader/4.0.31/loader-4.0.31.jar"
   },
   "net.neoforged.fancymodloader:loader:4.0.34@jar": {
-    "hash": "sha1-800457e0f3078baa747c50590009e63df41836ec",
+    "hash": "sha1-gARX4PMHi6p0fFBZAAnmPfQYNuw=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/loader/4.0.34/loader-4.0.34.jar"
   },
   "net.neoforged.fancymodloader:loader:4.0.35@jar": {
-    "hash": "sha1-8aefd870e0dd65c88dce9ac92f763aed918bf97d",
+    "hash": "sha1-iu/YcODdZciNzprJL3Y67ZGL+X0=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/loader/4.0.35/loader-4.0.35.jar"
   },
   "net.neoforged.fancymodloader:loader:4.0.37@jar": {
-    "hash": "sha1-1a53cff96f7859868f31c0bc8517bed0eb476faa",
+    "hash": "sha1-GlPP+W94WYaPMcC8hRe+0OtHb6o=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/loader/4.0.37/loader-4.0.37.jar"
   },
   "net.neoforged.fancymodloader:loader:4.0.38@jar": {
-    "hash": "sha1-93c846ca0115811833d7f7351641f11aebf88ff4",
+    "hash": "sha1-k8hGygEVgRgz1/c1FkHxGuv4j/Q=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/loader/4.0.38/loader-4.0.38.jar"
   },
   "net.neoforged.fancymodloader:loader:4.0.39": {
-    "hash": "sha1-3721e43a7254e2861a63ab4a4ce716e4150d2640",
+    "hash": "sha1-NyHkOnJU4oYaY6tKTOcW5BUNJkA=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/loader/4.0.39/loader-4.0.39.jar"
   },
   "net.neoforged.fancymodloader:loader:4.0.40": {
-    "hash": "sha1-70824b2eff4159af9e868d103ef6f1dbaf552662",
+    "hash": "sha1-cIJLLv9BWa+eho0QPvbx269VJmI=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/loader/4.0.40/loader-4.0.40.jar"
   },
   "net.neoforged.fancymodloader:loader:4.0.41": {
-    "hash": "sha1-3aebc81b9347fa87bb629ffaed20276f2a4c944e",
+    "hash": "sha1-OuvIG5NH+oe7Yp/67SAnbypMlE4=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/loader/4.0.41/loader-4.0.41.jar"
   },
   "net.neoforged.fancymodloader:loader:5.0.6": {
-    "hash": "sha1-32ee6bd3ce410d6afc68c8e6654a966272eee582",
+    "hash": "sha1-Mu5r085BDWr8aMjmZUqWYnLu5YI=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/loader/5.0.6/loader-5.0.6.jar"
   },
   "net.neoforged.fancymodloader:loader:5.0.8": {
-    "hash": "sha1-40068add15a25d57c1ff4e8f229fb8a3a8f86f73",
+    "hash": "sha1-QAaK3RWiXVfB/06PIp+4o6j4b3M=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/loader/5.0.8/loader-5.0.8.jar"
   },
   "net.neoforged.fancymodloader:loader:6.0.11": {
-    "hash": "sha1-3ea5476a836130ec300ac20107b661a57f9ec71a",
+    "hash": "sha1-PqVHaoNhMOwwCsIBB7ZhpX+exxo=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/loader/6.0.11/loader-6.0.11.jar"
   },
   "net.neoforged.fancymodloader:loader:6.0.18": {
-    "hash": "sha1-87957873971a693e716ff29f8b94f833f23c741f",
+    "hash": "sha1-h5V4c5caaT5xb/Kfi5T4M/I8dB8=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/loader/6.0.18/loader-6.0.18.jar"
   },
   "net.neoforged.fancymodloader:loader:7.0.10": {
-    "hash": "sha1-7362b65e592213d0fce821f7d656c87c4ffe7f3d",
+    "hash": "sha1-c2K2XlkiE9D86CH31lbIfE/+fz0=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/loader/7.0.10/loader-7.0.10.jar"
   },
   "net.neoforged.fancymodloader:loader:7.0.13": {
-    "hash": "sha1-4cee6b4c62479ccd1aaf54e71f4b58d00e72ff0e",
+    "hash": "sha1-TO5rTGJHnM0ar1TnH0tY0A5y/w4=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/loader/7.0.13/loader-7.0.13.jar"
   },
   "net.neoforged.fancymodloader:spi:2.0.11@jar": {
-    "hash": "sha1-45d1ba5453107b8ba2060f190201444e2e487fc9",
+    "hash": "sha1-RdG6VFMQe4uiBg8ZAgFETi5If8k=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/spi/2.0.11/spi-2.0.11.jar"
   },
   "net.neoforged.fancymodloader:spi:2.0.17@jar": {
-    "hash": "sha1-3d3f2ed71a472bb360a38eaad565cec755696406",
+    "hash": "sha1-PT8u1xpHK7Ngo46q1WXOx1VpZAY=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/spi/2.0.17/spi-2.0.17.jar"
   },
   "net.neoforged.installertools:binarypatcher:2.1.2:fatjar": {
-    "hash": "sha1-759b63ef393ed80418ec1ea4d233cd6152d02637",
+    "hash": "sha1-dZtj7zk+2AQY7B6k0jPNYVLQJjc=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/installertools/binarypatcher/2.1.2/binarypatcher-2.1.2-fatjar.jar"
   },
   "net.neoforged.installertools:binarypatcher:2.1.2@jar": {
-    "hash": "sha1-eab75026876e127d35d41a6dc3a91c839070e2e0",
+    "hash": "sha1-6rdQJoduEn011Bptw6kcg5Bw4uA=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/installertools/binarypatcher/2.1.2/binarypatcher-2.1.2.jar"
   },
   "net.neoforged.installertools:cli-utils:2.1.2": {
-    "hash": "sha1-e5a3115eb9e299117472675946be8a72e4990ad6",
+    "hash": "sha1-5aMRXrnimRF0cmdZRr6KcuSZCtY=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/installertools/cli-utils/2.1.2/cli-utils-2.1.2.jar"
   },
   "net.neoforged.installertools:cli-utils:2.1.2@jar": {
-    "hash": "sha1-e5a3115eb9e299117472675946be8a72e4990ad6",
+    "hash": "sha1-5aMRXrnimRF0cmdZRr6KcuSZCtY=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/installertools/cli-utils/2.1.2/cli-utils-2.1.2.jar"
   },
   "net.neoforged.installertools:cli-utils:2.1.4@jar": {
-    "hash": "sha1-e18572dea4622ad9ab9540bfcf1ebf88ff0131ec",
+    "hash": "sha1-4YVy3qRiKtmrlUC/zx6/iP8BMew=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/installertools/cli-utils/2.1.4/cli-utils-2.1.4.jar"
   },
   "net.neoforged.installertools:installertools:2.1.2": {
-    "hash": "sha1-72524c0362f812d8aa4cdb4c03e9b45e2b71ae3b",
+    "hash": "sha1-clJMA2L4EtiqTNtMA+m0Xitxrjs=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/installertools/installertools/2.1.2/installertools-2.1.2.jar"
   },
   "net.neoforged.installertools:installertools:2.1.2@jar": {
-    "hash": "sha1-72524c0362f812d8aa4cdb4c03e9b45e2b71ae3b",
+    "hash": "sha1-clJMA2L4EtiqTNtMA+m0Xitxrjs=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/installertools/installertools/2.1.2/installertools-2.1.2.jar"
   },
   "net.neoforged.installertools:jarsplitter:2.1.2": {
-    "hash": "sha1-8a7916be0a0e589897beab7c839072631067e48e",
+    "hash": "sha1-inkWvgoOWJiXvqt8g5ByYxBn5I4=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/installertools/jarsplitter/2.1.2/jarsplitter-2.1.2.jar"
   },
   "net.neoforged.installertools:jarsplitter:2.1.2@jar": {
-    "hash": "sha1-8a7916be0a0e589897beab7c839072631067e48e",
+    "hash": "sha1-inkWvgoOWJiXvqt8g5ByYxBn5I4=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/installertools/jarsplitter/2.1.2/jarsplitter-2.1.2.jar"
   },
   "net.neoforged.javadoctor:gson-io:2.0.0@jar": {
-    "hash": "sha1-84f94fa83ac3218e5b89802f2deec1115c0cbaa0",
+    "hash": "sha1-hPlPqDrDIY5biYAvLe7BEVwMuqA=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/javadoctor/gson-io/2.0.0/gson-io-2.0.0.jar"
   },
   "net.neoforged.javadoctor:gson-io:2.0.17@jar": {
-    "hash": "sha1-040edf7077205615bffe214a9d250c50cd0d13de",
+    "hash": "sha1-BA7fcHcgVhW//iFKnSUMUM0NE94=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/javadoctor/gson-io/2.0.17/gson-io-2.0.17.jar"
   },
   "net.neoforged.javadoctor:spec:2.0.0@jar": {
-    "hash": "sha1-8f19d9fc4e4bd83eaad8a5309e8c849ee1234f88",
+    "hash": "sha1-jxnZ/E5L2D6q2KUwnoyEnuEjT4g=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/javadoctor/spec/2.0.0/spec-2.0.0.jar"
   },
   "net.neoforged.javadoctor:spec:2.0.17@jar": {
-    "hash": "sha1-fbe5da0da41957dccf9004014781bd8d05d16192",
+    "hash": "sha1-++XaDaQZV9zPkAQBR4G9jQXRYZI=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/javadoctor/spec/2.0.17/spec-2.0.17.jar"
   },
   "net.neoforged:AutoRenamingTool:1.0.13:all@jar": {
-    "hash": "sha1-1a208be23ed1b13d158668a602a2e08bb9ae72e0",
+    "hash": "sha1-GiCL4j7RsT0VhmimAqLgi7mucuA=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/AutoRenamingTool/1.0.13/AutoRenamingTool-1.0.13-all.jar"
   },
   "net.neoforged:AutoRenamingTool:2.0.3:all": {
-    "hash": "sha1-d9890c71b4366f886c2b1006782043a6a6816eb6",
+    "hash": "sha1-2YkMcbQ2b4hsKxAGeCBDpqaBbrY=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/AutoRenamingTool/2.0.3/AutoRenamingTool-2.0.3-all.jar"
   },
   "net.neoforged:AutoRenamingTool:2.0.3:all@jar": {
-    "hash": "sha1-d9890c71b4366f886c2b1006782043a6a6816eb6",
+    "hash": "sha1-2YkMcbQ2b4hsKxAGeCBDpqaBbrY=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/AutoRenamingTool/2.0.3/AutoRenamingTool-2.0.3-all.jar"
   },
   "net.neoforged:JarJarFileSystems:0.4.0@jar": {
-    "hash": "sha1-ef7e5716525bbe50c784a362f9393457a33e6daf",
+    "hash": "sha1-735XFlJbvlDHhKNi+Tk0V6M+ba8=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/JarJarFileSystems/0.4.0/JarJarFileSystems-0.4.0.jar"
   },
   "net.neoforged:JarJarFileSystems:0.4.1": {
-    "hash": "sha1-78f59f89defcd032ed788b151ca6a0d40ace796a",
+    "hash": "sha1-ePWfid780DLteIsVHKag1ArOeWo=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/JarJarFileSystems/0.4.1/JarJarFileSystems-0.4.1.jar"
   },
   "net.neoforged:JarJarFileSystems:0.4.1@jar": {
-    "hash": "sha1-78f59f89defcd032ed788b151ca6a0d40ace796a",
+    "hash": "sha1-ePWfid780DLteIsVHKag1ArOeWo=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/JarJarFileSystems/0.4.1/JarJarFileSystems-0.4.1.jar"
   },
   "net.neoforged:JarJarMetadata:0.4.0@jar": {
-    "hash": "sha1-06f5e5c52382d11a15f47ca030e046519e389456",
+    "hash": "sha1-BvXlxSOC0RoV9HygMOBGUZ44lFY=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/JarJarMetadata/0.4.0/JarJarMetadata-0.4.0.jar"
   },
   "net.neoforged:JarJarMetadata:0.4.1": {
-    "hash": "sha1-f8da03683dc81694556dc3e177c5e3bb77ae6fcb",
+    "hash": "sha1-+NoDaD3IFpRVbcPhd8Xju3eub8s=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/JarJarMetadata/0.4.1/JarJarMetadata-0.4.1.jar"
   },
   "net.neoforged:JarJarMetadata:0.4.1@jar": {
-    "hash": "sha1-f8da03683dc81694556dc3e177c5e3bb77ae6fcb",
+    "hash": "sha1-+NoDaD3IFpRVbcPhd8Xju3eub8s=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/JarJarMetadata/0.4.1/JarJarMetadata-0.4.1.jar"
   },
   "net.neoforged:JarJarSelector:0.4.0@jar": {
-    "hash": "sha1-122fa3fe21da1a0ace8323709197616cdb4d1416",
+    "hash": "sha1-Ei+j/iHaGgrOgyNwkZdhbNtNFBY=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/JarJarSelector/0.4.0/JarJarSelector-0.4.0.jar"
   },
   "net.neoforged:JarJarSelector:0.4.1": {
-    "hash": "sha1-fb3cc7a58af22ad2880adb98af6d518128c47dae",
+    "hash": "sha1-+zzHpYryKtKICtuYr21RgSjEfa4=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/JarJarSelector/0.4.1/JarJarSelector-0.4.1.jar"
   },
   "net.neoforged:JarJarSelector:0.4.1@jar": {
-    "hash": "sha1-fb3cc7a58af22ad2880adb98af6d518128c47dae",
+    "hash": "sha1-+zzHpYryKtKICtuYr21RgSjEfa4=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/JarJarSelector/0.4.1/JarJarSelector-0.4.1.jar"
   },
   "net.neoforged:accesstransformers:10.0.1": {
-    "hash": "sha1-fd83b5725f76eae9115e9355fa1c456a6a441400",
+    "hash": "sha1-/YO1cl926ukRXpNV+hxFampEFAA=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/accesstransformers/10.0.1/accesstransformers-10.0.1.jar"
   },
   "net.neoforged:accesstransformers:10.0.1@jar": {
-    "hash": "sha1-fd83b5725f76eae9115e9355fa1c456a6a441400",
+    "hash": "sha1-/YO1cl926ukRXpNV+hxFampEFAA=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/accesstransformers/10.0.1/accesstransformers-10.0.1.jar"
   },
   "net.neoforged:accesstransformers:11.0.1": {
-    "hash": "sha1-41c41b1cd9800f0fea16c89a5e21f83d34bd9b87",
+    "hash": "sha1-QcQbHNmADw/qFsiaXiH4PTS9m4c=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/accesstransformers/11.0.1/accesstransformers-11.0.1.jar"
   },
   "net.neoforged:accesstransformers:11.0.2": {
-    "hash": "sha1-25dcb69c78b16669935f0ab91dff830ce192379d",
+    "hash": "sha1-Jdy2nHixZmmTXwq5Hf+DDOGSN50=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/accesstransformers/11.0.2/accesstransformers-11.0.2.jar"
   },
   "net.neoforged:bus:7.2.0@jar": {
-    "hash": "sha1-03bc91f330d0e2f350ab1dbe5026a5769dc52b9a",
+    "hash": "sha1-A7yR8zDQ4vNQqx2+UCaldp3FK5o=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/bus/7.2.0/bus-7.2.0.jar"
   },
   "net.neoforged:bus:8.0.1@jar": {
-    "hash": "sha1-9df0ed904cec279eb33ca6df420f6f82706ebb4c",
+    "hash": "sha1-nfDtkEzsJ56zPKbfQg9vgnBuu0w=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/bus/8.0.1/bus-8.0.1.jar"
   },
   "net.neoforged:bus:8.0.2": {
-    "hash": "sha1-163c9ef7c4bcca6d850c34e95261b606af91fe06",
+    "hash": "sha1-Fjye98S8ym2FDDTpUmG2Bq+R/gY=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/bus/8.0.2/bus-8.0.2.jar"
   },
   "net.neoforged:bus:8.0.2@jar": {
-    "hash": "sha1-163c9ef7c4bcca6d850c34e95261b606af91fe06",
+    "hash": "sha1-Fjye98S8ym2FDDTpUmG2Bq+R/gY=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/bus/8.0.2/bus-8.0.2.jar"
   },
   "net.neoforged:bus:8.0.5": {
-    "hash": "sha1-5b2d33285ab5d1554e9798ad98c40d6ea3868bd5",
+    "hash": "sha1-Wy0zKFq10VVOl5itmMQNbqOGi9U=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/bus/8.0.5/bus-8.0.5.jar"
   },
   "net.neoforged:coremods:6.0.2@jar": {
-    "hash": "sha1-74c047103e2268ef9688db18a4df28973f962749",
+    "hash": "sha1-dMBHED4iaO+WiNsYpN8olz+WJ0k=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/coremods/6.0.2/coremods-6.0.2.jar"
   },
   "net.neoforged:coremods:6.0.4@jar": {
-    "hash": "sha1-87c17499d9fd2d5c9a220ec653f0e674fb25ccaa",
+    "hash": "sha1-h8F0mdn9LVyaIg7GU/DmdPslzKo=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/coremods/6.0.4/coremods-6.0.4.jar"
   },
   "net.neoforged:coremods:7.0.3": {
-    "hash": "sha1-09147e6f638b4272b3bd5fc8f92ad37802512c6c",
+    "hash": "sha1-CRR+b2OLQnKzvV/I+SrTeAJRLGw=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/coremods/7.0.3/coremods-7.0.3.jar"
   },
   "net.neoforged:coremods:7.0.3@jar": {
-    "hash": "sha1-09147e6f638b4272b3bd5fc8f92ad37802512c6c",
+    "hash": "sha1-CRR+b2OLQnKzvV/I+SrTeAJRLGw=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/coremods/7.0.3/coremods-7.0.3.jar"
   },
   "net.neoforged:mergetool:2.0.0:api": {
-    "hash": "sha1-52fe1949be64e3303aabaaa21e315f551db9c9f4",
+    "hash": "sha1-Uv4ZSb5k4zA6q6qiHjFfVR25yfQ=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/mergetool/2.0.0/mergetool-2.0.0-api.jar"
   },
   "net.neoforged:mergetool:2.0.0:api@jar": {
-    "hash": "sha1-52fe1949be64e3303aabaaa21e315f551db9c9f4",
+    "hash": "sha1-Uv4ZSb5k4zA6q6qiHjFfVR25yfQ=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/mergetool/2.0.0/mergetool-2.0.0-api.jar"
   },
   "net.neoforged:mergetool:2.0.3:api@jar": {
-    "hash": "sha1-1275202cbbb248f49345cf6787ce299afd9a02fb",
+    "hash": "sha1-EnUgLLuySPSTRc9nh84pmv2aAvs=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/mergetool/2.0.3/mergetool-2.0.3-api.jar"
   },
   "net.neoforged:neoforge:20.2.86:universal": {
-    "hash": "sha1-ba237d90e0c5f365743ac29c45c100aba6a12069",
+    "hash": "sha1-uiN9kODF82V0OsKcRcEAq6ahIGk=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.2.86/neoforge-20.2.86-universal.jar"
   },
   "net.neoforged:neoforge:20.2.88:universal": {
-    "hash": "sha1-8be59d468e0d7843f72650bef23464e1519f1422",
+    "hash": "sha1-i+WdRo4NeEP3JlC+8jRk4VGfFCI=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.2.88/neoforge-20.2.88-universal.jar"
   },
   "net.neoforged:neoforge:20.2.89:universal": {
-    "hash": "sha1-0f579b85d68651558273e9448b0bfb785d85c311",
+    "hash": "sha1-D1ebhdaGUVWCc+lEiwv7eF2FwxE=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.2.89/neoforge-20.2.89-universal.jar"
   },
   "net.neoforged:neoforge:20.2.90:universal": {
-    "hash": "sha1-327b16445ca67d8e7f28a58cda6bbe1bc354fe58",
+    "hash": "sha1-MnsWRFymfY5/KKWM2mu+G8NU/lg=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.2.90/neoforge-20.2.90-universal.jar"
   },
   "net.neoforged:neoforge:20.2.91:universal": {
-    "hash": "sha1-c0e6e257ed8a22c1571ac8e1c330ab2a4c96ad7a",
+    "hash": "sha1-wObiV+2KIsFXGsjhwzCrKkyWrXo=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.2.91/neoforge-20.2.91-universal.jar"
   },
   "net.neoforged:neoforge:20.2.93:universal": {
-    "hash": "sha1-2178eb0db26807ae60b0fefa97c281f992601152",
+    "hash": "sha1-IXjrDbJoB65gsP76l8KB+ZJgEVI=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.2.93/neoforge-20.2.93-universal.jar"
   },
   "net.neoforged:neoforge:20.4.167:universal": {
-    "hash": "sha1-76c90b57985377c8a78e29bff9c5be4d6eec6b11",
+    "hash": "sha1-dskLV5hTd8injim/+cW+TW7saxE=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.167/neoforge-20.4.167-universal.jar"
   },
   "net.neoforged:neoforge:20.4.169:universal": {
-    "hash": "sha1-e559db078f444a419ef7a156ca21f98d855c6369",
+    "hash": "sha1-5VnbB49ESkGe96FWyiH5jYVcY2k=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.169/neoforge-20.4.169-universal.jar"
   },
   "net.neoforged:neoforge:20.4.170:universal": {
-    "hash": "sha1-6e738c2d30c86766ec2c2db6adb5b381512ba7e1",
+    "hash": "sha1-bnOMLTDIZ2bsLC22rbWzgVErp+E=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.170/neoforge-20.4.170-universal.jar"
   },
   "net.neoforged:neoforge:20.4.171:universal": {
-    "hash": "sha1-e337451a7a0485752b4f4c4ec092490a0749ff3c",
+    "hash": "sha1-4zdFGnoEhXUrT0xOwJJJCgdJ/zw=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.171/neoforge-20.4.171-universal.jar"
   },
   "net.neoforged:neoforge:20.4.172:universal": {
-    "hash": "sha1-47c36ba1746bc221ad445736517653ec9c5067de",
+    "hash": "sha1-R8NroXRrwiGtRFc2UXZT7JxQZ94=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.172/neoforge-20.4.172-universal.jar"
   },
   "net.neoforged:neoforge:20.4.173:universal": {
-    "hash": "sha1-00a12a153ce5984d97327a1c072761dd38935582",
+    "hash": "sha1-AKEqFTzlmE2XMnocBydh3TiTVYI=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.173/neoforge-20.4.173-universal.jar"
   },
   "net.neoforged:neoforge:20.4.174:universal": {
-    "hash": "sha1-a4ac1565029a7197fc50b5c58f7ba91466a08d66",
+    "hash": "sha1-pKwVZQKacZf8ULXFj3upFGagjWY=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.174/neoforge-20.4.174-universal.jar"
   },
   "net.neoforged:neoforge:20.4.175:universal": {
-    "hash": "sha1-ae80d6cdf32517dba01dd9a023a2661ef2217ebe",
+    "hash": "sha1-roDWzfMlF9ugHdmgI6JmHvIhfr4=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.175/neoforge-20.4.175-universal.jar"
   },
   "net.neoforged:neoforge:20.4.176:universal": {
-    "hash": "sha1-e5fc35ac3bc7e313a7f7a455b687bc1bd781b7f7",
+    "hash": "sha1-5fw1rDvH4xOn96RVtoe8G9eBt/c=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.176/neoforge-20.4.176-universal.jar"
   },
   "net.neoforged:neoforge:20.4.177:universal": {
-    "hash": "sha1-cd126d15cb490459c637b7aa3ea16c8a31f8836d",
+    "hash": "sha1-zRJtFctJBFnGN7eqPqFsijH4g20=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.177/neoforge-20.4.177-universal.jar"
   },
   "net.neoforged:neoforge:20.4.178:universal": {
-    "hash": "sha1-6a74138d7bc0029dad4b91b6b5f7a5b976ff699b",
+    "hash": "sha1-anQTjXvAAp2tS5G2tfeluXb/aZs=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.178/neoforge-20.4.178-universal.jar"
   },
   "net.neoforged:neoforge:20.4.179:universal": {
-    "hash": "sha1-9acef505c33ada56ee3c5869026568780f1402d4",
+    "hash": "sha1-ms71BcM62lbuPFhpAmVoeA8UAtQ=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.179/neoforge-20.4.179-universal.jar"
   },
   "net.neoforged:neoforge:20.4.180:universal": {
-    "hash": "sha1-498117407f3c261acb6142176857d01cee26b8e4",
+    "hash": "sha1-SYEXQH88JhrLYUIXaFfQHO4muOQ=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.180/neoforge-20.4.180-universal.jar"
   },
   "net.neoforged:neoforge:20.4.181:universal": {
-    "hash": "sha1-ec3877f0911652b9464d62f33566a580cfdf7157",
+    "hash": "sha1-7Dh38JEWUrlGTWLzNWalgM/fcVc=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.181/neoforge-20.4.181-universal.jar"
   },
   "net.neoforged:neoforge:20.4.182:universal": {
-    "hash": "sha1-fc1a0213dcb9612f7e91c388794fd11c928a0b5b",
+    "hash": "sha1-/BoCE9y5YS9+kcOIeU/RHJKKC1s=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.182/neoforge-20.4.182-universal.jar"
   },
   "net.neoforged:neoforge:20.4.183:universal": {
-    "hash": "sha1-8e00709a15f2c9f3a296b92497bac20a36069d14",
+    "hash": "sha1-jgBwmhXyyfOilrkkl7rCCjYGnRQ=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.183/neoforge-20.4.183-universal.jar"
   },
   "net.neoforged:neoforge:20.4.184:universal": {
-    "hash": "sha1-271e0884eff9f345d93849ad5a8b114a06f69919",
+    "hash": "sha1-Jx4IhO/580XZOEmtWosRSgb2mRk=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.184/neoforge-20.4.184-universal.jar"
   },
   "net.neoforged:neoforge:20.4.185:universal": {
-    "hash": "sha1-b844facf21c43d781e33182861d48b3d93ab0715",
+    "hash": "sha1-uET6zyHEPXgeMxgoYdSLPZOrBxU=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.185/neoforge-20.4.185-universal.jar"
   },
   "net.neoforged:neoforge:20.4.186:universal": {
-    "hash": "sha1-f1c89d36c22fe4200fbbdeabd577fec8a7776c4e",
+    "hash": "sha1-8cidNsIv5CAPu96r1Xf+yKd3bE4=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.186/neoforge-20.4.186-universal.jar"
   },
   "net.neoforged:neoforge:20.4.187:universal": {
-    "hash": "sha1-ca4f9f34e6bbd7d920c73688c7ac8b8fe4b014de",
+    "hash": "sha1-yk+fNOa719kgxzaIx6yLj+SwFN4=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.187/neoforge-20.4.187-universal.jar"
   },
   "net.neoforged:neoforge:20.4.188:universal": {
-    "hash": "sha1-08570b741852803585423d492574f7f5017131b2",
+    "hash": "sha1-CFcLdBhSgDWFQj1JJXT39QFxMbI=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.188/neoforge-20.4.188-universal.jar"
   },
   "net.neoforged:neoforge:20.4.189:universal": {
-    "hash": "sha1-4f1968a44029f76bd7f8b1023e7fc833ee804cdc",
+    "hash": "sha1-TxlopEAp92vX+LECPn/IM+6ATNw=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.189/neoforge-20.4.189-universal.jar"
   },
   "net.neoforged:neoforge:20.4.190:universal": {
-    "hash": "sha1-d35373ab6c1e1f19841bbbaf97b3a03a9aab2a7c",
+    "hash": "sha1-01Nzq2weHxmEG7uvl7OgOpqrKnw=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.190/neoforge-20.4.190-universal.jar"
   },
   "net.neoforged:neoforge:20.4.191:universal": {
-    "hash": "sha1-612d598fd4b011af9c94eefc8830761b80f72b1c",
+    "hash": "sha1-YS1Zj9SwEa+clO78iDB2G4D3Kxw=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.191/neoforge-20.4.191-universal.jar"
   },
   "net.neoforged:neoforge:20.4.192:universal": {
-    "hash": "sha1-36e5fc36b2c4ba0738c0067bfd3fbd9f8e45a341",
+    "hash": "sha1-NuX8NrLEugc4wAZ7/T+9n45Fo0E=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.192/neoforge-20.4.192-universal.jar"
   },
   "net.neoforged:neoforge:20.4.193:universal": {
-    "hash": "sha1-ee7c0aacd0027bab9b36487e69c39cef80ea6696",
+    "hash": "sha1-7nwKrNACe6ubNkh+acOc74DqZpY=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.193/neoforge-20.4.193-universal.jar"
   },
   "net.neoforged:neoforge:20.4.194:universal": {
-    "hash": "sha1-87c7b0d7f93fbfee1f03efcc946fbfc598149430",
+    "hash": "sha1-h8ew1/k/v+4fA+/MlG+/xZgUlDA=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.194/neoforge-20.4.194-universal.jar"
   },
   "net.neoforged:neoforge:20.4.195:universal": {
-    "hash": "sha1-d8c89b07f8f7b387c55c3e59be0eee9ef2977f67",
+    "hash": "sha1-2MibB/j3s4fFXD5Zvg7unvKXf2c=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.195/neoforge-20.4.195-universal.jar"
   },
   "net.neoforged:neoforge:20.4.196:universal": {
-    "hash": "sha1-90c4ae87b509f0904dc4839b5ff3c80147e5dd4a",
+    "hash": "sha1-kMSuh7UJ8JBNxIObX/PIAUfl3Uo=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.196/neoforge-20.4.196-universal.jar"
   },
   "net.neoforged:neoforge:20.4.197:universal": {
-    "hash": "sha1-8b31465a0974fa3d5fa7ff033d2b6cfca95d8432",
+    "hash": "sha1-izFGWgl0+j1fp/8DPSts/KldhDI=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.197/neoforge-20.4.197-universal.jar"
   },
   "net.neoforged:neoforge:20.4.198:universal": {
-    "hash": "sha1-3d0d53160af4ff5dcb839c33261750781f86cc17",
+    "hash": "sha1-PQ1TFgr0/13Lg5wzJhdQeB+GzBc=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.198/neoforge-20.4.198-universal.jar"
   },
   "net.neoforged:neoforge:20.4.199:universal": {
-    "hash": "sha1-8280beb045fb677fa510c99f0eb3e8d1004e891e",
+    "hash": "sha1-goC+sEX7Z3+lEMmfDrPo0QBOiR4=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.199/neoforge-20.4.199-universal.jar"
   },
   "net.neoforged:neoforge:20.4.200:universal": {
-    "hash": "sha1-880e4d09171eff02d9a6382b8e0c0aa51bb13783",
+    "hash": "sha1-iA5NCRce/wLZpjgrjgwKpRuxN4M=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.200/neoforge-20.4.200-universal.jar"
   },
   "net.neoforged:neoforge:20.4.201:universal": {
-    "hash": "sha1-e28317a8753e5ead6e9cef0c6d1da1661d0a96b0",
+    "hash": "sha1-4oMXqHU+Xq1unO8MbR2hZh0KlrA=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.201/neoforge-20.4.201-universal.jar"
   },
   "net.neoforged:neoforge:20.4.202:universal": {
-    "hash": "sha1-4e909252142b18ee8d394eefc17fdd2dda8d2fbd",
+    "hash": "sha1-TpCSUhQrGO6NOU7vwX/dLdqNL70=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.202/neoforge-20.4.202-universal.jar"
   },
   "net.neoforged:neoforge:20.4.203:universal": {
-    "hash": "sha1-39fb4dc7c77faf086757fadcfe239dc45de5d4ac",
+    "hash": "sha1-OftNx8d/rwhnV/rc/iOdxF3l1Kw=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.203/neoforge-20.4.203-universal.jar"
   },
   "net.neoforged:neoforge:20.4.204:universal": {
-    "hash": "sha1-7909c8fd5b6c08323c3b4880055783b4355c7f49",
+    "hash": "sha1-eQnI/VtsCDI8O0iABVeDtDVcf0k=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.204/neoforge-20.4.204-universal.jar"
   },
   "net.neoforged:neoforge:20.4.205:universal": {
-    "hash": "sha1-a600fefa5b3ddcb70dde64d0009518460a71e4f2",
+    "hash": "sha1-pgD++ls93LcN3mTQAJUYRgpx5PI=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.205/neoforge-20.4.205-universal.jar"
   },
   "net.neoforged:neoforge:20.4.206:universal": {
-    "hash": "sha1-eb0b406866b5c59ae96ccfc348f86a673604a961",
+    "hash": "sha1-6wtAaGa1xZrpbM/DSPhqZzYEqWE=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.206/neoforge-20.4.206-universal.jar"
   },
   "net.neoforged:neoforge:20.4.207:universal": {
-    "hash": "sha1-cba71311b18ee76b5770ce9397d5a439b7245aa9",
+    "hash": "sha1-y6cTEbGO52tXcM6Tl9WkObckWqk=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.207/neoforge-20.4.207-universal.jar"
   },
   "net.neoforged:neoforge:20.4.208:universal": {
-    "hash": "sha1-6f179346c6ab2e54390b74da860de88892b78ef2",
+    "hash": "sha1-bxeTRsarLlQ5C3Tahg3oiJK3jvI=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.208/neoforge-20.4.208-universal.jar"
   },
   "net.neoforged:neoforge:20.4.209:universal": {
-    "hash": "sha1-105c9d5536db03c3af39819666a19d57a3dfb676",
+    "hash": "sha1-EFydVTbbA8OvOYGWZqGdV6PftnY=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.209/neoforge-20.4.209-universal.jar"
   },
   "net.neoforged:neoforge:20.4.210:universal": {
-    "hash": "sha1-e0e8d90bc6764184e331cad986b0ef645ddc8038",
+    "hash": "sha1-4OjZC8Z2QYTjMcrZhrDvZF3cgDg=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.210/neoforge-20.4.210-universal.jar"
   },
   "net.neoforged:neoforge:20.4.211:universal": {
-    "hash": "sha1-7861c33092cbddc81f69259d13d4f19bfb9c17b8",
+    "hash": "sha1-eGHDMJLL3cgfaSWdE9Txm/ucF7g=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.211/neoforge-20.4.211-universal.jar"
   },
   "net.neoforged:neoforge:20.4.212:universal": {
-    "hash": "sha1-5a93216b4858ccc5de417314105df509cef1ecce",
+    "hash": "sha1-WpMha0hYzMXeQXMUEF31Cc7x7M4=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.212/neoforge-20.4.212-universal.jar"
   },
   "net.neoforged:neoforge:20.4.213:universal": {
-    "hash": "sha1-dc1617841a0c4bab3ea7a2d29a43f3b310e9eca2",
+    "hash": "sha1-3BYXhBoMS6s+p6LSmkPzsxDp7KI=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.213/neoforge-20.4.213-universal.jar"
   },
   "net.neoforged:neoforge:20.4.214:universal": {
-    "hash": "sha1-01069721a800121a4cdf539785f1d837d7df78f6",
+    "hash": "sha1-AQaXIagAEhpM31OXhfHYN9ffePY=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.214/neoforge-20.4.214-universal.jar"
   },
   "net.neoforged:neoforge:20.4.215:universal": {
-    "hash": "sha1-0707822a6fc62234fb2fa229ca498e68225bfc65",
+    "hash": "sha1-BweCKm/GIjT7L6IpykmOaCJb/GU=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.215/neoforge-20.4.215-universal.jar"
   },
   "net.neoforged:neoforge:20.4.216:universal": {
-    "hash": "sha1-e7d9a059ed62529e402aafe9481d52d5cb62bc58",
+    "hash": "sha1-59mgWe1iUp5AKq/pSB1S1ctivFg=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.216/neoforge-20.4.216-universal.jar"
   },
   "net.neoforged:neoforge:20.4.217:universal": {
-    "hash": "sha1-937d7ec7a65fefd1484a440c551aa4bd7a495e4e",
+    "hash": "sha1-k31+x6Zf79FISkQMVRqkvXpJXk4=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.217/neoforge-20.4.217-universal.jar"
   },
   "net.neoforged:neoforge:20.4.218:universal": {
-    "hash": "sha1-3f0d7e8461621eb38ad223f7e61ac24c6ffec3ed",
+    "hash": "sha1-Pw1+hGFiHrOK0iP35hrCTG/+w+0=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.218/neoforge-20.4.218-universal.jar"
   },
   "net.neoforged:neoforge:20.4.219:universal": {
-    "hash": "sha1-edf4307aa9d4651fbd87d20ccf8a0a3a7bd48c09",
+    "hash": "sha1-7fQweqnUZR+9h9IMz4oKOnvUjAk=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.219/neoforge-20.4.219-universal.jar"
   },
   "net.neoforged:neoforge:20.4.221:universal": {
-    "hash": "sha1-52523544239a5c024f8a9e46741d9e322722ea11",
+    "hash": "sha1-UlI1RCOaXAJPip5GdB2eMici6hE=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.221/neoforge-20.4.221-universal.jar"
   },
   "net.neoforged:neoforge:20.4.222:universal": {
-    "hash": "sha1-e9089781aa2fdc496fcc6d995a115e9e260b4ee4",
+    "hash": "sha1-6QiXgaov3ElvzG2ZWhFeniYLTuQ=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.222/neoforge-20.4.222-universal.jar"
   },
   "net.neoforged:neoforge:20.4.223:universal": {
-    "hash": "sha1-ec3015d485993c09045ab3ddd0b5e0c3b49f2586",
+    "hash": "sha1-7DAV1IWZPAkEWrPd0LXgw7SfJYY=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.223/neoforge-20.4.223-universal.jar"
   },
   "net.neoforged:neoforge:20.4.224:universal": {
-    "hash": "sha1-695b87179ea8e7579994067c36529ede9cdc8648",
+    "hash": "sha1-aVuHF56o51eZlAZ8NlKe3pzchkg=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.224/neoforge-20.4.224-universal.jar"
   },
   "net.neoforged:neoforge:20.4.225:universal": {
-    "hash": "sha1-470bd066f41b6c2ad8ac9659218cf2069d3f9099",
+    "hash": "sha1-RwvQZvQbbCrYrJZZIYzyBp0/kJk=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.225/neoforge-20.4.225-universal.jar"
   },
   "net.neoforged:neoforge:20.4.226:universal": {
-    "hash": "sha1-88496c86f9cb380cd40e854ebc04bce881300c4d",
+    "hash": "sha1-iElshvnLOAzUDoVOvAS86IEwDE0=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.226/neoforge-20.4.226-universal.jar"
   },
   "net.neoforged:neoforge:20.4.227:universal": {
-    "hash": "sha1-a54f777ea9b7863e9637b77cdb5b534b75da6944",
+    "hash": "sha1-pU93fqm3hj6WN7d821tTS3XaaUQ=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.227/neoforge-20.4.227-universal.jar"
   },
   "net.neoforged:neoforge:20.4.228:universal": {
-    "hash": "sha1-4845462c2fa5221cbdd9e22e2fd0788864f0e034",
+    "hash": "sha1-SEVGLC+lIhy92eIuL9B4iGTw4DQ=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.228/neoforge-20.4.228-universal.jar"
   },
   "net.neoforged:neoforge:20.4.229:universal": {
-    "hash": "sha1-cbc02376e1bab10bb3af33777c67a1a56148c343",
+    "hash": "sha1-y8AjduG6sQuzrzN3fGehpWFIw0M=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.229/neoforge-20.4.229-universal.jar"
   },
   "net.neoforged:neoforge:20.4.230:universal": {
-    "hash": "sha1-53e2131c46ce1dc0ef2d0502090ea8dcbc4a3f31",
+    "hash": "sha1-U+ITHEbOHcDvLQUCCQ6o3LxKPzE=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.230/neoforge-20.4.230-universal.jar"
   },
   "net.neoforged:neoforge:20.4.231:universal": {
-    "hash": "sha1-dac2b0193a53a1009b697df47012c992ed0093dc",
+    "hash": "sha1-2sKwGTpToQCbaX30cBLJku0Ak9w=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.231/neoforge-20.4.231-universal.jar"
   },
   "net.neoforged:neoforge:20.4.232:universal": {
-    "hash": "sha1-33d480dedbd476555c9650baee9d259481847f82",
+    "hash": "sha1-M9SA3tvUdlVcllC67p0llIGEf4I=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.232/neoforge-20.4.232-universal.jar"
   },
   "net.neoforged:neoforge:20.4.233:universal": {
-    "hash": "sha1-b41716a2240f32154ac9c50e38dd4be96e8669fa",
+    "hash": "sha1-tBcWoiQPMhVKycUOON1L6W6Gafo=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.233/neoforge-20.4.233-universal.jar"
   },
   "net.neoforged:neoforge:20.4.234:universal": {
-    "hash": "sha1-f63bfb9ca64d7970ae09c29a9f25d2b889301a07",
+    "hash": "sha1-9jv7nKZNeXCuCcKanyXSuIkwGgc=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.234/neoforge-20.4.234-universal.jar"
   },
   "net.neoforged:neoforge:20.4.235:universal": {
-    "hash": "sha1-754121d63616658540d8425940a636537aedec2d",
+    "hash": "sha1-dUEh1jYWZYVA2EJZQKY2U3rt7C0=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.235/neoforge-20.4.235-universal.jar"
   },
   "net.neoforged:neoforge:20.4.236:universal": {
-    "hash": "sha1-70186ec5112ed3cafcc26eeb32d2366de159a1a0",
+    "hash": "sha1-cBhuxREu08r8wm7rMtI2beFZoaA=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.236/neoforge-20.4.236-universal.jar"
   },
   "net.neoforged:neoforge:20.4.237:universal": {
-    "hash": "sha1-63b7928d51b9edd9d550a411191766ba97f47a51",
+    "hash": "sha1-Y7eSjVG57dnVUKQRGRdmupf0elE=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.237/neoforge-20.4.237-universal.jar"
   },
   "net.neoforged:neoforge:20.4.238:universal": {
-    "hash": "sha1-c651c29e040576251cadc5b3f8e220778a54b865",
+    "hash": "sha1-xlHCngQFdiUcrcWz+OIgd4pUuGU=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.238/neoforge-20.4.238-universal.jar"
   },
   "net.neoforged:neoforge:20.4.239:universal": {
-    "hash": "sha1-f1f86c773d8e2f3602d9cab34e8c1bf5a4938bb9",
+    "hash": "sha1-8fhsdz2OLzYC2cqzTowb9aSTi7k=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.239/neoforge-20.4.239-universal.jar"
   },
   "net.neoforged:neoforge:20.4.240:universal": {
-    "hash": "sha1-3b7f2173a885afd969faaf890d724c392fa54e3b",
+    "hash": "sha1-O38hc6iFr9lp+q+JDXJMOS+lTjs=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.240/neoforge-20.4.240-universal.jar"
   },
   "net.neoforged:neoforge:20.4.241:universal": {
-    "hash": "sha1-51d4efe3c22984eba2f4675796ba1e747d48237d",
+    "hash": "sha1-UdTv48IphOui9GdXlroedH1II30=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.241/neoforge-20.4.241-universal.jar"
   },
   "net.neoforged:neoforge:20.4.242:universal": {
-    "hash": "sha1-8640566ce421b05bbf526f777435e70e03337cb6",
+    "hash": "sha1-hkBWbOQhsFu/Um93dDXnDgMzfLY=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.242/neoforge-20.4.242-universal.jar"
   },
   "net.neoforged:neoforge:20.4.243:universal": {
-    "hash": "sha1-05235628bedd996d4173af394f404e23f1d986e0",
+    "hash": "sha1-BSNWKL7dmW1Bc685T0BOI/HZhuA=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.243/neoforge-20.4.243-universal.jar"
   },
   "net.neoforged:neoforge:20.4.244:universal": {
-    "hash": "sha1-6061a0c2a6c594301400de7ddc51402bcd803f9c",
+    "hash": "sha1-YGGgwqbFlDAUAN593FFAK82AP5w=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.244/neoforge-20.4.244-universal.jar"
   },
   "net.neoforged:neoforge:20.4.245:universal": {
-    "hash": "sha1-39adbcb45f71cf63f29e41cacefc26b889e65a5f",
+    "hash": "sha1-Oa28tF9xz2PynkHKzvwmuInmWl8=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.245/neoforge-20.4.245-universal.jar"
   },
   "net.neoforged:neoforge:20.4.246:universal": {
-    "hash": "sha1-f4394d7e0bee5239119019bf2e5ac5e4ca945ecb",
+    "hash": "sha1-9DlNfgvuUjkRkBm/LlrF5MqUXss=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.246/neoforge-20.4.246-universal.jar"
   },
   "net.neoforged:neoforge:20.4.247:universal": {
-    "hash": "sha1-2079a55465ad5250574e062aaa2a9a1d222433a9",
+    "hash": "sha1-IHmlVGWtUlBXTgYqqiqaHSIkM6k=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.247/neoforge-20.4.247-universal.jar"
   },
   "net.neoforged:neoforge:20.4.248:universal": {
-    "hash": "sha1-4ffafd3f8aac25a338b171597581975f0e7fb4c4",
+    "hash": "sha1-T/r9P4qsJaM4sXFZdYGXXw5/tMQ=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.248/neoforge-20.4.248-universal.jar"
   },
   "net.neoforged:neoforge:20.6.115:universal": {
-    "hash": "sha1-d94ed1288494c4f0a834f5990fced9fc3507251e",
+    "hash": "sha1-2U7RKISUxPCoNPWZD87Z/DUHJR4=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.6.115/neoforge-20.6.115-universal.jar"
   },
   "net.neoforged:neoforge:20.6.116:universal": {
-    "hash": "sha1-3c5513a0496024ddbe8e144e9e338bd6e3b39d02",
+    "hash": "sha1-PFUToElgJN2+jhROnjOL1uOznQI=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.6.116/neoforge-20.6.116-universal.jar"
   },
   "net.neoforged:neoforge:20.6.117:universal": {
-    "hash": "sha1-a207c3fd76d46cc10ec9b503921ae1b2113abb82",
+    "hash": "sha1-ogfD/XbUbMEOybUDkhrhshE6u4I=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.6.117/neoforge-20.6.117-universal.jar"
   },
   "net.neoforged:neoforge:20.6.118:universal": {
-    "hash": "sha1-38f6add9214b6089ecc2b209b160b9b1b17df745",
+    "hash": "sha1-OPat2SFLYInswrIJsWC5sbF990U=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.6.118/neoforge-20.6.118-universal.jar"
   },
   "net.neoforged:neoforge:20.6.119:universal": {
-    "hash": "sha1-2db7fc8d512caa1b88b45660e69f96bc1f275726",
+    "hash": "sha1-Lbf8jVEsqhuItFZg5p+WvB8nVyY=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.6.119/neoforge-20.6.119-universal.jar"
   },
   "net.neoforged:neoforge:20.6.120:universal": {
-    "hash": "sha1-0928690cf9c4571e8f00a68362ed3f5cb41ebafe",
+    "hash": "sha1-CShpDPnEVx6PAKaDYu0/XLQeuv4=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.6.120/neoforge-20.6.120-universal.jar"
   },
   "net.neoforged:neoforge:20.6.121:universal": {
-    "hash": "sha1-fbafa215db7ff200256354bfcd2f866e5fceff3c",
+    "hash": "sha1-+6+iFdt/8gAlY1S/zS+Gbl/O/zw=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.6.121/neoforge-20.6.121-universal.jar"
   },
   "net.neoforged:neoforge:20.6.122:universal": {
-    "hash": "sha1-51d0c6f7de6bff5ab989750a6706ffbfe67ef6d3",
+    "hash": "sha1-UdDG995r/1q5iXUKZwb/v+Z+9tM=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.6.122/neoforge-20.6.122-universal.jar"
   },
   "net.neoforged:neoforge:20.6.123:universal": {
-    "hash": "sha1-8f86e1cd310c786416de8b80a2c3b437ff5bfe6b",
+    "hash": "sha1-j4bhzTEMeGQW3ouAosO0N/9b/ms=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.6.123/neoforge-20.6.123-universal.jar"
   },
   "net.neoforged:neoforge:20.6.124:universal": {
-    "hash": "sha1-e96faecb157898947aa5b9fa1f78073c1c00497d",
+    "hash": "sha1-6W+uyxV4mJR6pbn6H3gHPBwASX0=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.6.124/neoforge-20.6.124-universal.jar"
   },
   "net.neoforged:neoforge:20.6.125:universal": {
-    "hash": "sha1-103f824a2e9b5b0a18aea6541fd33665a9aba057",
+    "hash": "sha1-ED+CSi6bWwoYrqZUH9M2ZamroFc=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.6.125/neoforge-20.6.125-universal.jar"
   },
   "net.neoforged:neoforge:20.6.127:universal": {
-    "hash": "sha1-a691bd8cefb94210c0a22816006858e049df26af",
+    "hash": "sha1-ppG9jO+5QhDAoigWAGhY4EnfJq8=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.6.127/neoforge-20.6.127-universal.jar"
   },
   "net.neoforged:neoforge:20.6.128:universal": {
-    "hash": "sha1-28a11c21d4f6e9b3a56c2efb0bc64291a6579799",
+    "hash": "sha1-KKEcIdT26bOlbC77C8ZCkaZXl5k=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.6.128/neoforge-20.6.128-universal.jar"
   },
   "net.neoforged:neoforge:20.6.129:universal": {
-    "hash": "sha1-b51061d45a8b7f9bf98a379941692a613c09b1db",
+    "hash": "sha1-tRBh1FqLf5v5ijeZQWkqYTwJsds=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.6.129/neoforge-20.6.129-universal.jar"
   },
   "net.neoforged:neoforge:20.6.130:universal": {
-    "hash": "sha1-ba6d08c11c8fe77f3ce53c10272b6822d4373a4d",
+    "hash": "sha1-um0IwRyP53885TwQJytoItQ3Ok0=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.6.130/neoforge-20.6.130-universal.jar"
   },
   "net.neoforged:neoforge:20.6.131:universal": {
-    "hash": "sha1-433d3d97cfe4d3afd913cf86386af5a172871b88",
+    "hash": "sha1-Qz09l8/k06/ZE8+GOGr1oXKHG4g=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.6.131/neoforge-20.6.131-universal.jar"
   },
   "net.neoforged:neoforge:20.6.132:universal": {
-    "hash": "sha1-94cda07f85e620122369cd924124b667700718ef",
+    "hash": "sha1-lM2gf4XmIBIjac2SQSS2Z3AHGO8=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.6.132/neoforge-20.6.132-universal.jar"
   },
   "net.neoforged:neoforge:20.6.133:universal": {
-    "hash": "sha1-f2a1e512f7371aa63be838594105509d4cb19cbd",
+    "hash": "sha1-8qHlEvc3GqY76DhZQQVQnUyxnL0=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.6.133/neoforge-20.6.133-universal.jar"
   },
   "net.neoforged:neoforge:20.6.134:universal": {
-    "hash": "sha1-fe84fe3b9f9e4747e37703e79a72fa9c20f9e936",
+    "hash": "sha1-/oT+O5+eR0fjdwPnmnL6nCD56TY=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.6.134/neoforge-20.6.134-universal.jar"
   },
   "net.neoforged:neoforge:20.6.135:universal": {
-    "hash": "sha1-0ab4cef3429a7b51df3d92cbf7619eff58d8e6e0",
+    "hash": "sha1-CrTO80Kae1HfPZLL92Ge/1jY5uA=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.6.135/neoforge-20.6.135-universal.jar"
   },
   "net.neoforged:neoforge:21.0.143:universal": {
-    "hash": "sha1-85cf2b3f955a46444c9c9e0d8d0dd32b52152079",
+    "hash": "sha1-hc8rP5VaRkRMnJ4NjQ3TK1IVIHk=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.0.143/neoforge-21.0.143-universal.jar"
   },
   "net.neoforged:neoforge:21.0.144:universal": {
-    "hash": "sha1-0552e44afecb94f842f3f00c059371121ac15a2a",
+    "hash": "sha1-BVLkSv7LlPhC8/AMBZNxEhrBWio=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.0.144/neoforge-21.0.144-universal.jar"
   },
   "net.neoforged:neoforge:21.0.145:universal": {
-    "hash": "sha1-47b2a8f8df183cb8d853fffe3c2c9d244e3079f0",
+    "hash": "sha1-R7Ko+N8YPLjYU//+PCydJE4wefA=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.0.145/neoforge-21.0.145-universal.jar"
   },
   "net.neoforged:neoforge:21.0.146:universal": {
-    "hash": "sha1-a4ebd40a33465c885a2f0aff10389faff554c303",
+    "hash": "sha1-pOvUCjNGXIhaLwr/EDifr/VUwwM=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.0.146/neoforge-21.0.146-universal.jar"
   },
   "net.neoforged:neoforge:21.0.147:universal": {
-    "hash": "sha1-2111b4cb9db5feea4049e75910bbc4a5e049a04e",
+    "hash": "sha1-IRG0y521/upASedZELvEpeBJoE4=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.0.147/neoforge-21.0.147-universal.jar"
   },
   "net.neoforged:neoforge:21.0.148:universal": {
-    "hash": "sha1-14fe891251254d2331ef8837c192be4c21037ade",
+    "hash": "sha1-FP6JElElTSMx74g3wZK+TCEDet4=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.0.148/neoforge-21.0.148-universal.jar"
   },
   "net.neoforged:neoforge:21.0.149:universal": {
-    "hash": "sha1-a61d86b0e198ab46064beffea392e8d64c1dddd8",
+    "hash": "sha1-ph2GsOGYq0YGS+/+o5Lo1kwd3dg=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.0.149/neoforge-21.0.149-universal.jar"
   },
   "net.neoforged:neoforge:21.0.150:universal": {
-    "hash": "sha1-07b27692a424362d5529a4b5413f926d0291ffd5",
+    "hash": "sha1-B7J2kqQkNi1VKaS1QT+SbQKR/9U=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.0.150/neoforge-21.0.150-universal.jar"
   },
   "net.neoforged:neoforge:21.0.151:universal": {
-    "hash": "sha1-9e9ea7dccb824e7fe97743185536a463d0ae4f12",
+    "hash": "sha1-np6n3MuCTn/pd0MYVTakY9CuTxI=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.0.151/neoforge-21.0.151-universal.jar"
   },
   "net.neoforged:neoforge:21.0.152:universal": {
-    "hash": "sha1-8facff33f0141e87c2b20a8bad779783dca6907b",
+    "hash": "sha1-j6z/M/AUHofCsgqLrXeXg9ymkHs=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.0.152/neoforge-21.0.152-universal.jar"
   },
   "net.neoforged:neoforge:21.0.153:universal": {
-    "hash": "sha1-7fc7037a290dc6128c313e08805f024ebc69909d",
+    "hash": "sha1-f8cDeikNxhKMMT4IgF8CTrxpkJ0=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.0.153/neoforge-21.0.153-universal.jar"
   },
   "net.neoforged:neoforge:21.0.154:universal": {
-    "hash": "sha1-509d6591d83482dd069eff8b99183bde113759bb",
+    "hash": "sha1-UJ1lkdg0gt0Gnv+LmRg73hE3Wbs=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.0.154/neoforge-21.0.154-universal.jar"
   },
   "net.neoforged:neoforge:21.0.157:universal": {
-    "hash": "sha1-5f314dd71bb01f7ff25862eff9894f3d0288adaa",
+    "hash": "sha1-XzFN1xuwH3/yWGLv+YlPPQKIrao=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.0.157/neoforge-21.0.157-universal.jar"
   },
   "net.neoforged:neoforge:21.0.158:universal": {
-    "hash": "sha1-8a479416987fc9a03910a262623ebec4928453c1",
+    "hash": "sha1-ikeUFph/yaA5EKJiYj6+xJKEU8E=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.0.158/neoforge-21.0.158-universal.jar"
   },
   "net.neoforged:neoforge:21.0.159:universal": {
-    "hash": "sha1-e486bcea5feaa148ad4008e77f492419e37e8ebf",
+    "hash": "sha1-5Ia86l/qoUitQAjnf0kkGeN+jr8=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.0.159/neoforge-21.0.159-universal.jar"
   },
   "net.neoforged:neoforge:21.0.160:universal": {
-    "hash": "sha1-9983fe768cc4a15479ca49d0dd9df4e174fcf2fa",
+    "hash": "sha1-mYP+dozEoVR5yknQ3Z304XT88vo=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.0.160/neoforge-21.0.160-universal.jar"
   },
   "net.neoforged:neoforge:21.0.161:universal": {
-    "hash": "sha1-599c0b906fcdf4755909be7009e872821c4c6bb9",
+    "hash": "sha1-WZwLkG/N9HVZCb5wCehyghxMa7k=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.0.161/neoforge-21.0.161-universal.jar"
   },
   "net.neoforged:neoforge:21.0.162:universal": {
-    "hash": "sha1-68863af222ee26ae586d031e95da5eb9aa448d68",
+    "hash": "sha1-aIY68iLuJq5YbQMeldpeuapEjWg=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.0.162/neoforge-21.0.162-universal.jar"
   },
   "net.neoforged:neoforge:21.0.163:universal": {
-    "hash": "sha1-62e2a4b5eaf999854ea6ea4eca5274713a291ce0",
+    "hash": "sha1-YuKkter5mYVOpupOylJ0cTopHOA=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.0.163/neoforge-21.0.163-universal.jar"
   },
   "net.neoforged:neoforge:21.0.164:universal": {
-    "hash": "sha1-19040b7020df066a8ffd00b6e6045568d0e756ad",
+    "hash": "sha1-GQQLcCDfBmqP/QC25gRVaNDnVq0=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.0.164/neoforge-21.0.164-universal.jar"
   },
   "net.neoforged:neoforge:21.0.165:universal": {
-    "hash": "sha1-b463a5a8b6aaf1193473a1fc5e374270612e2686",
+    "hash": "sha1-tGOlqLaq8Rk0c6H8XjdCcGEuJoY=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.0.165/neoforge-21.0.165-universal.jar"
   },
   "net.neoforged:neoforge:21.0.166:universal": {
-    "hash": "sha1-8445190121a73062526fe45c97af56da5249b622",
+    "hash": "sha1-hEUZASGnMGJSb+Rcl69W2lJJtiI=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.0.166/neoforge-21.0.166-universal.jar"
   },
   "net.neoforged:neoforge:21.0.167:universal": {
-    "hash": "sha1-3e661c12325fa1589f47a833b3d690b1d1d2fbdc",
+    "hash": "sha1-PmYcEjJfoVifR6gzs9aQsdHS+9w=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.0.167/neoforge-21.0.167-universal.jar"
   },
   "net.neoforged:neoforge:21.1.100:universal": {
-    "hash": "sha1-94f651b78a250cb823f84fe9694fbad27c259eff",
+    "hash": "sha1-lPZRt4olDLgj+E/paU+60nwlnv8=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.100/neoforge-21.1.100-universal.jar"
   },
   "net.neoforged:neoforge:21.1.101:universal": {
-    "hash": "sha1-aaf8949278e7c679d8dec5136fc72dbb45201cde",
+    "hash": "sha1-qviUknjnxnnY3sUTb8ctu0UgHN4=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.101/neoforge-21.1.101-universal.jar"
   },
   "net.neoforged:neoforge:21.1.102:universal": {
-    "hash": "sha1-091257ccb3b6b68aa29e0ad20b48b65c7d113d0d",
+    "hash": "sha1-CRJXzLO2toqingrSC0i2XH0RPQ0=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.102/neoforge-21.1.102-universal.jar"
   },
   "net.neoforged:neoforge:21.1.103:universal": {
-    "hash": "sha1-abfb60b91fe4c850f90599b333e2cd8d23ce363a",
+    "hash": "sha1-q/tguR/kyFD5BZmzM+LNjSPONjo=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.103/neoforge-21.1.103-universal.jar"
   },
   "net.neoforged:neoforge:21.1.104:universal": {
-    "hash": "sha1-83393526f72581f6fb8b1f6fe53430266d419491",
+    "hash": "sha1-gzk1Jvclgfb7ix9v5TQwJm1BlJE=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.104/neoforge-21.1.104-universal.jar"
   },
   "net.neoforged:neoforge:21.1.105:universal": {
-    "hash": "sha1-54f203dacf3c09c74300bfe94ee7a981350db912",
+    "hash": "sha1-VPID2s88CcdDAL/pTuepgTUNuRI=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.105/neoforge-21.1.105-universal.jar"
   },
   "net.neoforged:neoforge:21.1.106:universal": {
-    "hash": "sha1-55813377301fded83ee8c66a2be8a49bf8a3c225",
+    "hash": "sha1-VYEzdzAf3tg+6MZqK+ikm/ijwiU=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.106/neoforge-21.1.106-universal.jar"
   },
   "net.neoforged:neoforge:21.1.107:universal": {
-    "hash": "sha1-9089b8206e803fd8915d24d012fb20720b95b013",
+    "hash": "sha1-kIm4IG6AP9iRXSTQEvsgcguVsBM=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.107/neoforge-21.1.107-universal.jar"
   },
   "net.neoforged:neoforge:21.1.108:universal": {
-    "hash": "sha1-9412b20f2dcc74a3f3940139ead464557b5d63af",
+    "hash": "sha1-lBKyDy3MdKPzlAE56tRkVXtdY68=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.108/neoforge-21.1.108-universal.jar"
   },
   "net.neoforged:neoforge:21.1.109:universal": {
-    "hash": "sha1-c5cf19ae1efbd7ef8f19d27f96ebe919c260528b",
+    "hash": "sha1-xc8Zrh771++PGdJ/luvpGcJgUos=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.109/neoforge-21.1.109-universal.jar"
   },
   "net.neoforged:neoforge:21.1.10:universal": {
-    "hash": "sha1-40fc9bfad607b7bbed042b197b941eafe54f466e",
+    "hash": "sha1-QPyb+tYHt7vtBCsZe5Qer+VPRm4=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.10/neoforge-21.1.10-universal.jar"
   },
   "net.neoforged:neoforge:21.1.110:universal": {
-    "hash": "sha1-82a150e31686b7fda0c36f065929f658bbe9f656",
+    "hash": "sha1-gqFQ4xaGt/2gw28GWSn2WLvp9lY=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.110/neoforge-21.1.110-universal.jar"
   },
   "net.neoforged:neoforge:21.1.111:universal": {
-    "hash": "sha1-ff9d113513d48a4ae06aca5836762c7924011dde",
+    "hash": "sha1-/50RNRPUikrgaspYNnYseSQBHd4=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.111/neoforge-21.1.111-universal.jar"
   },
   "net.neoforged:neoforge:21.1.112:universal": {
-    "hash": "sha1-62c5f5ae75a184c72a449f58aaecabc20296a90f",
+    "hash": "sha1-YsX1rnWhhMcqRJ9YquyrwgKWqQ8=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.112/neoforge-21.1.112-universal.jar"
   },
   "net.neoforged:neoforge:21.1.113:universal": {
-    "hash": "sha1-60119aefafdff40064b1f034fdf9e378fe1d2556",
+    "hash": "sha1-YBGa76/f9ABksfA0/fnjeP4dJVY=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.113/neoforge-21.1.113-universal.jar"
   },
   "net.neoforged:neoforge:21.1.114:universal": {
-    "hash": "sha1-20a31083672ab29da24e22fe3dc03cfa69464e7a",
+    "hash": "sha1-IKMQg2cqsp2iTiL+PcA8+mlGTno=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.114/neoforge-21.1.114-universal.jar"
   },
   "net.neoforged:neoforge:21.1.115:universal": {
-    "hash": "sha1-314b9a1cf5d14627a07f6eae73ad72f1d1d5826f",
+    "hash": "sha1-MUuaHPXRRiegf26uc61y8dHVgm8=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.115/neoforge-21.1.115-universal.jar"
   },
   "net.neoforged:neoforge:21.1.116:universal": {
-    "hash": "sha1-a690f4f2e982e542dbc157a95b01fc57c60d5238",
+    "hash": "sha1-ppD08umC5ULbwVepWwH8V8YNUjg=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.116/neoforge-21.1.116-universal.jar"
   },
   "net.neoforged:neoforge:21.1.117:universal": {
-    "hash": "sha1-b177f9c8790bb5bc7ccd72705c6bdb5e24bb75d6",
+    "hash": "sha1-sXf5yHkLtbx8zXJwXGvbXiS7ddY=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.117/neoforge-21.1.117-universal.jar"
   },
   "net.neoforged:neoforge:21.1.118:universal": {
-    "hash": "sha1-0289ca8b3f01c36831bf08312ffe268aed3122a1",
+    "hash": "sha1-AonKiz8Bw2gxvwgxL/4miu0xIqE=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.118/neoforge-21.1.118-universal.jar"
   },
   "net.neoforged:neoforge:21.1.119:universal": {
-    "hash": "sha1-cfb13f3fecf3afcc17968435504e7ac8b710c3fc",
+    "hash": "sha1-z7E/P+zzr8wXloQ1UE56yLcQw/w=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.119/neoforge-21.1.119-universal.jar"
   },
   "net.neoforged:neoforge:21.1.11:universal": {
-    "hash": "sha1-547e69b3fd27764e7b7cdef51c2b46bde56208ed",
+    "hash": "sha1-VH5ps/0ndk57fN71HCtGveViCO0=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.11/neoforge-21.1.11-universal.jar"
   },
   "net.neoforged:neoforge:21.1.120:universal": {
-    "hash": "sha1-6779690c974cd39ae3c5fb637a799ad9c57c53d5",
+    "hash": "sha1-Z3lpDJdM05rjxftjenma2cV8U9U=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.120/neoforge-21.1.120-universal.jar"
   },
   "net.neoforged:neoforge:21.1.121:universal": {
-    "hash": "sha1-5b4cfdb142860ce65a0bc1b4846f27d3b10e14d4",
+    "hash": "sha1-W0z9sUKGDOZaC8G0hG8n07EOFNQ=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.121/neoforge-21.1.121-universal.jar"
   },
   "net.neoforged:neoforge:21.1.122:universal": {
-    "hash": "sha1-1129e53a9e8580e4b5726d189cc91f6e3c793139",
+    "hash": "sha1-ESnlOp6FgOS1cm0YnMkfbjx5MTk=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.122/neoforge-21.1.122-universal.jar"
   },
   "net.neoforged:neoforge:21.1.123:universal": {
-    "hash": "sha1-634dde67e4595c43c36d676a324bbe935a55031e",
+    "hash": "sha1-Y03eZ+RZXEPDbWdqMku+k1pVAx4=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.123/neoforge-21.1.123-universal.jar"
   },
   "net.neoforged:neoforge:21.1.124:universal": {
-    "hash": "sha1-566e8b9217ca724b651b6f2840d6128cf41b398a",
+    "hash": "sha1-Vm6LkhfKcktlG28oQNYSjPQbOYo=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.124/neoforge-21.1.124-universal.jar"
   },
   "net.neoforged:neoforge:21.1.125:universal": {
-    "hash": "sha1-3b1dc581a001f09f09b77c8ba0f3f552611e86e5",
+    "hash": "sha1-Ox3FgaAB8J8Jt3yLoPP1UmEehuU=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.125/neoforge-21.1.125-universal.jar"
   },
   "net.neoforged:neoforge:21.1.126:universal": {
-    "hash": "sha1-d8a235d0f1f371d02a5a39097962315eedc4b235",
+    "hash": "sha1-2KI10PHzcdAqWjkJeWIxXu3EsjU=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.126/neoforge-21.1.126-universal.jar"
   },
   "net.neoforged:neoforge:21.1.127:universal": {
-    "hash": "sha1-e526c028b94f045413e05a9d6f63c13598d412f6",
+    "hash": "sha1-5SbAKLlPBFQT4Fqdb2PBNZjUEvY=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.127/neoforge-21.1.127-universal.jar"
   },
   "net.neoforged:neoforge:21.1.128:universal": {
-    "hash": "sha1-d29ee7bbf23e1bc4b21e5dbc664f4e1aa748a231",
+    "hash": "sha1-0p7nu/I+G8SyHl28Zk9OGqdIojE=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.128/neoforge-21.1.128-universal.jar"
   },
   "net.neoforged:neoforge:21.1.129:universal": {
-    "hash": "sha1-b54a1cb760dcea30eb88ed8a13c1dd8a04e5d331",
+    "hash": "sha1-tUoct2Dc6jDriO2KE8HdigTl0zE=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.129/neoforge-21.1.129-universal.jar"
   },
   "net.neoforged:neoforge:21.1.12:universal": {
-    "hash": "sha1-a7c1ab0b2cb04c998c2f87bde5b29837e00f033a",
+    "hash": "sha1-p8GrCyywTJmML4e95bKYN+APAzo=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.12/neoforge-21.1.12-universal.jar"
   },
   "net.neoforged:neoforge:21.1.130:universal": {
-    "hash": "sha1-72ea2bd645b0dfabfb7fb9ddc60b39094b3ecb49",
+    "hash": "sha1-cuor1kWw36v7f7ndxgs5CUs+y0k=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.130/neoforge-21.1.130-universal.jar"
   },
   "net.neoforged:neoforge:21.1.131:universal": {
-    "hash": "sha1-bae9bed28a532474ab2e76329e5d1ffca7138af7",
+    "hash": "sha1-uum+0opTJHSrLnYynl0f/KcTivc=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.131/neoforge-21.1.131-universal.jar"
   },
   "net.neoforged:neoforge:21.1.132:universal": {
-    "hash": "sha1-526472fc20180dfe1fbc961159ef2b20765999a6",
+    "hash": "sha1-UmRy/CAYDf4fvJYRWe8rIHZZmaY=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.132/neoforge-21.1.132-universal.jar"
   },
   "net.neoforged:neoforge:21.1.133:universal": {
-    "hash": "sha1-b689ea6ef19b52fe63529962d632aa4de1100316",
+    "hash": "sha1-tonqbvGbUv5jUpli1jKqTeEQAxY=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.133/neoforge-21.1.133-universal.jar"
   },
   "net.neoforged:neoforge:21.1.134:universal": {
-    "hash": "sha1-5f48c443ceaa47dce4af29a7c907499b63c6be39",
+    "hash": "sha1-X0jEQ86qR9zkrymnyQdJm2PGvjk=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.134/neoforge-21.1.134-universal.jar"
   },
   "net.neoforged:neoforge:21.1.135:universal": {
-    "hash": "sha1-42cf2a788b83d2e2794565d5bc679140f2660068",
+    "hash": "sha1-Qs8qeIuD0uJ5RWXVvGeRQPJmAGg=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.135/neoforge-21.1.135-universal.jar"
   },
   "net.neoforged:neoforge:21.1.136:universal": {
-    "hash": "sha1-da2030c4ca5ae44c49983acb1039025e288ee170",
+    "hash": "sha1-2iAwxMpa5ExJmDrLEDkCXiiO4XA=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.136/neoforge-21.1.136-universal.jar"
   },
   "net.neoforged:neoforge:21.1.137:universal": {
-    "hash": "sha1-4298a1590733cee328eb54c13836f34c8e82c258",
+    "hash": "sha1-QpihWQczzuMo61TBODbzTI6Cwlg=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.137/neoforge-21.1.137-universal.jar"
   },
   "net.neoforged:neoforge:21.1.138:universal": {
-    "hash": "sha1-c7123f8c9605d6e9825a7f4a8f1fb17a894b5f30",
+    "hash": "sha1-xxI/jJYF1umCWn9Kjx+xeolLXzA=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.138/neoforge-21.1.138-universal.jar"
   },
   "net.neoforged:neoforge:21.1.139:universal": {
-    "hash": "sha1-01158503542caf5b78e0057f126cad2cdd22b4e4",
+    "hash": "sha1-ARWFA1Qsr1t44AV/EmytLN0itOQ=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.139/neoforge-21.1.139-universal.jar"
   },
   "net.neoforged:neoforge:21.1.13:universal": {
-    "hash": "sha1-5984ffb0572f1510cd30257f9978b596d03147c5",
+    "hash": "sha1-WYT/sFcvFRDNMCV/mXi1ltAxR8U=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.13/neoforge-21.1.13-universal.jar"
   },
   "net.neoforged:neoforge:21.1.140:universal": {
-    "hash": "sha1-418419f5df457ad91ab33d72f723dd9cd5552254",
+    "hash": "sha1-QYQZ9d9Fetkasz1y9yPdnNVVIlQ=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.140/neoforge-21.1.140-universal.jar"
   },
   "net.neoforged:neoforge:21.1.141:universal": {
-    "hash": "sha1-da7ae44dc7456256c78233806ecbe79d67412c54",
+    "hash": "sha1-2nrkTcdFYlbHgjOAbsvnnWdBLFQ=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.141/neoforge-21.1.141-universal.jar"
   },
   "net.neoforged:neoforge:21.1.142:universal": {
-    "hash": "sha1-5b96090ae8927da595dd6350bf82604d7ecbd076",
+    "hash": "sha1-W5YJCuiSfaWV3WNQv4JgTX7L0HY=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.142/neoforge-21.1.142-universal.jar"
   },
   "net.neoforged:neoforge:21.1.143:universal": {
-    "hash": "sha1-401bc67a87513c642381a28c338bf8d0674050a1",
+    "hash": "sha1-QBvGeodRPGQjgaKMM4v40GdAUKE=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.143/neoforge-21.1.143-universal.jar"
   },
   "net.neoforged:neoforge:21.1.144:universal": {
-    "hash": "sha1-20a4ab1243bd4e732f63c35da9dd19f75ae20743",
+    "hash": "sha1-IKSrEkO9TnMvY8Ndqd0Z91riB0M=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.144/neoforge-21.1.144-universal.jar"
   },
   "net.neoforged:neoforge:21.1.145:universal": {
-    "hash": "sha1-af3c1ed2508c94c9ed1e5cdea57f7205dffdfaa7",
+    "hash": "sha1-rzwe0lCMlMntHlzepX9yBd/9+qc=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.145/neoforge-21.1.145-universal.jar"
   },
   "net.neoforged:neoforge:21.1.146:universal": {
-    "hash": "sha1-69a1c2cba53f5ca1936349aa34ed98ac01333c34",
+    "hash": "sha1-aaHCy6U/XKGTY0mqNO2YrAEzPDQ=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.146/neoforge-21.1.146-universal.jar"
   },
   "net.neoforged:neoforge:21.1.147:universal": {
-    "hash": "sha1-be9fc3368dd9beb25a8ba93dcfde93a461d9e6df",
+    "hash": "sha1-vp/DNo3ZvrJai6k9z96TpGHZ5t8=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.147/neoforge-21.1.147-universal.jar"
   },
   "net.neoforged:neoforge:21.1.148:universal": {
-    "hash": "sha1-f72d7460a3de411728db1adfea4a6b44fb702dc5",
+    "hash": "sha1-9y10YKPeQRco2xrf6kprRPtwLcU=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.148/neoforge-21.1.148-universal.jar"
   },
   "net.neoforged:neoforge:21.1.149:universal": {
-    "hash": "sha1-f2d8c403549f959c4406b36985cc1678b54fe0c5",
+    "hash": "sha1-8tjEA1SflZxEBrNphcwWeLVP4MU=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.149/neoforge-21.1.149-universal.jar"
   },
   "net.neoforged:neoforge:21.1.150:universal": {
-    "hash": "sha1-7512c90731abb6df123cf3e224e7daf4d2db9617",
+    "hash": "sha1-dRLJBzGrtt8SPPPiJOfa9NLblhc=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.150/neoforge-21.1.150-universal.jar"
   },
   "net.neoforged:neoforge:21.1.151:universal": {
-    "hash": "sha1-d7302d7375df9c6b72004a70e954c9330c5e16ba",
+    "hash": "sha1-1zAtc3XfnGtyAEpw6VTJMwxeFro=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.151/neoforge-21.1.151-universal.jar"
   },
   "net.neoforged:neoforge:21.1.152:universal": {
-    "hash": "sha1-bb20372f4bdad99389fce94ed8ba1c2ad0087e64",
+    "hash": "sha1-uyA3L0va2ZOJ/OlO2LocKtAIfmQ=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.152/neoforge-21.1.152-universal.jar"
   },
   "net.neoforged:neoforge:21.1.153:universal": {
-    "hash": "sha1-b65d99c3062665d5b5129dc6d7896a8fefa396a5",
+    "hash": "sha1-tl2ZwwYmZdW1Ep3G14lqj++jlqU=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.153/neoforge-21.1.153-universal.jar"
   },
   "net.neoforged:neoforge:21.1.154:universal": {
-    "hash": "sha1-1ab6c4065341c686d251aa05ba652ea63bab9c6b",
+    "hash": "sha1-GrbEBlNBxobSUaoFumUupjurnGs=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.154/neoforge-21.1.154-universal.jar"
   },
   "net.neoforged:neoforge:21.1.155:universal": {
-    "hash": "sha1-6a3dfcd2985e905436e7360960a4b6ad96fac96a",
+    "hash": "sha1-aj380phekFQ25zYJYKS2rZb6yWo=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.155/neoforge-21.1.155-universal.jar"
   },
   "net.neoforged:neoforge:21.1.156:universal": {
-    "hash": "sha1-ccb1550250d952cc0d57d18ef60754520755210e",
+    "hash": "sha1-zLFVAlDZUswNV9GO9gdUUgdVIQ4=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.156/neoforge-21.1.156-universal.jar"
   },
   "net.neoforged:neoforge:21.1.158:universal": {
-    "hash": "sha1-80761b863513b82bd687e22127fcc69dfec1d7ec",
+    "hash": "sha1-gHYbhjUTuCvWh+IhJ/zGnf7B1+w=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.158/neoforge-21.1.158-universal.jar"
   },
   "net.neoforged:neoforge:21.1.159:universal": {
-    "hash": "sha1-9d1f46047c511810b28a38579313c4762f09c682",
+    "hash": "sha1-nR9GBHxRGBCyijhXkxPEdi8JxoI=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.159/neoforge-21.1.159-universal.jar"
   },
   "net.neoforged:neoforge:21.1.15:universal": {
-    "hash": "sha1-ca6e020830736cab37da47a176661c97d4951c1b",
+    "hash": "sha1-ym4CCDBzbKs32kehdmYcl9SVHBs=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.15/neoforge-21.1.15-universal.jar"
   },
   "net.neoforged:neoforge:21.1.160:universal": {
-    "hash": "sha1-931e86e03656cf830844dbcb7d4297a733ef9a29",
+    "hash": "sha1-kx6G4DZWz4MIRNvLfUKXpzPvmik=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.160/neoforge-21.1.160-universal.jar"
   },
   "net.neoforged:neoforge:21.1.161:universal": {
-    "hash": "sha1-b6dffb9d007872dc7c5c3f8c8717d461696d13df",
+    "hash": "sha1-tt/7nQB4ctx8XD+MhxfUYWltE98=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.161/neoforge-21.1.161-universal.jar"
   },
   "net.neoforged:neoforge:21.1.162:universal": {
-    "hash": "sha1-d1d1416206522639fed66313ca82150dee59dd91",
+    "hash": "sha1-0dFBYgZSJjn+1mMTyoIVDe5Z3ZE=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.162/neoforge-21.1.162-universal.jar"
   },
   "net.neoforged:neoforge:21.1.163:universal": {
-    "hash": "sha1-934988d43499034f62269c0c479e91fb68b8621b",
+    "hash": "sha1-k0mI1DSZA09iJpwMR56R+2i4Yhs=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.163/neoforge-21.1.163-universal.jar"
   },
   "net.neoforged:neoforge:21.1.164:universal": {
-    "hash": "sha1-b5fd4e206505f37bdbdafe086a6ed3db2095b3b4",
+    "hash": "sha1-tf1OIGUF83vb2v4Iam7T2yCVs7Q=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.164/neoforge-21.1.164-universal.jar"
   },
   "net.neoforged:neoforge:21.1.165:universal": {
-    "hash": "sha1-e77532149dbfdbaf35170484c7299fafdaf49578",
+    "hash": "sha1-53UyFJ2/2681FwSExymfr9r0lXg=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.165/neoforge-21.1.165-universal.jar"
   },
   "net.neoforged:neoforge:21.1.166:universal": {
-    "hash": "sha1-378a6d47a6cc27486e87614c47a83ab3462fb990",
+    "hash": "sha1-N4ptR6bMJ0huh2FMR6g6s0YvuZA=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.166/neoforge-21.1.166-universal.jar"
   },
   "net.neoforged:neoforge:21.1.167:universal": {
-    "hash": "sha1-fcd3b4e1eb0ae5d755ab00cc07c6d6244231b00c",
+    "hash": "sha1-/NO04esK5ddVqwDMB8bWJEIxsAw=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.167/neoforge-21.1.167-universal.jar"
   },
   "net.neoforged:neoforge:21.1.168:universal": {
-    "hash": "sha1-d4ec7658bcefba03aeadb27565c9a9696d2fde63",
+    "hash": "sha1-1Ox2WLzvugOurbJ1ZcmpaW0v3mM=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.168/neoforge-21.1.168-universal.jar"
   },
   "net.neoforged:neoforge:21.1.169:universal": {
-    "hash": "sha1-f2e3c3c171f376e8d835605b2f15233c366d9a9f",
+    "hash": "sha1-8uPDwXHzdujYNWBbLxUjPDZtmp8=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.169/neoforge-21.1.169-universal.jar"
   },
   "net.neoforged:neoforge:21.1.16:universal": {
-    "hash": "sha1-a850be06534292fb8e0a1a932070bf3448096c7d",
+    "hash": "sha1-qFC+BlNCkvuOChqTIHC/NEgJbH0=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.16/neoforge-21.1.16-universal.jar"
   },
   "net.neoforged:neoforge:21.1.170:universal": {
-    "hash": "sha1-169c54cb784974734bdd78da35b7cd83d42861c8",
+    "hash": "sha1-FpxUy3hJdHNL3XjaNbfNg9QoYcg=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.170/neoforge-21.1.170-universal.jar"
   },
   "net.neoforged:neoforge:21.1.171:universal": {
-    "hash": "sha1-85800184c4cb9171940b7c0fe2b5d6e3316cfd3e",
+    "hash": "sha1-hYABhMTLkXGUC3wP4rXW4zFs/T4=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.171/neoforge-21.1.171-universal.jar"
   },
   "net.neoforged:neoforge:21.1.172:universal": {
-    "hash": "sha1-736d9d34606de7ddcbb24ee6a23c7a6bf1662388",
+    "hash": "sha1-c22dNGBt593Lsk7mojx6a/FmI4g=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.172/neoforge-21.1.172-universal.jar"
   },
   "net.neoforged:neoforge:21.1.173:universal": {
-    "hash": "sha1-0a99de8596735be3f9c86bee3b9b014f541a74a4",
+    "hash": "sha1-CpnehZZzW+P5yGvuO5sBT1QadKQ=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.173/neoforge-21.1.173-universal.jar"
   },
   "net.neoforged:neoforge:21.1.174:universal": {
-    "hash": "sha1-98abe9b4ced5170a2f9f259111e2a4fb60740141",
+    "hash": "sha1-mKvptM7VFwovnyWREeKk+2B0AUE=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.174/neoforge-21.1.174-universal.jar"
   },
   "net.neoforged:neoforge:21.1.175:universal": {
-    "hash": "sha1-488fe73a0aa04691929ae9e492c5266ebf256661",
+    "hash": "sha1-SI/nOgqgRpGSmunkksUmbr8lZmE=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.175/neoforge-21.1.175-universal.jar"
   },
   "net.neoforged:neoforge:21.1.176:universal": {
-    "hash": "sha1-052e837ea486fd2ae6d7291c73c280539214d00e",
+    "hash": "sha1-BS6DfqSG/Srm1ykcc8KAU5IU0A4=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.176/neoforge-21.1.176-universal.jar"
   },
   "net.neoforged:neoforge:21.1.177:universal": {
-    "hash": "sha1-3ece7563934ec10bf24ee483c226da7ec8cf3727",
+    "hash": "sha1-Ps51Y5NOwQvyTuSDwibafsjPNyc=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.177/neoforge-21.1.177-universal.jar"
   },
   "net.neoforged:neoforge:21.1.178:universal": {
-    "hash": "sha1-aad41e4370c679f3a0cca4a512ecfc867c885ac5",
+    "hash": "sha1-qtQeQ3DGefOgzKSlEuz8hnyIWsU=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.178/neoforge-21.1.178-universal.jar"
   },
   "net.neoforged:neoforge:21.1.179:universal": {
-    "hash": "sha1-a8be786ade2f83724e74ad60b6b0e4ab4ded454a",
+    "hash": "sha1-qL54at4vg3JOdK1gtrDkq03tRUo=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.179/neoforge-21.1.179-universal.jar"
   },
   "net.neoforged:neoforge:21.1.17:universal": {
-    "hash": "sha1-8aee0d531ff180bad755f4376b61e0569a12a803",
+    "hash": "sha1-iu4NUx/xgLrXVfQ3a2HgVpoSqAM=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.17/neoforge-21.1.17-universal.jar"
   },
   "net.neoforged:neoforge:21.1.180:universal": {
-    "hash": "sha1-175309b19384168044a78af67e7b4a1cdf4c264d",
+    "hash": "sha1-F1MJsZOEFoBEp4r2fntKHN9MJk0=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.180/neoforge-21.1.180-universal.jar"
   },
   "net.neoforged:neoforge:21.1.181:universal": {
-    "hash": "sha1-fcc0082b1d9fe142aa93ff927e033fe507013386",
+    "hash": "sha1-/MAIKx2f4UKqk/+SfgM/5QcBM4Y=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.181/neoforge-21.1.181-universal.jar"
   },
   "net.neoforged:neoforge:21.1.182:universal": {
-    "hash": "sha1-debb04999a2c8ccfc072ab6cbe917b99d5423943",
+    "hash": "sha1-3rsEmZosjM/AcqtsvpF7mdVCOUM=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.182/neoforge-21.1.182-universal.jar"
   },
   "net.neoforged:neoforge:21.1.183:universal": {
-    "hash": "sha1-ba5fea9d1f69396b48b96c1a026e82c20ca6e1ff",
+    "hash": "sha1-ul/qnR9pOWtIuWwaAm6Cwgym4f8=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.183/neoforge-21.1.183-universal.jar"
   },
   "net.neoforged:neoforge:21.1.184:universal": {
-    "hash": "sha1-1cb52e47f534be4b7a5fbae8c4f05af8940ff417",
+    "hash": "sha1-HLUuR/U0vkt6X7roxPBa+JQP9Bc=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.184/neoforge-21.1.184-universal.jar"
   },
   "net.neoforged:neoforge:21.1.185:universal": {
-    "hash": "sha1-67897d9d60a13a41803036c73a3d8be77b5274d0",
+    "hash": "sha1-Z4l9nWChOkGAMDbHOj2L53tSdNA=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.185/neoforge-21.1.185-universal.jar"
   },
   "net.neoforged:neoforge:21.1.186:universal": {
-    "hash": "sha1-8ff7bcb3a4c22780400e110e4051fe0b7c2db67c",
+    "hash": "sha1-j/e8s6TCJ4BADhEOQFH+C3wttnw=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.186/neoforge-21.1.186-universal.jar"
   },
   "net.neoforged:neoforge:21.1.18:universal": {
-    "hash": "sha1-0b5c689b6c82ae207e2a849884aa6ebebc941309",
+    "hash": "sha1-C1xom2yCriB+KoSYhKpuvryUEwk=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.18/neoforge-21.1.18-universal.jar"
   },
   "net.neoforged:neoforge:21.1.19:universal": {
-    "hash": "sha1-06b41729bfc1f078e441fb242dcaa623b2715d7f",
+    "hash": "sha1-BrQXKb/B8HjkQfskLcqmI7JxXX8=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.19/neoforge-21.1.19-universal.jar"
   },
   "net.neoforged:neoforge:21.1.1:universal": {
-    "hash": "sha1-f6f88a82f3e14b6f29de662d4efefc1635018909",
+    "hash": "sha1-9viKgvPhS28p3mYtTv78FjUBiQk=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.1/neoforge-21.1.1-universal.jar"
   },
   "net.neoforged:neoforge:21.1.20:universal": {
-    "hash": "sha1-f46541c9287e428374e4e36f6fbdaf9ae3832b5a",
+    "hash": "sha1-9GVBySh+QoN05ONvb72vmuODK1o=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.20/neoforge-21.1.20-universal.jar"
   },
   "net.neoforged:neoforge:21.1.21:universal": {
-    "hash": "sha1-2d49a81df17a3ce64244328795c6fff933cdf8c2",
+    "hash": "sha1-LUmoHfF6POZCRDKHlcb/+TPN+MI=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.21/neoforge-21.1.21-universal.jar"
   },
   "net.neoforged:neoforge:21.1.22:universal": {
-    "hash": "sha1-fcb503c894ba50341180a80880c5972f8335d3ad",
+    "hash": "sha1-/LUDyJS6UDQRgKgIgMWXL4M1060=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.22/neoforge-21.1.22-universal.jar"
   },
   "net.neoforged:neoforge:21.1.23:universal": {
-    "hash": "sha1-e1f751ac4ca2af7d6b5dad50b4894ec802c8eac6",
+    "hash": "sha1-4fdRrEyir31rXa1QtIlOyALI6sY=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.23/neoforge-21.1.23-universal.jar"
   },
   "net.neoforged:neoforge:21.1.24:universal": {
-    "hash": "sha1-0d3eca337f9ca32e26ea98785bbc6dd0a3b31038",
+    "hash": "sha1-DT7KM3+coy4m6ph4W7xt0KOzEDg=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.24/neoforge-21.1.24-universal.jar"
   },
   "net.neoforged:neoforge:21.1.25:universal": {
-    "hash": "sha1-ce9a2e8751d1015714e597906b703529dbfe85b6",
+    "hash": "sha1-zpouh1HRAVcU5ZeQa3A1Kdv+hbY=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.25/neoforge-21.1.25-universal.jar"
   },
   "net.neoforged:neoforge:21.1.26:universal": {
-    "hash": "sha1-4f8afd55b3935546558ef6ed9d8405c5889056be",
+    "hash": "sha1-T4r9VbOTVUZVjvbtnYQFxYiQVr4=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.26/neoforge-21.1.26-universal.jar"
   },
   "net.neoforged:neoforge:21.1.27:universal": {
-    "hash": "sha1-411fd4dfb96b362e3a9abca11ad063cdf942cc54",
+    "hash": "sha1-QR/U37lrNi46mryhGtBjzflCzFQ=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.27/neoforge-21.1.27-universal.jar"
   },
   "net.neoforged:neoforge:21.1.28:universal": {
-    "hash": "sha1-228928fab928b859992d4724f7489a469d8f809f",
+    "hash": "sha1-Ioko+rkouFmZLUck90iaRp2PgJ8=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.28/neoforge-21.1.28-universal.jar"
   },
   "net.neoforged:neoforge:21.1.29:universal": {
-    "hash": "sha1-55250ac1fde0e7b98f087969d7adddb38c196163",
+    "hash": "sha1-VSUKwf3g57mPCHlp163ds4wZYWM=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.29/neoforge-21.1.29-universal.jar"
   },
   "net.neoforged:neoforge:21.1.2:universal": {
-    "hash": "sha1-d853312da46f7a3620141ed01c8571a42ed7bdc2",
+    "hash": "sha1-2FMxLaRvejYgFB7QHIVxpC7XvcI=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.2/neoforge-21.1.2-universal.jar"
   },
   "net.neoforged:neoforge:21.1.30:universal": {
-    "hash": "sha1-0da8d415c23b9c7e3419bfa12ed4f81525ef0b8d",
+    "hash": "sha1-DajUFcI7nH40Gb+hLtT4FSXvC40=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.30/neoforge-21.1.30-universal.jar"
   },
   "net.neoforged:neoforge:21.1.31:universal": {
-    "hash": "sha1-a7173167daf25a4e1cc346c39e19a0ed3d061f99",
+    "hash": "sha1-pxcxZ9ryWk4cw0bDnhmg7T0GH5k=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.31/neoforge-21.1.31-universal.jar"
   },
   "net.neoforged:neoforge:21.1.32:universal": {
-    "hash": "sha1-05a88de33b8eb9a647fae28a0f7de6d84694d0c6",
+    "hash": "sha1-BaiN4zuOuaZH+uKKD33m2EaU0MY=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.32/neoforge-21.1.32-universal.jar"
   },
   "net.neoforged:neoforge:21.1.33:universal": {
-    "hash": "sha1-0c060cc7215808507aa3947d4fe66c77548d6edc",
+    "hash": "sha1-DAYMxyFYCFB6o5R9T+Zsd1SNbtw=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.33/neoforge-21.1.33-universal.jar"
   },
   "net.neoforged:neoforge:21.1.34:universal": {
-    "hash": "sha1-8239abfd6148470dce9c04bc68750525052c19b3",
+    "hash": "sha1-gjmr/WFIRw3OnAS8aHUFJQUsGbM=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.34/neoforge-21.1.34-universal.jar"
   },
   "net.neoforged:neoforge:21.1.35:universal": {
-    "hash": "sha1-ab80149d844bd45cff20458beb55bb04469ff832",
+    "hash": "sha1-q4AUnYRL1Fz/IEWL61W7BEaf+DI=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.35/neoforge-21.1.35-universal.jar"
   },
   "net.neoforged:neoforge:21.1.36:universal": {
-    "hash": "sha1-8b855a8fcc1085fa5c74a9948736316ec2f0b379",
+    "hash": "sha1-i4Vaj8wQhfpcdKmUhzYxbsLws3k=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.36/neoforge-21.1.36-universal.jar"
   },
   "net.neoforged:neoforge:21.1.37:universal": {
-    "hash": "sha1-c0de31354b6f5e235282cf994c436f600ab99744",
+    "hash": "sha1-wN4xNUtvXiNSgs+ZTENvYAq5l0Q=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.37/neoforge-21.1.37-universal.jar"
   },
   "net.neoforged:neoforge:21.1.39:universal": {
-    "hash": "sha1-421e71adc2652c3eb1f96c63af79ccd31b8d4b46",
+    "hash": "sha1-Qh5xrcJlLD6x+Wxjr3nM0xuNS0Y=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.39/neoforge-21.1.39-universal.jar"
   },
   "net.neoforged:neoforge:21.1.3:universal": {
-    "hash": "sha1-14991263b952f1ecad49970fa14ce0f5dd9faed9",
+    "hash": "sha1-FJkSY7lS8eytSZcPoUzg9d2frtk=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.3/neoforge-21.1.3-universal.jar"
   },
   "net.neoforged:neoforge:21.1.40:universal": {
-    "hash": "sha1-89153b93c1339b65af76b75bbfe5da8190c6856d",
+    "hash": "sha1-iRU7k8Ezm2Wvdrdbv+XagZDGhW0=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.40/neoforge-21.1.40-universal.jar"
   },
   "net.neoforged:neoforge:21.1.41:universal": {
-    "hash": "sha1-1a5d83dc0aa21900f7b7541bef3cb7e72fc74cab",
+    "hash": "sha1-Gl2D3AqiGQD3t1Qb7zy35y/HTKs=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.41/neoforge-21.1.41-universal.jar"
   },
   "net.neoforged:neoforge:21.1.42:universal": {
-    "hash": "sha1-ffd51bee05c166335728a8b9dc66d404e0311eda",
+    "hash": "sha1-/9Ub7gXBZjNXKKi53GbUBOAxHto=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.42/neoforge-21.1.42-universal.jar"
   },
   "net.neoforged:neoforge:21.1.43:universal": {
-    "hash": "sha1-82d7d4b785cb995496e98f25d6f114a14c7685c2",
+    "hash": "sha1-gtfUt4XLmVSW6Y8l1vEUoUx2hcI=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.43/neoforge-21.1.43-universal.jar"
   },
   "net.neoforged:neoforge:21.1.44:universal": {
-    "hash": "sha1-45660f115d8d8004a6ab47ba3a54cf9979c63d07",
+    "hash": "sha1-RWYPEV2NgASmq0e6OlTPmXnGPQc=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.44/neoforge-21.1.44-universal.jar"
   },
   "net.neoforged:neoforge:21.1.45:universal": {
-    "hash": "sha1-83d5014852058179456a7cce4486764ee09ac857",
+    "hash": "sha1-g9UBSFIFgXlFanzORIZ2TuCayFc=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.45/neoforge-21.1.45-universal.jar"
   },
   "net.neoforged:neoforge:21.1.46:universal": {
-    "hash": "sha1-b5ce2602224d3e16944233fd5cab8d383831c87e",
+    "hash": "sha1-tc4mAiJNPhaUQjP9XKuNODgxyH4=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.46/neoforge-21.1.46-universal.jar"
   },
   "net.neoforged:neoforge:21.1.47:universal": {
-    "hash": "sha1-74cb27fa305eda2ee5e9e6651954bffe0809df54",
+    "hash": "sha1-dMsn+jBe2i7l6eZlGVS//ggJ31Q=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.47/neoforge-21.1.47-universal.jar"
   },
   "net.neoforged:neoforge:21.1.48:universal": {
-    "hash": "sha1-97f4d9834db57e2e0299d1bc65fb5a362edb6ca7",
+    "hash": "sha1-l/TZg021fi4CmdG8ZftaNi7bbKc=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.48/neoforge-21.1.48-universal.jar"
   },
   "net.neoforged:neoforge:21.1.49:universal": {
-    "hash": "sha1-412d5e97f275d43cac526ef3bc0e4dbdbe4a4e51",
+    "hash": "sha1-QS1el/J11DysUm7zvA5Nvb5KTlE=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.49/neoforge-21.1.49-universal.jar"
   },
   "net.neoforged:neoforge:21.1.4:universal": {
-    "hash": "sha1-c602fc69e747d0d7aba2a61f2d23bed15d4e2e5f",
+    "hash": "sha1-xgL8aedH0NeroqYfLSO+0V1OLl8=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.4/neoforge-21.1.4-universal.jar"
   },
   "net.neoforged:neoforge:21.1.50:universal": {
-    "hash": "sha1-6d1ebe10cff3bd86fcab70b2332060c9270eb147",
+    "hash": "sha1-bR6+EM/zvYb8q3CyMyBgyScOsUc=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.50/neoforge-21.1.50-universal.jar"
   },
   "net.neoforged:neoforge:21.1.51:universal": {
-    "hash": "sha1-fa45ef773d628510c2dcd89ff68a7e3e828077fd",
+    "hash": "sha1-+kXvdz1ihRDC3Nif9op+PoKAd/0=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.51/neoforge-21.1.51-universal.jar"
   },
   "net.neoforged:neoforge:21.1.52:universal": {
-    "hash": "sha1-1fdc8219645fd7ca345c6ba28f9168b515a5e7d2",
+    "hash": "sha1-H9yCGWRf18o0XGuij5FotRWl59I=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.52/neoforge-21.1.52-universal.jar"
   },
   "net.neoforged:neoforge:21.1.53:universal": {
-    "hash": "sha1-95bb3caeaa7be570a1db1494d2767032e7e1aaab",
+    "hash": "sha1-lbs8rqp75XCh2xSU0nZwMufhqqs=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.53/neoforge-21.1.53-universal.jar"
   },
   "net.neoforged:neoforge:21.1.54:universal": {
-    "hash": "sha1-f5ce439d8929d892e64e47b482d960a1ea801014",
+    "hash": "sha1-9c5DnYkp2JLmTke0gtlgoeqAEBQ=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.54/neoforge-21.1.54-universal.jar"
   },
   "net.neoforged:neoforge:21.1.55:universal": {
-    "hash": "sha1-200ef4e1c16e156f43c686687d8ce73793f500ea",
+    "hash": "sha1-IA704cFuFW9DxoZofYznN5P1AOo=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.55/neoforge-21.1.55-universal.jar"
   },
   "net.neoforged:neoforge:21.1.56:universal": {
-    "hash": "sha1-aca8cd9c8212101a996272cc35c78e389ebd422f",
+    "hash": "sha1-rKjNnIISEBqZYnLMNceOOJ69Qi8=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.56/neoforge-21.1.56-universal.jar"
   },
   "net.neoforged:neoforge:21.1.57:universal": {
-    "hash": "sha1-5324709699a06de9cdd14ec8acef869b7548f420",
+    "hash": "sha1-UyRwlpmgbenN0U7IrO+Gm3VI9CA=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.57/neoforge-21.1.57-universal.jar"
   },
   "net.neoforged:neoforge:21.1.58:universal": {
-    "hash": "sha1-f6330dddc7f7f749b53f8e5b6dbdaf5acce27aa2",
+    "hash": "sha1-9jMN3cf390m1P45bbb2vWszieqI=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.58/neoforge-21.1.58-universal.jar"
   },
   "net.neoforged:neoforge:21.1.59:universal": {
-    "hash": "sha1-0b51d7710d270acbc106e4842cb3861622258529",
+    "hash": "sha1-C1HXcQ0nCsvBBuSELLOGFiIlhSk=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.59/neoforge-21.1.59-universal.jar"
   },
   "net.neoforged:neoforge:21.1.5:universal": {
-    "hash": "sha1-6fab99a60079603eab067062f09661069ce3879c",
+    "hash": "sha1-b6uZpgB5YD6rBnBi8JZhBpzjh5w=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.5/neoforge-21.1.5-universal.jar"
   },
   "net.neoforged:neoforge:21.1.60:universal": {
-    "hash": "sha1-c605ccea5cf31090c276c452cc7e2462e09a2fb3",
+    "hash": "sha1-xgXM6lzzEJDCdsRSzH4kYuCaL7M=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.60/neoforge-21.1.60-universal.jar"
   },
   "net.neoforged:neoforge:21.1.61:universal": {
-    "hash": "sha1-62c3e24a36a443864b3570484191a5763e76cf32",
+    "hash": "sha1-YsPiSjakQ4ZLNXBIQZGldj52zzI=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.61/neoforge-21.1.61-universal.jar"
   },
   "net.neoforged:neoforge:21.1.62:universal": {
-    "hash": "sha1-43fe38e7e3b2a41e48bde5211888209579f2908b",
+    "hash": "sha1-Q/445+OypB5IveUhGIgglXnykIs=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.62/neoforge-21.1.62-universal.jar"
   },
   "net.neoforged:neoforge:21.1.63:universal": {
-    "hash": "sha1-751cd2d8d01b956d5fddb8d99151e714bbd0c626",
+    "hash": "sha1-dRzS2NAblW1f3bjZkVHnFLvQxiY=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.63/neoforge-21.1.63-universal.jar"
   },
   "net.neoforged:neoforge:21.1.64:universal": {
-    "hash": "sha1-36a7009a0fcfb54f7f3917bb7ada81557c41f4f9",
+    "hash": "sha1-NqcAmg/PtU9/ORe7etqBVXxB9Pk=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.64/neoforge-21.1.64-universal.jar"
   },
   "net.neoforged:neoforge:21.1.65:universal": {
-    "hash": "sha1-578c1445fc0f34e5fe3f038df429bc5e441258e6",
+    "hash": "sha1-V4wURfwPNOX+PwON9Cm8XkQSWOY=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.65/neoforge-21.1.65-universal.jar"
   },
   "net.neoforged:neoforge:21.1.66:universal": {
-    "hash": "sha1-4d3d0c184d62fa11da71daabb93a9cba2f7b214c",
+    "hash": "sha1-TT0MGE1i+hHacdqruTqcui97IUw=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.66/neoforge-21.1.66-universal.jar"
   },
   "net.neoforged:neoforge:21.1.68:universal": {
-    "hash": "sha1-a83303a3013351afc1f44a3a487b10d5129b7e9d",
+    "hash": "sha1-qDMDowEzUa/B9Eo6SHsQ1RKbfp0=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.68/neoforge-21.1.68-universal.jar"
   },
   "net.neoforged:neoforge:21.1.69:universal": {
-    "hash": "sha1-494212463cdcfb95b32198e8e1bad886dec4dce0",
+    "hash": "sha1-SUISRjzc+5WzIZjo4brYht7E3OA=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.69/neoforge-21.1.69-universal.jar"
   },
   "net.neoforged:neoforge:21.1.6:universal": {
-    "hash": "sha1-6bbe7b87cdb4ee7c9b304d3b806284672a6e404c",
+    "hash": "sha1-a757h8207nybME07gGKEZypuQEw=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.6/neoforge-21.1.6-universal.jar"
   },
   "net.neoforged:neoforge:21.1.70:universal": {
-    "hash": "sha1-6505dc6b1fa3c2c3144ef76959606aba9c4f0d0d",
+    "hash": "sha1-ZQXcax+jwsMUTvdpWWBqupxPDQ0=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.70/neoforge-21.1.70-universal.jar"
   },
   "net.neoforged:neoforge:21.1.71:universal": {
-    "hash": "sha1-31863513014cb7e5a0af36ce0f3e81b426c9e73e",
+    "hash": "sha1-MYY1EwFMt+WgrzbODz6BtCbJ5z4=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.71/neoforge-21.1.71-universal.jar"
   },
   "net.neoforged:neoforge:21.1.72:universal": {
-    "hash": "sha1-87c86ac319524e36daef094119daa303bbf13ab5",
+    "hash": "sha1-h8hqwxlSTjba7wlBGdqjA7vxOrU=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.72/neoforge-21.1.72-universal.jar"
   },
   "net.neoforged:neoforge:21.1.73:universal": {
-    "hash": "sha1-ad77b66e0359dfddba39602f041477b8cdc38025",
+    "hash": "sha1-rXe2bgNZ3926OWAvBBR3uM3DgCU=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.73/neoforge-21.1.73-universal.jar"
   },
   "net.neoforged:neoforge:21.1.74:universal": {
-    "hash": "sha1-0cf297853c5ce176e36651e244ee0d268338812a",
+    "hash": "sha1-DPKXhTxc4XbjZlHiRO4NJoM4gSo=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.74/neoforge-21.1.74-universal.jar"
   },
   "net.neoforged:neoforge:21.1.75:universal": {
-    "hash": "sha1-6311aa9e19bff3a84c7551b9f3fdb6d7552c5f7f",
+    "hash": "sha1-YxGqnhm/86hMdVG58/2211UsX38=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.75/neoforge-21.1.75-universal.jar"
   },
   "net.neoforged:neoforge:21.1.76:universal": {
-    "hash": "sha1-cd0843f0c64a6aa07c1f39c8f2c2f205f2f11cec",
+    "hash": "sha1-zQhD8MZKaqB8HznI8sLyBfLxHOw=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.76/neoforge-21.1.76-universal.jar"
   },
   "net.neoforged:neoforge:21.1.77:universal": {
-    "hash": "sha1-1a1a3ab373b60aeb7a1d460fa9d6557f6897503e",
+    "hash": "sha1-Gho6s3O2Cut6HUYPqdZVf2iXUD4=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.77/neoforge-21.1.77-universal.jar"
   },
   "net.neoforged:neoforge:21.1.78:universal": {
-    "hash": "sha1-9e470f0ce8e007b070af2b83317b7a4d4f23bc51",
+    "hash": "sha1-nkcPDOjgB7BwryuDMXt6TU8jvFE=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.78/neoforge-21.1.78-universal.jar"
   },
   "net.neoforged:neoforge:21.1.79:universal": {
-    "hash": "sha1-94b8fdc4871efa8124231ff7a291f3eb9152096a",
+    "hash": "sha1-lLj9xIce+oEkIx/3opHz65FSCWo=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.79/neoforge-21.1.79-universal.jar"
   },
   "net.neoforged:neoforge:21.1.7:universal": {
-    "hash": "sha1-7283d081f7392256ac847093a1edd5beda31d0f9",
+    "hash": "sha1-coPQgfc5IlashHCToe3Vvtox0Pk=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.7/neoforge-21.1.7-universal.jar"
   },
   "net.neoforged:neoforge:21.1.80:universal": {
-    "hash": "sha1-e52874f866153c60de203a2ddd3f865b9fca84b9",
+    "hash": "sha1-5Sh0+GYVPGDeIDot3T+GW5/KhLk=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.80/neoforge-21.1.80-universal.jar"
   },
   "net.neoforged:neoforge:21.1.81:universal": {
-    "hash": "sha1-daa72e0804e93462676c7c57c478c3bed5e08b2c",
+    "hash": "sha1-2qcuCATpNGJnbHxXxHjDvtXgiyw=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.81/neoforge-21.1.81-universal.jar"
   },
   "net.neoforged:neoforge:21.1.82:universal": {
-    "hash": "sha1-6b2bf2baa940a23a8f1f79ddef8c5a2185c4d1a3",
+    "hash": "sha1-ayvyuqlAojqPH3nd74xaIYXE0aM=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.82/neoforge-21.1.82-universal.jar"
   },
   "net.neoforged:neoforge:21.1.83:universal": {
-    "hash": "sha1-a0c1d5fbb21b1ee22f61c389eab38ff88bc21cb0",
+    "hash": "sha1-oMHV+7IbHuIvYcOJ6rOP+IvCHLA=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.83/neoforge-21.1.83-universal.jar"
   },
   "net.neoforged:neoforge:21.1.84:universal": {
-    "hash": "sha1-819890b4425a39f1628ba1ccf6c5d95b77e26513",
+    "hash": "sha1-gZiQtEJaOfFii6HM9sXZW3fiZRM=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.84/neoforge-21.1.84-universal.jar"
   },
   "net.neoforged:neoforge:21.1.85:universal": {
-    "hash": "sha1-d0a098f5ad2a71f6661f67544dda5441a42700ca",
+    "hash": "sha1-0KCY9a0qcfZmH2dUTdpUQaQnAMo=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.85/neoforge-21.1.85-universal.jar"
   },
   "net.neoforged:neoforge:21.1.86:universal": {
-    "hash": "sha1-5163d9420c5f5229954ccd69fcbb2162be7601d5",
+    "hash": "sha1-UWPZQgxfUimVTM1p/LshYr52AdU=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.86/neoforge-21.1.86-universal.jar"
   },
   "net.neoforged:neoforge:21.1.87:universal": {
-    "hash": "sha1-67e608ad178b0029c0c1529a23c7645f8b33aa5a",
+    "hash": "sha1-Z+YIrReLACnAwVKaI8dkX4szqlo=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.87/neoforge-21.1.87-universal.jar"
   },
   "net.neoforged:neoforge:21.1.88:universal": {
-    "hash": "sha1-3277625431e55f2af69f0769c54daf0975c35dfc",
+    "hash": "sha1-MndiVDHlXyr2nwdpxU2vCXXDXfw=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.88/neoforge-21.1.88-universal.jar"
   },
   "net.neoforged:neoforge:21.1.89:universal": {
-    "hash": "sha1-9f272b21a702e60154b54974c74d254d6cb80623",
+    "hash": "sha1-nycrIacC5gFUtUl0x00lTWy4BiM=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.89/neoforge-21.1.89-universal.jar"
   },
   "net.neoforged:neoforge:21.1.8:universal": {
-    "hash": "sha1-a15cd0a53c88122d6e2095ea6a676747ac99f4f7",
+    "hash": "sha1-oVzQpTyIEi1uIJXqamdnR6yZ9Pc=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.8/neoforge-21.1.8-universal.jar"
   },
   "net.neoforged:neoforge:21.1.90:universal": {
-    "hash": "sha1-a86ea37d5ef90ba81a6ce906a9b9d4f4c013b53e",
+    "hash": "sha1-qG6jfV75C6gabOkGqbnU9MATtT4=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.90/neoforge-21.1.90-universal.jar"
   },
   "net.neoforged:neoforge:21.1.91:universal": {
-    "hash": "sha1-eb8ca30427fa9cc38e44b7717cdc025be038ff8d",
+    "hash": "sha1-64yjBCf6nMOORLdxfNwCW+A4/40=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.91/neoforge-21.1.91-universal.jar"
   },
   "net.neoforged:neoforge:21.1.92:universal": {
-    "hash": "sha1-8f93d8abbbd185c6cd13fa2b3176e1c557260566",
+    "hash": "sha1-j5PYq7vRhcbNE/orMXbhxVcmBWY=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.92/neoforge-21.1.92-universal.jar"
   },
   "net.neoforged:neoforge:21.1.93:universal": {
-    "hash": "sha1-20eaa540a08cd73a1940846eaac3894470d04eef",
+    "hash": "sha1-IOqlQKCM1zoZQIRuqsOJRHDQTu8=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.93/neoforge-21.1.93-universal.jar"
   },
   "net.neoforged:neoforge:21.1.94:universal": {
-    "hash": "sha1-e1c4d61e93bf65df114f14d682adcdbb6dc3fa24",
+    "hash": "sha1-4cTWHpO/Zd8RTxTWgq3Nu23D+iQ=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.94/neoforge-21.1.94-universal.jar"
   },
   "net.neoforged:neoforge:21.1.95:universal": {
-    "hash": "sha1-5526ae6f5d598cfbfa6111355141983610b145ab",
+    "hash": "sha1-VSaub11ZjPv6YRE1UUGYNhCxRas=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.95/neoforge-21.1.95-universal.jar"
   },
   "net.neoforged:neoforge:21.1.96:universal": {
-    "hash": "sha1-8af126bc2ef53c22de2eb5dfa7bab29ef676c4dd",
+    "hash": "sha1-ivEmvC71PCLeLrXfp7qynvZ2xN0=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.96/neoforge-21.1.96-universal.jar"
   },
   "net.neoforged:neoforge:21.1.97:universal": {
-    "hash": "sha1-0fbc4dc78e98c17fd28d3a717b135f8f71661051",
+    "hash": "sha1-D7xNx46YwX/SjTpxexNfj3FmEFE=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.97/neoforge-21.1.97-universal.jar"
   },
   "net.neoforged:neoforge:21.1.98:universal": {
-    "hash": "sha1-86765f9fd3fe64059692027f95ed349ed4459d44",
+    "hash": "sha1-hnZfn9P+ZAWWkgJ/le00ntRFnUQ=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.98/neoforge-21.1.98-universal.jar"
   },
   "net.neoforged:neoforge:21.1.99:universal": {
-    "hash": "sha1-a97cd45718d138d2fab801869341b0672f86b363",
+    "hash": "sha1-qXzUVxjRONL6uAGGk0GwZy+Gs2M=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.99/neoforge-21.1.99-universal.jar"
   },
   "net.neoforged:neoforge:21.1.9:universal": {
-    "hash": "sha1-f50310b6374bd50a306db91711e185b1c9814f31",
+    "hash": "sha1-9QMQtjdL1QowbbkXEeGFscmBTzE=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.9/neoforge-21.1.9-universal.jar"
   },
   "net.neoforged:neoforge:21.3.56:universal": {
-    "hash": "sha1-18332295dbdb08645648adf72937a361aa51acc4",
+    "hash": "sha1-GDMildvbCGRWSK33KTejYapRrMQ=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.3.56/neoforge-21.3.56-universal.jar"
   },
   "net.neoforged:neoforge:21.3.57:universal": {
-    "hash": "sha1-8e2b36114e230aeea1ac153ca994664250a98479",
+    "hash": "sha1-jis2EU4jCu6hrBU8qZRmQlCphHk=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.3.57/neoforge-21.3.57-universal.jar"
   },
   "net.neoforged:neoforge:21.3.58:universal": {
-    "hash": "sha1-3de4becfd03cf53388c4b651d2b8d3017baa302f",
+    "hash": "sha1-PeS+z9A89TOIxLZR0rjTAXuqMC8=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.3.58/neoforge-21.3.58-universal.jar"
   },
   "net.neoforged:neoforge:21.3.59:universal": {
-    "hash": "sha1-d3b569e5b4e75573566d13ce28b91eddcf984aeb",
+    "hash": "sha1-07Vp5bTnVXNWbRPOKLke3c+YSus=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.3.59/neoforge-21.3.59-universal.jar"
   },
   "net.neoforged:neoforge:21.3.60:universal": {
-    "hash": "sha1-8282915ae1a9727c89a3bf19b8fded458c91f52c",
+    "hash": "sha1-goKRWuGpcnyJo78ZuP3tRYyR9Sw=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.3.60/neoforge-21.3.60-universal.jar"
   },
   "net.neoforged:neoforge:21.3.61:universal": {
-    "hash": "sha1-e9515e27ff28a9156efa6510399d1c7bb012de0b",
+    "hash": "sha1-6VFeJ/8oqRVu+mUQOZ0ce7AS3gs=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.3.61/neoforge-21.3.61-universal.jar"
   },
   "net.neoforged:neoforge:21.3.62:universal": {
-    "hash": "sha1-817190d44e09f47572b57fdf42377862e159f70d",
+    "hash": "sha1-gXGQ1E4J9HVytX/fQjd4YuFZ9w0=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.3.62/neoforge-21.3.62-universal.jar"
   },
   "net.neoforged:neoforge:21.3.63:universal": {
-    "hash": "sha1-3440c83fb64b6815a32e27b78d515eacfa607463",
+    "hash": "sha1-NEDIP7ZLaBWjLie3jVFerPpgdGM=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.3.63/neoforge-21.3.63-universal.jar"
   },
   "net.neoforged:neoforge:21.3.64:universal": {
-    "hash": "sha1-9452e9f8d0dc336398249b05ad8082474bb93c7c",
+    "hash": "sha1-lFLp+NDcM2OYJJsFrYCCR0u5PHw=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.3.64/neoforge-21.3.64-universal.jar"
   },
   "net.neoforged:neoforge:21.3.65:universal": {
-    "hash": "sha1-048244419f7c7a5d4fda88c3f04f476948239bfd",
+    "hash": "sha1-BIJEQZ98el1P2ojD8E9HaUgjm/0=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.3.65/neoforge-21.3.65-universal.jar"
   },
   "net.neoforged:neoforge:21.3.66:universal": {
-    "hash": "sha1-a08a3008cbc9d5e20f38c6e7491a0f6949b43f4f",
+    "hash": "sha1-oIowCMvJ1eIPOMbnSRoPaUm0P08=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.3.66/neoforge-21.3.66-universal.jar"
   },
   "net.neoforged:neoforge:21.3.67:universal": {
-    "hash": "sha1-b1f9e420929fbe5dda1c3e1a16ec5d2f0de2e4f7",
+    "hash": "sha1-sfnkIJKfvl3aHD4aFuxdLw3i5Pc=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.3.67/neoforge-21.3.67-universal.jar"
   },
   "net.neoforged:neoforge:21.3.68:universal": {
-    "hash": "sha1-1d0e88c820a68710418ffe612ce2eeab054ad37b",
+    "hash": "sha1-HQ6IyCCmhxBBj/5hLOLuqwVK03s=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.3.68/neoforge-21.3.68-universal.jar"
   },
   "net.neoforged:neoforge:21.3.69:universal": {
-    "hash": "sha1-e7d3923bf06f7d906c87eb8972fc7292828a65f6",
+    "hash": "sha1-59OSO/BvfZBsh+uJcvxykoKKZfY=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.3.69/neoforge-21.3.69-universal.jar"
   },
   "net.neoforged:neoforge:21.3.70:universal": {
-    "hash": "sha1-2e6afa96ef488fdcab00743114f36acb6a905bd6",
+    "hash": "sha1-Lmr6lu9Ij9yrAHQxFPNqy2qQW9Y=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.3.70/neoforge-21.3.70-universal.jar"
   },
   "net.neoforged:neoforge:21.3.71:universal": {
-    "hash": "sha1-607bfbbc29a0128cff90940e0c1fd33e21fcb1d6",
+    "hash": "sha1-YHv7vCmgEoz/kJQODB/TPiH8sdY=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.3.71/neoforge-21.3.71-universal.jar"
   },
   "net.neoforged:neoforge:21.3.72:universal": {
-    "hash": "sha1-a74ed23420b398ca810dc9d626ff1ea2b90a0a63",
+    "hash": "sha1-p07SNCCzmMqBDcnWJv8eorkKCmM=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.3.72/neoforge-21.3.72-universal.jar"
   },
   "net.neoforged:neoforge:21.3.73:universal": {
-    "hash": "sha1-6e28163b9460115ae99da8247963f5e7bb847841",
+    "hash": "sha1-bigWO5RgEVrpnagkeWP157uEeEE=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.3.73/neoforge-21.3.73-universal.jar"
   },
   "net.neoforged:neoforge:21.3.74:universal": {
-    "hash": "sha1-fc77be1b2c7a8f75cca3690a8288d8e27240c250",
+    "hash": "sha1-/He+Gyx6j3XMo2kKgojY4nJAwlA=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.3.74/neoforge-21.3.74-universal.jar"
   },
   "net.neoforged:neoforge:21.3.75:universal": {
-    "hash": "sha1-4dc3a49707fcb0a2960ea71dc47f95caecddebe8",
+    "hash": "sha1-TcOklwf8sKKWDqcdxH+Vyuzd6+g=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.3.75/neoforge-21.3.75-universal.jar"
   },
   "net.neoforged:neoforge:21.3.76:universal": {
-    "hash": "sha1-5952ac15821b4c2173a7956984113c570390fd0c",
+    "hash": "sha1-WVKsFYIbTCFzp5VphBE8VwOQ/Qw=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.3.76/neoforge-21.3.76-universal.jar"
   },
   "net.neoforged:neoforge:21.3.77:universal": {
-    "hash": "sha1-966b4731112f1447858be8b500887c90f489cd42",
+    "hash": "sha1-lmtHMREvFEeFi+i1AIh8kPSJzUI=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.3.77/neoforge-21.3.77-universal.jar"
   },
   "net.neoforged:neoforge:21.3.78:universal": {
-    "hash": "sha1-db32be3ac9519bfe85722c58e72fc130e8d42366",
+    "hash": "sha1-2zK+OslRm/6FcixY5y/BMOjUI2Y=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.3.78/neoforge-21.3.78-universal.jar"
   },
   "net.neoforged:neoforge:21.3.79:universal": {
-    "hash": "sha1-7e0666b19c1958b76ff0bdca563d22e2f01d1f13",
+    "hash": "sha1-fgZmsZwZWLdv8L3KVj0i4vAdHxM=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.3.79/neoforge-21.3.79-universal.jar"
   },
   "net.neoforged:neoforge:21.3.80:universal": {
-    "hash": "sha1-0fadcfd1d85bb265873813577123d8fe46e669a9",
+    "hash": "sha1-D63P0dhbsmWHOBNXcSPY/kbmaak=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.3.80/neoforge-21.3.80-universal.jar"
   },
   "net.neoforged:neoforge:21.4.121:universal": {
-    "hash": "sha1-1c5e4d70369ed703b3562669bb07854bd49e8b61",
+    "hash": "sha1-HF5NcDae1wOzViZpuweFS9Sei2E=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.4.121/neoforge-21.4.121-universal.jar"
   },
   "net.neoforged:neoforge:21.4.122:universal": {
-    "hash": "sha1-49beccb7e6a940b2cff5cea6200d75e1d151d16d",
+    "hash": "sha1-Sb7Mt+apQLLP9c6mIA114dFR0W0=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.4.122/neoforge-21.4.122-universal.jar"
   },
   "net.neoforged:neoforge:21.4.123:universal": {
-    "hash": "sha1-11cc04da347f9badce53d30244e0c681dca1d547",
+    "hash": "sha1-EcwE2jR/m63OU9MCRODGgdyh1Uc=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.4.123/neoforge-21.4.123-universal.jar"
   },
   "net.neoforged:neoforge:21.4.124:universal": {
-    "hash": "sha1-4e2c07297bcc3c9c5ebc5226860eeaa6ade5190a",
+    "hash": "sha1-TiwHKXvMPJxevFImhg7qpq3lGQo=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.4.124/neoforge-21.4.124-universal.jar"
   },
   "net.neoforged:neoforge:21.4.125:universal": {
-    "hash": "sha1-bf8ef0d3f6b7a28ae45e3fb397b911db540d2430",
+    "hash": "sha1-v47w0/a3oorkXj+zl7kR21QNJDA=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.4.125/neoforge-21.4.125-universal.jar"
   },
   "net.neoforged:neoforge:21.4.126:universal": {
-    "hash": "sha1-3ee8efdd080ad343a052c866acceefa9c85dbf10",
+    "hash": "sha1-Pujv3QgK00OgUshmrM7vqchdvxA=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.4.126/neoforge-21.4.126-universal.jar"
   },
   "net.neoforged:neoforge:21.4.127:universal": {
-    "hash": "sha1-5583ba5d769ec7ec6594c2237f77ed06893dc9e0",
+    "hash": "sha1-VYO6XXaex+xllMIjf3ftBok9yeA=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.4.127/neoforge-21.4.127-universal.jar"
   },
   "net.neoforged:neoforge:21.4.128:universal": {
-    "hash": "sha1-272eef1f70ae80b1bc8448baf42f0c179808d3b9",
+    "hash": "sha1-Jy7vH3CugLG8hEi69C8MF5gI07k=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.4.128/neoforge-21.4.128-universal.jar"
   },
   "net.neoforged:neoforge:21.4.129:universal": {
-    "hash": "sha1-7ad662e0a3867a238c36e5cab49d51237bb2506e",
+    "hash": "sha1-etZi4KOGeiOMNuXKtJ1RI3uyUG4=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.4.129/neoforge-21.4.129-universal.jar"
   },
   "net.neoforged:neoforge:21.4.130:universal": {
-    "hash": "sha1-18abc063794e9b1b7df9f3b5823218175e679a64",
+    "hash": "sha1-GKvAY3lOmxt9+fO1gjIYF15nmmQ=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.4.130/neoforge-21.4.130-universal.jar"
   },
   "net.neoforged:neoforge:21.4.131:universal": {
-    "hash": "sha1-00664bb0b11652cb6004a718b3dcfc5f50234341",
+    "hash": "sha1-AGZLsLEWUstgBKcYs9z8X1AjQ0E=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.4.131/neoforge-21.4.131-universal.jar"
   },
   "net.neoforged:neoforge:21.4.132:universal": {
-    "hash": "sha1-af740a6a50f0e40825c900839e6e06f0e1a0b3f1",
+    "hash": "sha1-r3QKalDw5AglyQCDnm4G8OGgs/E=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.4.132/neoforge-21.4.132-universal.jar"
   },
   "net.neoforged:neoforge:21.4.133:universal": {
-    "hash": "sha1-f99bfc75d75eaeeeecb13518b8e329b52cd85de5",
+    "hash": "sha1-+Zv8ddderu7ssTUYuOMptSzYXeU=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.4.133/neoforge-21.4.133-universal.jar"
   },
   "net.neoforged:neoforge:21.4.134:universal": {
-    "hash": "sha1-e0096b0828b90cf1278b06241c74dc7ce84540d2",
+    "hash": "sha1-4AlrCCi5DPEniwYkHHTcfOhFQNI=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.4.134/neoforge-21.4.134-universal.jar"
   },
   "net.neoforged:neoforge:21.4.135:universal": {
-    "hash": "sha1-a8e49cbbe3ae93d5daa170d1892164b3ceb17d3b",
+    "hash": "sha1-qOScu+Ouk9XaoXDRiSFks86xfTs=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.4.135/neoforge-21.4.135-universal.jar"
   },
   "net.neoforged:neoforge:21.4.136:universal": {
-    "hash": "sha1-83efaba0d2b2e7b448347bb0fc5af5039c92f4e4",
+    "hash": "sha1-g++roNKy57RINHuw/Fr1A5yS9OQ=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.4.136/neoforge-21.4.136-universal.jar"
   },
   "net.neoforged:neoforge:21.4.137:universal": {
-    "hash": "sha1-1bf64e1a86a8b1655a6db22e4606841d699601c8",
+    "hash": "sha1-G/ZOGoaosWVabbIuRgaEHWmWAcg=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.4.137/neoforge-21.4.137-universal.jar"
   },
   "net.neoforged:neoforge:21.4.138:universal": {
-    "hash": "sha1-5c49aa2671b147f7d251228d3cffdb66e6c898f5",
+    "hash": "sha1-XEmqJnGxR/fSUSKNPP/bZubImPU=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.4.138/neoforge-21.4.138-universal.jar"
   },
   "net.neoforged:neoforge:21.4.139:universal": {
-    "hash": "sha1-0be08fc5985c67b0e4f21cd92c36aa9c0b672c13",
+    "hash": "sha1-C+CPxZhcZ7Dk8hzZLDaqnAtnLBM=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.4.139/neoforge-21.4.139-universal.jar"
   },
   "net.neoforged:neoforge:21.4.140:universal": {
-    "hash": "sha1-e0542a338a9914cc88e991d607fdd7b5620ef69d",
+    "hash": "sha1-4FQqM4qZFMyI6ZHWB/3XtWIO9p0=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.4.140/neoforge-21.4.140-universal.jar"
   },
   "net.neoforged:neoforge:21.4.141:universal": {
-    "hash": "sha1-6e1be0232da767484d704332cc15e0ff9d7c819f",
+    "hash": "sha1-bhvgIy2nZ0hNcEMyzBXg/518gZ8=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.4.141/neoforge-21.4.141-universal.jar"
   },
   "net.neoforged:neoforge:21.5.74:universal": {
-    "hash": "sha1-1e1d95f10c8b5fd63ab7961ccd71c675b875aeaa",
+    "hash": "sha1-Hh2V8QyLX9Y6t5YczXHGdbh1rqo=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.5.74/neoforge-21.5.74-universal.jar"
   },
   "net.neoforged:neoforge:21.5.75:universal": {
-    "hash": "sha1-044129d01f657044b1ac3b97b602de5db90f2d28",
+    "hash": "sha1-BEEp0B9lcESxrDuXtgLeXbkPLSg=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.5.75/neoforge-21.5.75-universal.jar"
   },
   "net.neoforged:neoforge:21.5.76:universal": {
-    "hash": "sha1-6603f43efb6fc56e9550f95fcddc2d3333abdf2e",
+    "hash": "sha1-ZgP0PvtvxW6VUPlfzdwtMzOr3y4=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.5.76/neoforge-21.5.76-universal.jar"
   },
   "net.neoforged:neoforge:21.5.77:universal": {
-    "hash": "sha1-27ee4ba24a08c73e289f49ca716068599cba4060",
+    "hash": "sha1-J+5LokoIxz4on0nKcWBoWZy6QGA=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.5.77/neoforge-21.5.77-universal.jar"
   },
   "net.neoforged:neoforge:21.5.78:universal": {
-    "hash": "sha1-54e770920c1486cc7b17b610cb11f3eadac6ba88",
+    "hash": "sha1-VOdwkgwUhsx7F7YQyxHz6trGuog=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.5.78/neoforge-21.5.78-universal.jar"
   },
   "net.neoforged:neoforge:21.5.79:universal": {
-    "hash": "sha1-6e85de0601c631ad8e7f7e3bb09f9d1fd272ee02",
+    "hash": "sha1-boXeBgHGMa2Of347sJ+dH9Jy7gI=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.5.79/neoforge-21.5.79-universal.jar"
   },
   "net.neoforged:neoforge:21.5.80:universal": {
-    "hash": "sha1-54ec78655c68000755f311913caea5525c69f4a4",
+    "hash": "sha1-VOx4ZVxoAAdV8xGRPK6lUlxp9KQ=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.5.80/neoforge-21.5.80-universal.jar"
   },
   "net.neoforged:neoforge:21.5.81:universal": {
-    "hash": "sha1-08a9a1edf89ddb18cc04cbc189a20ba2d414cbeb",
+    "hash": "sha1-CKmh7fid2xjMBMvBiaILotQUy+s=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.5.81/neoforge-21.5.81-universal.jar"
   },
   "net.neoforged:neoforgespi:8.0.0@jar": {
-    "hash": "sha1-504823c2b4bfec1880b7a80a939af7570ff1862f",
+    "hash": "sha1-UEgjwrS/7BiAt6gKk5r3Vw/xhi8=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforgespi/8.0.0/neoforgespi-8.0.0.jar"
   },
   "net.neoforged:neoform:1.20.2-20231019.002635@zip": {
-    "hash": "sha1-ccc76c9cd813988c70b3098c6cfb3bed22395206",
+    "hash": "sha1-zMdsnNgTmIxwswmMbPs77SI5UgY=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoform/1.20.2-20231019.002635/neoform-1.20.2-20231019.002635.zip"
   },
   "net.neoforged:neoform:1.20.4-20231207.154220@zip": {
-    "hash": "sha1-ad0bdcc5c21199e1a9cb05836f9660c22830a4fe",
+    "hash": "sha1-rQvcxcIRmeGpywWDb5ZgwigwpP4=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoform/1.20.4-20231207.154220/neoform-1.20.4-20231207.154220.zip"
   },
   "net.neoforged:neoform:1.20.4-20240627.114801@zip": {
-    "hash": "sha1-1a85c9aabc4a0272b78cdca7090b806e50b41178",
+    "hash": "sha1-GoXJqrxKAnK3jNynCQuAblC0EXg=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoform/1.20.4-20240627.114801/neoform-1.20.4-20240627.114801.zip"
   },
   "net.neoforged:neoform:1.20.6-20240429.153634@zip": {
-    "hash": "sha1-584015c98bfc09dc469bf9d84f269a31145a2766",
+    "hash": "sha1-WEAVyYv8CdxGm/nYTyaaMRRaJ2Y=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoform/1.20.6-20240429.153634/neoform-1.20.6-20240429.153634.zip"
   },
   "net.neoforged:neoform:1.20.6-20240627.102356@zip": {
-    "hash": "sha1-265bad4bc9ed1e32fcaa22388806b740d668f94c",
+    "hash": "sha1-JlutS8ntHjL8qiI4iAa3QNZo+Uw=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoform/1.20.6-20240627.102356/neoform-1.20.6-20240627.102356.zip"
   },
   "net.neoforged:neoform:1.21-20240613.152323@zip": {
-    "hash": "sha1-6293c1a6b9b053ea4e41ac2fe03a3342486d45b1",
+    "hash": "sha1-YpPBprmwU+pOQawv4DozQkhtRbE=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoform/1.21-20240613.152323/neoform-1.21-20240613.152323.zip"
   },
   "net.neoforged:neoform:1.21.1-20240808.144430@zip": {
-    "hash": "sha1-811e2bd86fa2cda2812e5e8e51d718ea8bd6d3f4",
+    "hash": "sha1-gR4r2G+izaKBLl6OUdcY6ovW0/Q=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoform/1.21.1-20240808.144430/neoform-1.21.1-20240808.144430.zip"
   },
   "net.neoforged:neoform:1.21.3-20241023.131943@zip": {
-    "hash": "sha1-d0fd92256c802c6f3aa256d51e2c9ec5a997df2a",
+    "hash": "sha1-0P2SJWyALG86olbVHiyexamX3yo=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoform/1.21.3-20241023.131943/neoform-1.21.3-20241023.131943.zip"
   },
   "net.neoforged:neoform:1.21.4-20241203.161809@zip": {
-    "hash": "sha1-9a045c2a60e9ee90db98460d7b2edb460321cf60",
+    "hash": "sha1-mgRcKmDp7pDbmEYNey7bRgMhz2A=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoform/1.21.4-20241203.161809/neoform-1.21.4-20241203.161809.zip"
   },
   "net.neoforged:neoform:1.21.5-20250325.162830@zip": {
-    "hash": "sha1-8885673ada0afa3a7ffed18d33b7b46e2b04aa4d",
+    "hash": "sha1-iIVnOtoK+jp//tGNM7e0bisEqk0=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoform/1.21.5-20250325.162830/neoform-1.21.5-20250325.162830.zip"
   },
   "net.neoforged:srgutils:1.0.0": {
-    "hash": "sha1-b9fe6cdab494983217cbc14cc6f92c8e6c616526",
+    "hash": "sha1-uf5s2rSUmDIXy8FMxvksjmxhZSY=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/srgutils/1.0.0/srgutils-1.0.0.jar"
   },
   "net.neoforged:srgutils:1.0.0@jar": {
-    "hash": "sha1-b9fe6cdab494983217cbc14cc6f92c8e6c616526",
+    "hash": "sha1-uf5s2rSUmDIXy8FMxvksjmxhZSY=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/srgutils/1.0.0/srgutils-1.0.0.jar"
   },
   "net.sf.jopt-simple:jopt-simple:5.0.4": {
-    "hash": "sha1-4fdac2fbe92dfad86aa6e9301736f6b4342a3f5c",
+    "hash": "sha1-T9rC++kt+thqpukwFzb2tDQqP1w=",
     "url": "https://libraries.minecraft.net/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar"
   },
   "net.sf.jopt-simple:jopt-simple:5.0.4@jar": {
-    "hash": "sha1-4fdac2fbe92dfad86aa6e9301736f6b4342a3f5c",
+    "hash": "sha1-T9rC++kt+thqpukwFzb2tDQqP1w=",
     "url": "https://libraries.minecraft.net/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar"
   },
   "net.sf.jopt-simple:jopt-simple:6.0-alpha-3@jar": {
-    "hash": "sha1-02ab1a73e1e22d2b73469362a0908a98644b681d",
+    "hash": "sha1-Aqsac+HiLStzRpNioJCKmGRLaB0=",
     "url": "https://maven.neoforged.net/releases/net/sf/jopt-simple/jopt-simple/6.0-alpha-3/jopt-simple-6.0-alpha-3.jar"
   },
   "org.antlr:antlr4-runtime:4.13.1": {
-    "hash": "sha1-17125bae1d965624e265ef49552f6465a2bfa307",
+    "hash": "sha1-FxJbrh2WViTiZe9JVS9kZaK/owc=",
     "url": "https://maven.neoforged.net/releases/org/antlr/antlr4-runtime/4.13.1/antlr4-runtime-4.13.1.jar"
   },
   "org.antlr:antlr4-runtime:4.13.1@jar": {
-    "hash": "sha1-17125bae1d965624e265ef49552f6465a2bfa307",
+    "hash": "sha1-FxJbrh2WViTiZe9JVS9kZaK/owc=",
     "url": "https://maven.neoforged.net/releases/org/antlr/antlr4-runtime/4.13.1/antlr4-runtime-4.13.1.jar"
   },
   "org.apache.commons:commons-collections4:4.2": {
-    "hash": "sha1-54ebea0a5b653d3c680131e73fe807bb8f78c4ed",
+    "hash": "sha1-VOvqCltlPTxoATHnP+gHu494xO0=",
     "url": "https://maven.neoforged.net/releases/org/apache/commons/commons-collections4/4.2/commons-collections4-4.2.jar"
   },
   "org.apache.commons:commons-collections4:4.2@jar": {
-    "hash": "sha1-54ebea0a5b653d3c680131e73fe807bb8f78c4ed",
+    "hash": "sha1-VOvqCltlPTxoATHnP+gHu494xO0=",
     "url": "https://maven.neoforged.net/releases/org/apache/commons/commons-collections4/4.2/commons-collections4-4.2.jar"
   },
   "org.apache.commons:commons-lang3:3.12.0@jar": {
-    "hash": "sha1-c6842c86792ff03b9f1d1fe2aab8dc23aa6c6f0e",
+    "hash": "sha1-xoQshnkv8DufHR/iqrjcI6psbw4=",
     "url": "https://libraries.minecraft.net/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar"
   },
   "org.apache.commons:commons-lang3:3.13.0@jar": {
-    "hash": "sha1-b7263237aa89c1f99b327197c41d0669707a462e",
+    "hash": "sha1-tyYyN6qJwfmbMnGXxB0GaXB6Ri4=",
     "url": "https://libraries.minecraft.net/org/apache/commons/commons-lang3/3.13.0/commons-lang3-3.13.0.jar"
   },
   "org.apache.commons:commons-lang3:3.14.0": {
-    "hash": "sha1-1ed471194b02f2c6cb734a0cd6f6f107c673afae",
+    "hash": "sha1-HtRxGUsC8sbLc0oM1vbxB8Zzr64=",
     "url": "https://libraries.minecraft.net/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar"
   },
   "org.apache.commons:commons-lang3:3.14.0@jar": {
-    "hash": "sha1-1ed471194b02f2c6cb734a0cd6f6f107c673afae",
+    "hash": "sha1-HtRxGUsC8sbLc0oM1vbxB8Zzr64=",
     "url": "https://libraries.minecraft.net/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar"
   },
   "org.apache.commons:commons-lang3:3.17.0": {
-    "hash": "sha1-b17d2136f0460dcc0d2016ceefca8723bdf4ee70",
+    "hash": "sha1-sX0hNvBGDcwNIBbO78qHI7307nA=",
     "url": "https://libraries.minecraft.net/org/apache/commons/commons-lang3/3.17.0/commons-lang3-3.17.0.jar"
   },
   "org.apache.commons:commons-lang3:3.8.1": {
-    "hash": "sha1-6505a72a097d9270f7a9e7bf42c4238283247755",
+    "hash": "sha1-ZQWnKgl9knD3qee/QsQjgoMkd1U=",
     "url": "https://maven.neoforged.net/releases/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar"
   },
   "org.apache.commons:commons-lang3:3.8.1@jar": {
-    "hash": "sha1-6505a72a097d9270f7a9e7bf42c4238283247755",
+    "hash": "sha1-ZQWnKgl9knD3qee/QsQjgoMkd1U=",
     "url": "https://maven.neoforged.net/releases/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar"
   },
   "org.apache.commons:commons-text:1.3": {
-    "hash": "sha1-9abf61708a66ab5e55f6169a200dbfc584b546d9",
+    "hash": "sha1-mr9hcIpmq15V9haaIA2/xYS1Rtk=",
     "url": "https://maven.neoforged.net/releases/org/apache/commons/commons-text/1.3/commons-text-1.3.jar"
   },
   "org.apache.commons:commons-text:1.3@jar": {
-    "hash": "sha1-9abf61708a66ab5e55f6169a200dbfc584b546d9",
+    "hash": "sha1-mr9hcIpmq15V9haaIA2/xYS1Rtk=",
     "url": "https://maven.neoforged.net/releases/org/apache/commons/commons-text/1.3/commons-text-1.3.jar"
   },
   "org.apache.logging.log4j:log4j-api:2.19.0@jar": {
-    "hash": "sha1-ea1b37f38c327596b216542bc636cfdc0b8036fa",
+    "hash": "sha1-6hs384wydZayFlQrxjbP3AuANvo=",
     "url": "https://libraries.minecraft.net/org/apache/logging/log4j/log4j-api/2.19.0/log4j-api-2.19.0.jar"
   },
   "org.apache.logging.log4j:log4j-api:2.22.1": {
-    "hash": "sha1-bea6fede6328fabafd7e68363161a7ea6605abd1",
+    "hash": "sha1-vqb+3mMo+rr9fmg2MWGn6mYFq9E=",
     "url": "https://libraries.minecraft.net/org/apache/logging/log4j/log4j-api/2.22.1/log4j-api-2.22.1.jar"
   },
   "org.apache.logging.log4j:log4j-api:2.22.1@jar": {
-    "hash": "sha1-bea6fede6328fabafd7e68363161a7ea6605abd1",
+    "hash": "sha1-vqb+3mMo+rr9fmg2MWGn6mYFq9E=",
     "url": "https://libraries.minecraft.net/org/apache/logging/log4j/log4j-api/2.22.1/log4j-api-2.22.1.jar"
   },
   "org.apache.logging.log4j:log4j-api:2.24.1": {
-    "hash": "sha1-7ebeb12c20606373005af4232cd0ecca72613dda",
+    "hash": "sha1-fr6xLCBgY3MAWvQjLNDsynJhPdo=",
     "url": "https://libraries.minecraft.net/org/apache/logging/log4j/log4j-api/2.24.1/log4j-api-2.24.1.jar"
   },
   "org.apache.logging.log4j:log4j-core:2.19.0@jar": {
-    "hash": "sha1-3b6eeb4de4c49c0fe38a4ee27188ff5fee44d0bb",
+    "hash": "sha1-O27rTeTEnA/jik7icYj/X+5E0Ls=",
     "url": "https://libraries.minecraft.net/org/apache/logging/log4j/log4j-core/2.19.0/log4j-core-2.19.0.jar"
   },
   "org.apache.logging.log4j:log4j-core:2.22.1": {
-    "hash": "sha1-7183a25510a02ad00cc6a95d3b3d2a7d3c5a8dc4",
+    "hash": "sha1-cYOiVRCgKtAMxqldOz0qfTxajcQ=",
     "url": "https://libraries.minecraft.net/org/apache/logging/log4j/log4j-core/2.22.1/log4j-core-2.22.1.jar"
   },
   "org.apache.logging.log4j:log4j-core:2.22.1@jar": {
-    "hash": "sha1-7183a25510a02ad00cc6a95d3b3d2a7d3c5a8dc4",
+    "hash": "sha1-cYOiVRCgKtAMxqldOz0qfTxajcQ=",
     "url": "https://libraries.minecraft.net/org/apache/logging/log4j/log4j-core/2.22.1/log4j-core-2.22.1.jar"
   },
   "org.apache.logging.log4j:log4j-core:2.24.1": {
-    "hash": "sha1-c85285146f28d8c8962384f786e2dff04172fb43",
+    "hash": "sha1-yFKFFG8o2MiWI4T3huLf8EFy+0M=",
     "url": "https://libraries.minecraft.net/org/apache/logging/log4j/log4j-core/2.24.1/log4j-core-2.24.1.jar"
   },
   "org.apache.logging.log4j:log4j-slf4j2-impl:2.19.0@jar": {
-    "hash": "sha1-5c04bfdd63ce9dceb2e284b81e96b6a70010ee10",
+    "hash": "sha1-XAS/3WPOnc6y4oS4Hpa2pwAQ7hA=",
     "url": "https://libraries.minecraft.net/org/apache/logging/log4j/log4j-slf4j2-impl/2.19.0/log4j-slf4j2-impl-2.19.0.jar"
   },
   "org.apache.logging.log4j:log4j-slf4j2-impl:2.22.1": {
-    "hash": "sha1-d7e6693c2606cb7e7335047d7bb96dec52db5665",
+    "hash": "sha1-1+ZpPCYGy35zNQR9e7lt7FLbVmU=",
     "url": "https://libraries.minecraft.net/org/apache/logging/log4j/log4j-slf4j2-impl/2.22.1/log4j-slf4j2-impl-2.22.1.jar"
   },
   "org.apache.logging.log4j:log4j-slf4j2-impl:2.22.1@jar": {
-    "hash": "sha1-d7e6693c2606cb7e7335047d7bb96dec52db5665",
+    "hash": "sha1-1+ZpPCYGy35zNQR9e7lt7FLbVmU=",
     "url": "https://libraries.minecraft.net/org/apache/logging/log4j/log4j-slf4j2-impl/2.22.1/log4j-slf4j2-impl-2.22.1.jar"
   },
   "org.apache.logging.log4j:log4j-slf4j2-impl:2.24.1": {
-    "hash": "sha1-8e3ddc96464ef7f768823e7e001a52b23de8cd0a",
+    "hash": "sha1-jj3clkZO9/dogj5+ABpSsj3ozQo=",
     "url": "https://libraries.minecraft.net/org/apache/logging/log4j/log4j-slf4j2-impl/2.24.1/log4j-slf4j2-impl-2.24.1.jar"
   },
   "org.apache.maven:maven-artifact:3.8.5": {
-    "hash": "sha1-4433f50c07debefaed0553bd0068f4f48d449313",
+    "hash": "sha1-RDP1DAfevvrtBVO9AGj09I1EkxM=",
     "url": "https://maven.neoforged.net/releases/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
   },
   "org.apache.maven:maven-artifact:3.8.5@jar": {
-    "hash": "sha1-4433f50c07debefaed0553bd0068f4f48d449313",
+    "hash": "sha1-RDP1DAfevvrtBVO9AGj09I1EkxM=",
     "url": "https://maven.neoforged.net/releases/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
   },
   "org.apache.maven:maven-artifact:3.9.9": {
-    "hash": "sha1-a130ec431ef32e12a4424f9b074735bb58e15d2d",
+    "hash": "sha1-oTDsQx7zLhKkQk+bB0c1u1jhXS0=",
     "url": "https://maven.neoforged.net/releases/org/apache/maven/maven-artifact/3.9.9/maven-artifact-3.9.9.jar"
   },
   "org.checkerframework:checker-qual:2.0.0@jar": {
-    "hash": "sha1-518929596ee3249127502a8573b2e008e2d51ed3",
+    "hash": "sha1-UYkpWW7jJJEnUCqFc7LgCOLVHtM=",
     "url": "https://maven.neoforged.net/releases/org/checkerframework/checker-qual/2.0.0/checker-qual-2.0.0.jar"
   },
   "org.checkerframework:checker-qual:3.12.0@jar": {
-    "hash": "sha1-d5692f0526415fcc6de94bb5bfbd3afd9dd3b3e5",
+    "hash": "sha1-1WkvBSZBX8xt6Uu1v706/Z3Ts+U=",
     "url": "https://libraries.minecraft.net/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar"
   },
   "org.checkerframework:checker-qual:3.33.0": {
-    "hash": "sha1-de2b60b62da487644fc11f734e73c8b0b431238f",
+    "hash": "sha1-3itgti2kh2RPwR9zTnPIsLQxI48=",
     "url": "https://libraries.minecraft.net/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar"
   },
   "org.checkerframework:checker-qual:3.33.0@jar": {
-    "hash": "sha1-de2b60b62da487644fc11f734e73c8b0b431238f",
+    "hash": "sha1-3itgti2kh2RPwR9zTnPIsLQxI48=",
     "url": "https://libraries.minecraft.net/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar"
   },
   "org.checkerframework:checker-qual:3.43.0": {
-    "hash": "sha1-9425eee39e56b116d2b998b7c2cebcbd11a3c98b",
+    "hash": "sha1-lCXu455WsRbSuZi3ws68vRGjyYs=",
     "url": "https://libraries.minecraft.net/org/checkerframework/checker-qual/3.43.0/checker-qual-3.43.0.jar"
   },
   "org.codehaus.mojo:animal-sniffer-annotations:1.14@jar": {
-    "hash": "sha1-775b7e22fb10026eed3f86e8dc556dfafe35f2d5",
+    "hash": "sha1-d1t+IvsQAm7tP4bo3FVt+v418tU=",
     "url": "https://maven.neoforged.net/releases/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar"
   },
   "org.codehaus.plexus:plexus-utils:3.3.0": {
-    "hash": "sha1-cf43b5391de623b36fe066a21127baef82c64022",
+    "hash": "sha1-z0O1OR3mI7Nv4GaiESe674LGQCI=",
     "url": "https://maven.neoforged.net/releases/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.jar"
   },
   "org.codehaus.plexus:plexus-utils:3.3.0@jar": {
-    "hash": "sha1-cf43b5391de623b36fe066a21127baef82c64022",
+    "hash": "sha1-z0O1OR3mI7Nv4GaiESe674LGQCI=",
     "url": "https://maven.neoforged.net/releases/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.jar"
   },
   "org.codehaus.plexus:plexus-utils:3.5.1": {
-    "hash": "sha1-c6bfb17c97ecc8863e88778ea301be742c62b06d",
+    "hash": "sha1-xr+xfJfsyIY+iHeOowG+dCxisG0=",
     "url": "https://maven.neoforged.net/releases/org/codehaus/plexus/plexus-utils/3.5.1/plexus-utils-3.5.1.jar"
   },
   "org.jetbrains:annotations:22.0.0@jar": {
-    "hash": "sha1-fb9bebc90794c7602e73d6ed0cb165a0c650be62",
+    "hash": "sha1-+5vryQeUx2Auc9btDLFloMZQvmI=",
     "url": "https://maven.neoforged.net/releases/org/jetbrains/annotations/22.0.0/annotations-22.0.0.jar"
   },
   "org.jline:jline-reader:3.12.1@jar": {
-    "hash": "sha1-4382ab1382c7b6f379377ed5f665dc2f6e1218bc",
+    "hash": "sha1-Q4KrE4LHtvN5N37V9mXcL24SGLw=",
     "url": "https://maven.neoforged.net/releases/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
   },
   "org.jline:jline-reader:3.20.0": {
-    "hash": "sha1-8f15415b022a25b473e8e16c28ae913186ffb9c4",
+    "hash": "sha1-jxVBWwIqJbRz6OFsKK6RMYb/ucQ=",
     "url": "https://maven.neoforged.net/releases/org/jline/jline-reader/3.20.0/jline-reader-3.20.0.jar"
   },
   "org.jline:jline-reader:3.20.0@jar": {
-    "hash": "sha1-8f15415b022a25b473e8e16c28ae913186ffb9c4",
+    "hash": "sha1-jxVBWwIqJbRz6OFsKK6RMYb/ucQ=",
     "url": "https://maven.neoforged.net/releases/org/jline/jline-reader/3.20.0/jline-reader-3.20.0.jar"
   },
   "org.jline:jline-terminal:3.12.1@jar": {
-    "hash": "sha1-c777448314e050d980a6b697c140f3bfe9eb7416",
+    "hash": "sha1-x3dEgxTgUNmApraXwUDzv+nrdBY=",
     "url": "https://maven.neoforged.net/releases/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
   },
   "org.jline:jline-terminal:3.20.0": {
-    "hash": "sha1-d0ddcc708ddf527a3454c941b7b9225cc83a15ff",
+    "hash": "sha1-0N3McI3fUno0VMlBt7kiXMg6Ff8=",
     "url": "https://maven.neoforged.net/releases/org/jline/jline-terminal/3.20.0/jline-terminal-3.20.0.jar"
   },
   "org.jline:jline-terminal:3.20.0@jar": {
-    "hash": "sha1-d0ddcc708ddf527a3454c941b7b9225cc83a15ff",
+    "hash": "sha1-0N3McI3fUno0VMlBt7kiXMg6Ff8=",
     "url": "https://maven.neoforged.net/releases/org/jline/jline-terminal/3.20.0/jline-terminal-3.20.0.jar"
   },
   "org.openjdk.nashorn:nashorn-core:15.4": {
-    "hash": "sha1-f67f5ffaa5f5130cf6fb9b133da00c7df3b532a5",
+    "hash": "sha1-9n9f+qX1Ewz2+5sTPaAMffO1MqU=",
     "url": "https://maven.neoforged.net/releases/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar"
   },
   "org.openjdk.nashorn:nashorn-core:15.4@jar": {
-    "hash": "sha1-f67f5ffaa5f5130cf6fb9b133da00c7df3b532a5",
+    "hash": "sha1-9n9f+qX1Ewz2+5sTPaAMffO1MqU=",
     "url": "https://maven.neoforged.net/releases/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar"
   },
   "org.ow2.asm:asm-analysis:9.3": {
-    "hash": "sha1-4b071f211b37c38e0e9f5998550197c8593f6ad8",
+    "hash": "sha1-SwcfIRs3w44On1mYVQGXyFk/atg=",
     "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-analysis/9.3/asm-analysis-9.3.jar"
   },
   "org.ow2.asm:asm-analysis:9.3@jar": {
-    "hash": "sha1-4b071f211b37c38e0e9f5998550197c8593f6ad8",
+    "hash": "sha1-SwcfIRs3w44On1mYVQGXyFk/atg=",
     "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-analysis/9.3/asm-analysis-9.3.jar"
   },
   "org.ow2.asm:asm-analysis:9.5@jar": {
-    "hash": "sha1-490bacc77de7cbc0be1a30bb3471072d705be4a4",
+    "hash": "sha1-SQusx33ny8C+GjC7NHEHLXBb5KQ=",
     "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-analysis/9.5/asm-analysis-9.5.jar"
   },
   "org.ow2.asm:asm-analysis:9.7": {
-    "hash": "sha1-e4a258b7eb96107106c0599f0061cfc1832fe07a",
+    "hash": "sha1-5KJYt+uWEHEGwFmfAGHPwYMv4Ho=",
     "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-analysis/9.7/asm-analysis-9.7.jar"
   },
   "org.ow2.asm:asm-analysis:9.7@jar": {
-    "hash": "sha1-e4a258b7eb96107106c0599f0061cfc1832fe07a",
+    "hash": "sha1-5KJYt+uWEHEGwFmfAGHPwYMv4Ho=",
     "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-analysis/9.7/asm-analysis-9.7.jar"
   },
   "org.ow2.asm:asm-analysis:9.8": {
-    "hash": "sha1-b9747a320844b6cb1eacd90d8ecfd260a16c01d3",
+    "hash": "sha1-uXR6MghEtsserNkNjs/SYKFsAdM=",
     "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-analysis/9.8/asm-analysis-9.8.jar"
   },
   "org.ow2.asm:asm-commons:9.3": {
-    "hash": "sha1-1f2a432d1212f5c352ae607d7b61dcae20c20af5",
+    "hash": "sha1-HypDLRIS9cNSrmB9e2HcriDCCvU=",
     "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-commons/9.3/asm-commons-9.3.jar"
   },
   "org.ow2.asm:asm-commons:9.3@jar": {
-    "hash": "sha1-1f2a432d1212f5c352ae607d7b61dcae20c20af5",
+    "hash": "sha1-HypDLRIS9cNSrmB9e2HcriDCCvU=",
     "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-commons/9.3/asm-commons-9.3.jar"
   },
   "org.ow2.asm:asm-commons:9.5@jar": {
-    "hash": "sha1-19ab5b5800a3910d30d3a3e64fdb00fd0cb42de0",
+    "hash": "sha1-GatbWACjkQ0w06PmT9sA/Qy0LeA=",
     "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-commons/9.5/asm-commons-9.5.jar"
   },
   "org.ow2.asm:asm-commons:9.7": {
-    "hash": "sha1-e86dda4696d3c185fcc95d8d311904e7ce38a53f",
+    "hash": "sha1-6G3aRpbTwYX8yV2NMRkE5844pT8=",
     "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-commons/9.7/asm-commons-9.7.jar"
   },
   "org.ow2.asm:asm-commons:9.7@jar": {
-    "hash": "sha1-e86dda4696d3c185fcc95d8d311904e7ce38a53f",
+    "hash": "sha1-6G3aRpbTwYX8yV2NMRkE5844pT8=",
     "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-commons/9.7/asm-commons-9.7.jar"
   },
   "org.ow2.asm:asm-commons:9.8": {
-    "hash": "sha1-36e4d212970388e5bd2c5180292012502df461bb",
+    "hash": "sha1-NuTSEpcDiOW9LFGAKSASUC30Ybs=",
     "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-commons/9.8/asm-commons-9.8.jar"
   },
   "org.ow2.asm:asm-tree:9.3": {
-    "hash": "sha1-78d2ecd61318b5a58cd04fb237636c0e86b77d97",
+    "hash": "sha1-eNLs1hMYtaWM0E+yN2NsDoa3fZc=",
     "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-tree/9.3/asm-tree-9.3.jar"
   },
   "org.ow2.asm:asm-tree:9.3@jar": {
-    "hash": "sha1-78d2ecd61318b5a58cd04fb237636c0e86b77d97",
+    "hash": "sha1-eNLs1hMYtaWM0E+yN2NsDoa3fZc=",
     "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-tree/9.3/asm-tree-9.3.jar"
   },
   "org.ow2.asm:asm-tree:9.5@jar": {
-    "hash": "sha1-fd33c8b6373abaa675be407082fdfda35021254a",
+    "hash": "sha1-/TPItjc6uqZ1vkBwgv39o1AhJUo=",
     "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-tree/9.5/asm-tree-9.5.jar"
   },
   "org.ow2.asm:asm-tree:9.7": {
-    "hash": "sha1-e446a17b175bfb733b87c5c2560ccb4e57d69f1a",
+    "hash": "sha1-5Eahexdb+3M7h8XCVgzLTlfWnxo=",
     "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-tree/9.7/asm-tree-9.7.jar"
   },
   "org.ow2.asm:asm-tree:9.7@jar": {
-    "hash": "sha1-e446a17b175bfb733b87c5c2560ccb4e57d69f1a",
+    "hash": "sha1-5Eahexdb+3M7h8XCVgzLTlfWnxo=",
     "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-tree/9.7/asm-tree-9.7.jar"
   },
   "org.ow2.asm:asm-tree:9.8": {
-    "hash": "sha1-018419ca5b77a2f81097c741e7872e6ab8d2f40d",
+    "hash": "sha1-AYQZylt3ovgQl8dB54cuarjS9A0=",
     "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-tree/9.8/asm-tree-9.8.jar"
   },
   "org.ow2.asm:asm-util:9.5@jar": {
-    "hash": "sha1-64b5a1fc8c1b15ed2efd6a063e976bc8d3dc5ffe",
+    "hash": "sha1-ZLWh/IwbFe0u/WoGPpdryNPcX/4=",
     "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-util/9.5/asm-util-9.5.jar"
   },
   "org.ow2.asm:asm-util:9.7": {
-    "hash": "sha1-c0655519f24d92af2202cb681cd7c1569df6ead6",
+    "hash": "sha1-wGVVGfJNkq8iAstoHNfBVp326tY=",
     "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-util/9.7/asm-util-9.7.jar"
   },
   "org.ow2.asm:asm-util:9.7@jar": {
-    "hash": "sha1-c0655519f24d92af2202cb681cd7c1569df6ead6",
+    "hash": "sha1-wGVVGfJNkq8iAstoHNfBVp326tY=",
     "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-util/9.7/asm-util-9.7.jar"
   },
   "org.ow2.asm:asm-util:9.8": {
-    "hash": "sha1-395f1c1f035258511f27bc9b2583d76e4b143f59",
+    "hash": "sha1-OV8cHwNSWFEfJ7ybJYPXbksUP1k=",
     "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-util/9.8/asm-util-9.8.jar"
   },
   "org.ow2.asm:asm:9.3": {
-    "hash": "sha1-8e6300ef51c1d801a7ed62d07cd221aca3a90640",
+    "hash": "sha1-jmMA71HB2AGn7WLQfNIhrKOpBkA=",
     "url": "https://libraries.minecraft.net/org/ow2/asm/asm/9.3/asm-9.3.jar"
   },
   "org.ow2.asm:asm:9.3@jar": {
-    "hash": "sha1-8e6300ef51c1d801a7ed62d07cd221aca3a90640",
+    "hash": "sha1-jmMA71HB2AGn7WLQfNIhrKOpBkA=",
     "url": "https://libraries.minecraft.net/org/ow2/asm/asm/9.3/asm-9.3.jar"
   },
   "org.ow2.asm:asm:9.5@jar": {
-    "hash": "sha1-dc6ea1875f4d64fbc85e1691c95b96a3d8569c90",
+    "hash": "sha1-3G6hh19NZPvIXhaRyVuWo9hWnJA=",
     "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm/9.5/asm-9.5.jar"
   },
   "org.ow2.asm:asm:9.7": {
-    "hash": "sha1-073d7b3086e14beb604ced229c302feff6449723",
+    "hash": "sha1-Bz17MIbhS+tgTO0inDAv7/ZElyM=",
     "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm/9.7/asm-9.7.jar"
   },
   "org.ow2.asm:asm:9.7@jar": {
-    "hash": "sha1-073d7b3086e14beb604ced229c302feff6449723",
+    "hash": "sha1-Bz17MIbhS+tgTO0inDAv7/ZElyM=",
     "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm/9.7/asm-9.7.jar"
   },
   "org.ow2.asm:asm:9.8": {
-    "hash": "sha1-dc19ecb3f7889b7860697215cae99c0f9b6f6b4b",
+    "hash": "sha1-3Bnss/eIm3hgaXIVyumcD5tva0s=",
     "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm/9.8/asm-9.8.jar"
   },
   "org.slf4j:slf4j-api:2.0.16": {
-    "hash": "sha1-0172931663a09a1fa515567af5fbef00897d3c04",
+    "hash": "sha1-AXKTFmOgmh+lFVZ69fvvAIl9PAQ=",
     "url": "https://libraries.minecraft.net/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar"
   },
   "org.slf4j:slf4j-api:2.0.9": {
-    "hash": "sha1-7cf2726fdcfbc8610f9a71fb3ed639871f315340",
+    "hash": "sha1-fPJyb9z7yGEPmnH7PtY5hx8xU0A=",
     "url": "https://libraries.minecraft.net/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar"
   },
   "org.slf4j:slf4j-api:2.0.9@jar": {
-    "hash": "sha1-7cf2726fdcfbc8610f9a71fb3ed639871f315340",
+    "hash": "sha1-fPJyb9z7yGEPmnH7PtY5hx8xU0A=",
     "url": "https://libraries.minecraft.net/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar"
   },
   "org.spongepowered:mixin:0.8.5@jar": {
-    "hash": "sha1-9d1c0c3a304ae6697ecd477218fa61b850bf57fc",
+    "hash": "sha1-nRwMOjBK5ml+zUdyGPphuFC/V/w=",
     "url": "https://maven.neoforged.net/releases/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
   },
   "trove:trove:1.0.2@jar": {
-    "hash": "sha1-112b40581ab9a4d3de4636d49985a7f686d181c8",
+    "hash": "sha1-EStAWBq5pNPeRjbUmYWn9obRgcg=",
     "url": "https://maven.neoforged.net/releases/trove/trove/1.0.2/trove-1.0.2.jar"
   }
 }

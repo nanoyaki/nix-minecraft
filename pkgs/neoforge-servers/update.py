@@ -51,6 +51,10 @@ def make_client():
     return http
 
 
+def sri_hash(alg, hex):
+    return f"{alg}-{base64.b64encode(bytes.fromhex(hex)).decode('utf-8')}"
+
+
 def get_game_versions(client: requests.Session) -> Dict[str, str]:
     print("Fetching game versions")
     response = client.get(MC_ENDPOINT)
@@ -71,7 +75,7 @@ class VersionLockLibraries(TypedDict):
 
 
 class VersionLock(TypedDict):
-    version: str
+    # version: str
     src: FetchUrl
     libraries: VersionLockLibraries
 
@@ -81,7 +85,8 @@ class Libraries(TypedDict):
     runtime: Dict[str, FetchUrl]
 
 
-LoaderLocks = Dict[str, VersionLock]
+#  game version -> forge version
+LoaderLocks = Dict[str, Dict[str, VersionLock]]
 
 
 def fetch_mappings_hash(client: requests.Session, url: str):
@@ -93,7 +98,7 @@ def fetch_mappings_hash(client: requests.Session, url: str):
     return FetchUrl(
         name=f"{data['id']}-server-mappings.txt",
         url=str(server_mappings["url"]),
-        hash=f"sha1-{base64.b64encode(bytes.fromhex(server_mappings['sha1'])).decode('utf-8')}",
+        hash=sri_hash("sha1", server_mappings["sha1"]),
     )
 
 
@@ -106,7 +111,7 @@ def fetch_installer_hash(client: requests.Session, version: str):
     return FetchUrl(
         name=os.path.basename(url),
         url=url,
-        hash=f"sha256-{base64.b64encode(bytes.fromhex(response.text)).decode('utf-8')}",
+        hash=sri_hash("sha256", response.text),
     )
 
 
@@ -133,7 +138,7 @@ def fetch_library_hashes(src: FetchUrl) -> Libraries:
         artifact = library["downloads"]["artifact"]
         return FetchUrl(
             url=artifact["url"],
-            hash=f"sha1-{artifact['sha1']}",
+            hash=sri_hash("sha1", artifact["sha1"]),
         )
 
     with open(store_path / "install_profile.json", "r") as f:
@@ -184,8 +189,8 @@ def library_rules_match(library):
 
 
 def main(
-    loader_versions: Dict[str, VersionLock],
-    game_versions: Dict[str, Any],
+    loader_versions: LoaderLocks,
+    mapping_versions: Dict[str, Any],
     library_versions: Dict[str, FetchUrl],
     version_regex,
     client,
@@ -198,8 +203,8 @@ def main(
     to_fetch = []
 
     for game_version, build_versions in loader_manifest.items():
-        if game_version not in game_versions:
-            game_versions[game_version] = fetch_mappings_hash(
+        if game_version not in mapping_versions:
+            mapping_versions[game_version] = fetch_mappings_hash(
                 client, game_manifest[game_version]
             )
 
@@ -208,18 +213,20 @@ def main(
                 print(f"Skip fetching build {build_version}: does not match pattern")
                 continue
             if build_version not in loader_versions:
-                to_fetch.append(build_version)
+                to_fetch.append((game_version, build_version))
 
     print(f"Fetching {len(to_fetch)} loader versions...")
 
-    def fetch_build(version: str):
+    def fetch_build(versions: tuple[str, str]):
+        game_version, version = versions
         installer = fetch_installer_hash(client, version)
-        return version, installer, fetch_library_hashes(installer)
+        return game_version, version, installer, fetch_library_hashes(installer)
 
     with concurrent.futures.ThreadPoolExecutor(max_workers=THREADS) as p:
-        for version, src, library_srcs in p.map(fetch_build, to_fetch):
-            loader_versions[version] = VersionLock(
-                version=version,
+        for game_version, version, src, library_srcs in p.map(fetch_build, to_fetch):
+            if game_version not in loader_versions:
+                loader_versions[game_version] = {}
+            loader_versions[game_version][version] = VersionLock(
                 libraries=VersionLockLibraries(
                     install=sorted(library_srcs["install"].keys()),
                     runtime=sorted(library_srcs["runtime"].keys()),
@@ -229,7 +236,7 @@ def main(
             library_versions |= library_srcs["install"]
             library_versions |= library_srcs["runtime"]
 
-    return (loader_versions, game_versions, library_versions)
+    return (loader_versions, mapping_versions, library_versions)
 
 
 if __name__ == "__main__":
@@ -241,25 +248,27 @@ if __name__ == "__main__":
 
     folder = Path(__file__).parent
     loader_path = folder / "loader_locks.json"
-    game_path = folder / "game_locks.json"
+    mapping_path = folder / "mapping_locks.json"
     library_path = folder / "library_locks.json"
     with (
         open(loader_path, "r") as loader_locks,
-        open(game_path, "r") as game_locks,
+        open(mapping_path, "r") as mapping_locks,
         open(library_path, "r") as library_locks,
     ):
         loader_versions = (
             {} if loader_path.stat().st_size == 0 else json.load(loader_locks)
         )
-        game_versions = {} if game_path.stat().st_size == 0 else json.load(game_locks)
+        mapping_versions = (
+            {} if mapping_path.stat().st_size == 0 else json.load(mapping_locks)
+        )
         library_versions = (
             {} if library_path.stat().st_size == 0 else json.load(library_locks)
         )
 
     try:
-        (loader_versions, game_versions, library_versions) = main(
+        (loader_versions, mapping_versions, library_versions) = main(
             loader_versions,
-            game_versions,
+            mapping_versions,
             library_versions,
             args.version,
             make_client(),
@@ -269,7 +278,7 @@ if __name__ == "__main__":
 
     with (
         open(loader_path, "w") as loader_locks,
-        open(game_path, "w") as game_locks,
+        open(mapping_path, "w") as mapping_locks,
         open(library_path, "w") as library_locks,
     ):
         json.dump(
@@ -278,7 +287,7 @@ if __name__ == "__main__":
             indent=2,
             sort_keys=True,
         )
-        json.dump(game_versions, game_locks, indent=2, sort_keys=True)
+        json.dump(mapping_versions, mapping_locks, indent=2, sort_keys=True)
         json.dump(
             library_versions,
             library_locks,

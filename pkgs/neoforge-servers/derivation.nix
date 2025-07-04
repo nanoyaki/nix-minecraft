@@ -10,7 +10,7 @@
   udev,
   zip,
 
-  gameVersion,
+  mappings,
   build,
   libraryLocks,
 }:
@@ -40,7 +40,8 @@ let
     path = fetchurl libraryLocks.${specifier};
   };
   repository = linkFarm "neoforge${build.version}-libraries" (
-    (map mkLibrary (build.libraries ++ gameVersion.libraries))
+    # TODO: only include runtime libraries in output?
+    (map mkLibrary (builtins.concatLists (builtins.attrValues (build.libraries))))
     ++ [
       {
         name = "net/minecraft/server/${minecraft-server.version}/server-${minecraft-server.version}.jar";
@@ -69,7 +70,7 @@ let
         # add server mappings to the classpath so we can perform an offline install
         # see the result of --generate-fat
         server_mappings="maven/minecraft/${minecraft-server.version}/server_mappings.txt"
-        install -m 644 -D ${fetchurl gameVersion.mappings} "$server_mappings"
+        install -m 644 -D ${fetchurl mappings} "$server_mappings"
 
         zip "$installer_jar" "$server_mappings"
 

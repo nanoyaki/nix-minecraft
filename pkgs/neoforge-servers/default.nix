@@ -18,7 +18,7 @@ let
 
   loaderLocks = lib.importJSON ./loader_locks.json;
   libraryLocks = lib.importJSON ./library_locks.json;
-  gameLocks = lib.importJSON ./game_locks.json;
+  mappingLocks = lib.importJSON ./mapping_locks.json;
 
   packages = mapAttrsToList (
     gameVersion: builds:
@@ -26,9 +26,11 @@ let
       mapAttrsToList (
         buildVersion: build:
         callPackage ./derivation.nix {
-          inherit build;
           inherit libraryLocks;
-          gameVersion = gameLocks.${gameVersion} // {
+          build = build // {
+            version = buildVersion;
+          };
+          mappings = mappingLocks.${gameVersion} // {
             version = gameVersion;
           };
           minecraft-server = vanillaServers."vanilla-${escapeVersion gameVersion}";
