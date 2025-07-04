@@ -4,6 +4,7 @@
 import argparse
 import base64
 import concurrent.futures
+import hashlib
 import json
 import os
 import re
@@ -86,7 +87,9 @@ class Libraries(TypedDict):
 
 
 # game version -> forge version
-LoaderLocks = Dict[str, Dict[str, VersionLock]]
+class LoaderLocks(TypedDict):
+    versions: Dict[str, Dict[str, VersionLock]]
+    libraries: Dict[str, List[str]]
 
 
 def fetch_mappings_hash(client: requests.Session, url: str):
@@ -189,7 +192,7 @@ def library_rules_match(library):
 
 
 def main(
-    loader_versions: LoaderLocks,
+    loader_locks: Dict[str, Any],
     mapping_versions: Dict[str, Any],
     library_versions: Dict[str, FetchUrl],
     version_regex,
@@ -201,6 +204,9 @@ def main(
     loader_manifest = fetch_loader_versions(client)
 
     to_fetch = []
+
+    loader_versions = defaultdict(dict, loader_locks.get("versions") or {})
+    loader_libraries = defaultdict(dict, loader_locks.get("libraries") or {})
 
     for game_version, build_versions in loader_manifest.items():
         if game_version not in mapping_versions:
@@ -232,19 +238,40 @@ def main(
             ):
                 if game_version not in loader_versions:
                     loader_versions[game_version] = {}
+
+                def hash_libraries(scope):
+                    names = []
+                    excluded = []
+                    sha256 = hashlib.sha256()
+                    for name, lib in sorted(library_srcs[scope].items()):
+                        library_versions[name] = lib
+                        if name.startswith("net.neoforged:neoforge:"):
+                            excluded.append(name)
+                            pass
+                        sha256.update(name.encode("utf-8"))
+                        names.append(name)
+                    hex = sha256.hexdigest()
+                    loader_libraries[hex] = names
+                    return hex, excluded
+
                 loader_versions[game_version][version] = VersionLock(
                     libraries=VersionLockLibraries(
-                        install=sorted(library_srcs["install"].keys()),
-                        runtime=sorted(library_srcs["runtime"].keys()),
+                        install=hash_libraries("install"),
+                        runtime=hash_libraries("runtime"),
                     ),
                     src=src,
                 )
-                library_versions |= library_srcs["install"]
-                library_versions |= library_srcs["runtime"]
+                # library_versions |= library_srcs["install"]
+                # library_versions |= library_srcs["runtime"]
     except KeyboardInterrupt:
         print("Cancelled fetching. Writing and exiting")
 
-    return (loader_versions, mapping_versions, library_versions)
+    # loader_locks["versions"] = dict(sorted(loader_versions.items()))
+    # loader_locks["libraries"] = dict(sorted(loader_libraries.items()))
+    loader_locks["versions"] = loader_versions
+    loader_locks["libraries"] = loader_libraries
+
+    return (loader_locks, mapping_versions, library_versions)
 
 
 if __name__ == "__main__":
@@ -290,7 +317,7 @@ if __name__ == "__main__":
             loader_versions,
             loader_locks,
             indent=2,
-            sort_keys=True,
+            # sort_keys=True,
         )
         json.dump(mapping_versions, mapping_locks, indent=2, sort_keys=True)
         json.dump(
