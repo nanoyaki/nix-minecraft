@@ -10,7 +10,7 @@ import re
 import subprocess
 from collections import defaultdict
 from pathlib import Path
-from typing import Any, Dict, List, Optional, TypedDict
+from typing import Any, Dict, List, NotRequired, TypedDict
 
 import requests
 import requests_cache
@@ -60,7 +60,7 @@ def get_game_versions(client: requests.Session) -> Dict[str, str]:
 
 
 class FetchUrl(TypedDict):
-    name: Optional[str]
+    name: NotRequired[str]
     url: str
     hash: str
 
@@ -88,9 +88,10 @@ def fetch_mappings_hash(client: requests.Session, url: str):
     print(f"Fetching mappings: {url}")
     response = client.get(url)
     response.raise_for_status()
-    server_mappings = response.json()["downloads"]["server_mappings"]
+    data = response.json()
+    server_mappings = data["downloads"]["server_mappings"]
     return FetchUrl(
-        name=None,
+        name=f"{data['id']}-server-mappings.txt",
         url=str(server_mappings["url"]),
         hash=f"sha1-{base64.b64encode(bytes.fromhex(server_mappings['sha1'])).decode('utf-8')}",
     )
@@ -112,7 +113,7 @@ def fetch_installer_hash(client: requests.Session, version: str):
 def fetch_library_hashes(src: FetchUrl) -> Libraries:
     # the installer jar is used by the build derivation, so we might as
     # well use nix to fetch it
-    out_link = f"result-{src['name']}"
+    out_link = f"result-{src.get('name') or src['hash']}-libraries"
     cmd = [
         "nix",
         "build",
@@ -131,8 +132,6 @@ def fetch_library_hashes(src: FetchUrl) -> Libraries:
     def library_src(library):
         artifact = library["downloads"]["artifact"]
         return FetchUrl(
-            name=None,
-            # name=library["name"],
             url=artifact["url"],
             hash=f"sha1-{artifact['sha1']}",
         )
@@ -257,22 +256,22 @@ if __name__ == "__main__":
             {} if library_path.stat().st_size == 0 else json.load(library_locks)
         )
 
+    try:
+        (loader_versions, game_versions, library_versions) = main(
+            loader_versions,
+            game_versions,
+            library_versions,
+            args.version,
+            make_client(),
+        )
+    except KeyboardInterrupt:
+        print("Cancelled fetching. Writing and exiting")
+
     with (
         open(loader_path, "w") as loader_locks,
         open(game_path, "w") as game_locks,
         open(library_path, "w") as library_locks,
     ):
-        try:
-            (loader_versions, game_versions, library_versions) = main(
-                loader_versions,
-                game_versions,
-                library_versions,
-                args.version,
-                make_client(),
-            )
-        except KeyboardInterrupt:
-            print("Cancelled fetching. Writing and exiting")
-
         json.dump(
             loader_versions,
             loader_locks,
