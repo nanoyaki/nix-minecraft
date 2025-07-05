@@ -1,6 +1,9 @@
 **/.mypy_cache
 **/__pycache__
+**/http_cache
 **/result*
+**/tmp
+.envrc
 /tmp
 
 # vm tests
