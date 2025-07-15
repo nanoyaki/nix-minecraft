@@ -4,7 +4,6 @@
 **/result*
 **/tmp
 .envrc
-/tmp
 
 # vm tests
 .nixos-test-history
