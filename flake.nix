@@ -136,7 +136,10 @@
           docsCommonMark = docs.optionsCommonMark;
         };
 
-        checks = mkTests (pkgs.extend self.outputs.overlays.default) // packages;
+        checks =
+          mkTests (pkgs.extend self.outputs.overlays.default)
+          // packages
+          // legacyPackages.neoforgeServers.__neoforge-tests;
 
         formatter = pkgs.nixfmt-rfc-style;
       }

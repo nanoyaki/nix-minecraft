@@ -1,5 +1,6 @@
 {
   lib,
+  expect,
   fetchurl,
   jre_headless,
   linkFarm,
@@ -78,38 +79,52 @@ let
       };
     in
     wrapper;
+  self = stdenvNoCC.mkDerivation (rec {
+    pname = "neoforge";
+    inherit (build) version;
+    dontUnpack = true;
+
+    preferLocalBuild = false; # unlike other loaders, the install/patching process is rather CPU intensive
+
+    buildInputs = [ makeWrapper ];
+
+    buildPhase = ''
+      ${lib.getExe installer} $out
+      args="$out/libraries/net/neoforged/neoforge/${version}/unix_args.txt"
+      substituteInPlace "$args" \
+        --replace-fail "-DlibraryDirectory=libraries" "-DlibraryDirectory=$out/libraries" \
+        --replace-fail "libraries/" "$out/libraries/"
+      makeWrapper "${jre_headless}/bin/java" "$out/bin/${meta.mainProgram}" \
+        --append-flags "@$args" \
+        ${lib.optionalString stdenvNoCC.hostPlatform.isLinux "--prefix LD_LIBRARY_PATH : ${lib.makeLibraryPath [ udev ]}"}
+    '';
+
+    passthru = {
+      inherit repository installer installer-unwrapped;
+      updateScript = ./update.py;
+      startupTest =
+        runCommand "neoforge-${version}-startup"
+          {
+            nativeBuildInputs = [ expect ];
+          }
+          ''
+            cd $(mktemp -d)
+            cat <<EOF >eula.txt
+              eula = true
+            EOF
+            expect -f ${./startupTest.sh} ${lib.getExe self} -Xmx512M
+            touch $out
+          '';
+    };
+
+    meta = with lib; {
+      description = "Minecraft Server";
+      homepage = "https://minecraft.net";
+      license = licenses.unfreeRedistributable;
+      platforms = platforms.unix;
+      maintainers = with maintainers; [ infinidoge ];
+      mainProgram = "minecraft-server";
+    };
+  });
 in
-stdenvNoCC.mkDerivation rec {
-  pname = "neoforge";
-  inherit (build) version;
-  dontUnpack = true;
-
-  preferLocalBuild = false; # unlike other loaders, the install/patching process is rather CPU intensive
-
-  buildInputs = [ makeWrapper ];
-
-  buildPhase = ''
-    ${lib.getExe installer} $out
-    args="$out/libraries/net/neoforged/neoforge/${version}/unix_args.txt"
-    substituteInPlace "$args" \
-      --replace-fail "-DlibraryDirectory=libraries" "-DlibraryDirectory=$out/libraries" \
-      --replace-fail "libraries/" "$out/libraries/"
-    makeWrapper "${jre_headless}/bin/java" "$out/bin/${meta.mainProgram}" \
-      --append-flags "@$args" \
-      ${lib.optionalString stdenvNoCC.hostPlatform.isLinux "--prefix LD_LIBRARY_PATH : ${lib.makeLibraryPath [ udev ]}"}
-  '';
-
-  passthru = {
-    inherit repository installer installer-unwrapped;
-    updateScript = ./update.py;
-  };
-
-  meta = with lib; {
-    description = "Minecraft Server";
-    homepage = "https://minecraft.net";
-    license = licenses.unfreeRedistributable;
-    platforms = platforms.unix;
-    maintainers = with maintainers; [ infinidoge ];
-    mainProgram = "minecraft-server";
-  };
-}
+self

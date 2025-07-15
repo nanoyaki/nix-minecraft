@@ -48,6 +48,16 @@ lib.recurseIntoAttrs (
     ++ (map (
       x: nameValuePair "${x.pname}-${escapeVersion (versions.majorMinor x.version)}" x
     ) latestBuilds)
-    ++ [ (nameValuePair "neoforge" (last latestBuilds)) ]
+    ++ [
+      (nameValuePair "neoforge" (last latestBuilds))
+      (nameValuePair "__neoforge-tests" (
+        builtins.listToAttrs (
+          map (
+            x:
+            nameValuePair "${x.pname}-${escapeVersion (versions.majorMinor x.version)}" x.passthru.startupTest
+          ) latestBuilds
+        )
+      ))
+    ]
   )
 )
