@@ -5,6 +5,7 @@
   linkFarm,
   makeWrapper,
   minecraft-server,
+  python3,
   runCommand,
   stdenvNoCC,
   udev,
@@ -69,11 +70,16 @@ let
       '';
       wrapper = writeShellApplication {
         inherit name;
-        runtimeInputs = [ jre_headless ];
+        runtimeInputs = [
+          jre_headless
+          python3
+        ];
         text = ''
           mkdir -p "$1/libraries"
-          cp -r --no-preserve=all ${repository}/* "$1/libraries"
-          java -jar ${fatJar} --offline --installServer "$1"
+          cd "$1"
+          cp -r --no-preserve=all ${repository}/* "libraries"
+          java -jar ${fatJar} --offline --installServer .
+          python ${./symlink_libraries.py} "libraries/net/neoforged/neoforge/${build.version}/unix_args.txt"
         '';
       };
     in
@@ -88,12 +94,11 @@ stdenvNoCC.mkDerivation rec {
 
   buildInputs = [ makeWrapper ];
 
+  nativeBuildInputs = [ python3 ];
+
   buildPhase = ''
     ${lib.getExe installer} $out
-    args="$out/libraries/net/neoforged/neoforge/${version}/unix_args.txt"
-    substituteInPlace "$args" \
-      --replace-fail "-DlibraryDirectory=libraries" "-DlibraryDirectory=$out/libraries" \
-      --replace-fail "libraries/" "$out/libraries/"
+
     makeWrapper "${jre_headless}/bin/java" "$out/bin/${meta.mainProgram}" \
       --append-flags "@$args" \
       ${lib.optionalString stdenvNoCC.hostPlatform.isLinux "--prefix LD_LIBRARY_PATH : ${lib.makeLibraryPath [ udev ]}"}
