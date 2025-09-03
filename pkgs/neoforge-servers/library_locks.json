@@ -2283,6 +2283,10 @@
     "hash": "sha1-ZjVuCTbls65aU2JP0XsdYGx0h8w=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.8.39/neoforge-21.8.39-universal.jar"
   },
+  "net.neoforged:neoforge:21.8.40:universal": {
+    "hash": "sha1-y7R+qgqUXuc2UWUxcSSHsyXc3Og=",
+    "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.8.40/neoforge-21.8.40-universal.jar"
+  },
   "net.neoforged:neoforge:21.8.9:universal": {
     "hash": "sha1-pAmW5dDzic7TMJJuZUVLlHJuk4I=",
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.8.9/neoforge-21.8.9-universal.jar"
